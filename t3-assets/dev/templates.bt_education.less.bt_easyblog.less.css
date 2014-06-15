@@ -1,0 +1,1120 @@
+
+
+#eblog-wrapper #ezblog-menu {
+  border: none;
+}
+#ezblog-head {
+  margin-bottom: 30px;
+}
+#ezblog-menu .blog-navi {
+  background: #e9682e;
+  border-radius: 0;
+  border: none;
+  padding: 4px;
+}
+#ezblog-menu .blog-navi li.toolbar-item {
+  border-right: 1px solid #fff;
+  -webkit-transition: background 0.3s ease-in-out 0s;
+  -moz-transition: background 0.3s ease-in-out 0s;
+  -o-transition: background 0.3s ease-in-out 0s;
+  transition: background 0.3s ease-in-out 0s;
+}
+#ezblog-menu .blog-navi li.toolbar-item:hover {
+  background: #dc5417;
+}
+#ezblog-menu .blog-navi li.toolbar-item > a:hover,
+#ezblog-menu .blog-navi li.toolbar-item > a:focus {
+  box-shadow: none;
+  background: transparent;
+}
+#ezblog-menu .blog-navi li.toolbar-item > form button.submit-search,
+#ezblog-menu .blog-navi li.toolbar-item > form input.input {
+  background: #fff;
+  border: 0;
+  height: 26px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+#ezblog-menu .blog-navi li.toolbar-item > form input.input {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#ezblog-menu .blog-navi li.toolbar-item > form button.submit-search {
+  background: #fff url("../../templates/bt_education/images/easyblog/toolbar-search-button.png") no-repeat center center;
+  margin-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#ezblog-menu .blog-navi li.item-active {
+  background: #dc5417;
+}
+#ezblog-menu .blog-navi li.toolbar-item.float-r {
+  border-left: 1px solid #fff;
+}
+#ezblog-menu .blog-navi .user-access a.active {
+  box-shadow: none;
+}
+#ezblog-menu .blog-navi li.toolbar-item.item-active > a {
+  box-shadow: none;
+}
+#ezblog-menu .blog-navi li.toolbar-latest > a > span {
+  background: url("../../templates/bt_education/images/easyblog/icon-home.png") no-repeat scroll center center transparent;
+}
+#ezblog-menu .blog-navi li.toolbar-categories > a > span {
+  background: url("../../templates/bt_education/images/easyblog/icon-category.png") no-repeat scroll center center transparent;
+}
+#ezblog-menu .blog-navi li.toolbar-tags > a > span {
+  background: url("../../templates/bt_education/images/easyblog/icon-tag.png") no-repeat scroll center center transparent;
+}
+#ezblog-menu .blog-navi li.toolbar-blogger > a > span {
+  background: url("../../templates/bt_education/images/easyblog/icon-user.png") no-repeat scroll center center transparent;
+}
+#ezblog-menu .blog-navi li.toolbar-teamblog > a > span {
+  background: url("../../templates/bt_education/images/easyblog/icon-team-blog.png") no-repeat scroll center center transparent;
+}
+#eblog-dialog .mts,
+#eblog-wrapper .mts {
+  line-height: 16px;
+}
+#ezblog-body .forCategory .pabs,
+#ezblog-body .forTeamBlog .pabs {
+  position: absolute;
+  right: -1px;
+  top: 35px;
+  background: url("../../templates/bt_education/images/easyblog/icon-pabs-ltr.png") no-repeat center center;
+  height: 26px;
+  width: 14px;
+}
+#ezblog-body .forCategory .profile-avatar,
+#ezblog-body .forTeamBlog .profile-avatar {
+  width: 260px;
+}
+#ezblog-body .forCategory .profile-avatar .avatar-wrapper img,
+#ezblog-body .forTeamBlog .profile-avatar .avatar-wrapper img {
+  width: 260px;
+}
+.link-subscribe {
+  background: url(../../templates/bt_education/images/icon-subcribe.png) no-repeat left center;
+  padding-left: 25px;
+}
+.forBlogger .link-rss,
+.forCategory .link-rss {
+  background: url(../../templates/bt_education/images/icon-rss-category.png) no-repeat left center;
+  padding-left: 25px;
+}
+#ezblog-body .profile-info p {
+  margin: 0;
+  padding: 0;
+}
+#ezblog-body .forCategory .profile-avatar + .profile-info,
+#ezblog-body .forTeamBlog .profile-avatar + .profile-info {
+  margin: 0 0 0 260px;
+  padding: 20px 28px;
+  border: 1px solid #E9E9E9;
+}
+#eblog-wrapper img.avatar {
+  width: auto;
+  border: 0;
+  margin: 0;
+}
+#ezblog-body .forBlogger .profile-avatar + .profile-info {
+  margin: 0 0 0 160px;
+  padding: 20px 28px;
+}
+.blog-meta-list-item .blog-author a {
+  color: #e9682e;
+  font-size: 14px;
+  font-weight: bold;
+}
+#ezblog-body .blog-avatar {
+  margin-right: 20px;
+  margin-left: -30px;
+}
+#ezblog-body .blog-avatar + .blog-cap {
+  margin-left: 56px;
+  min-height: 60px;
+  background: #626262;
+}
+.blog-meta-list-item .blog-created {
+  display: inline-block;
+}
+.blog-meta-list-item .blog-category {
+  margin: 0 0 0 7px;
+}
+#ezblog-posts .blog-content .blog-image {
+  float: left;
+  position: relative;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+#ezblog-body .featured-tag {
+  top: 0;
+}
+#ezblog-body .blog-post {
+  padding-bottom: 10px;
+}
+#ezblog-body .bt-default-item {
+  border-bottom: 1px solid #e5e5e5;
+  margin: 30px 0;
+  padding-bottom: 10px;
+  
+  
+}
+#ezblog-body .bt-default-item .blog-post {
+  padding: 0;
+}
+#ezblog-body .bt-default-item .bt-image-head {
+  background: #f4f4f4;
+  
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+}
+#ezblog-body .bt-default-item .bt-image-head .blog-image {
+  margin-right: 30px;
+}
+#ezblog-body .bt-default-item #ezblog-posts .blog-content .blog-image {
+  margin-right: 30px;
+}
+#ezblog-body .bt-default-item #ezblog-posts .blog-content .blog-image img {
+  width: 100%;
+  border: 0;
+}
+#ezblog-body .bt-default-item .blog-meta-list-item {
+  color: #fff;
+  font-family: "Merriweather";
+  padding: 5px 20px;
+}
+#ezblog-body .bt-default-item .blog-meta-list-item .blog-author a {
+  font-family: "Merriweather";
+  font-size: 16px;
+}
+#ezblog-body .bt-default-item .blog-meta-list-item .blog-created {
+  background: none;
+  padding-left: 0;
+  float: left;
+  margin-right: 5px;
+}
+#ezblog-body .bt-default-item .blog-meta-list-item a {
+  color: #fff;
+  text-decoration: none;
+}
+#ezblog-body .bt-default-item .blog-meta-list-item a:hover {
+  color: #e9682e;
+}
+#ezblog-body .bt-default-item .blog-title {
+  margin: 15px 0 !important;
+}
+div.blog-meta-bottom {
+  padding: 14px 0;
+}
+div.blog-meta-bottom .in {
+  min-height: 16px;
+}
+#eblog-wrapper .blog-taglist span.tag-head {
+  width: 22px;
+  background: url("../../templates/bt_education/images/easyblog/icon-tags.png") no-repeat center center;
+  overflow: hidden;
+  text-indent: -90px;
+  height: 31px;
+  margin-right: 20px !important;
+}
+#eblog-wrapper .blog-taglist {
+  display: inline-block;
+  padding: 7px 0 !important;
+}
+#ezblog-body ul.featured-entries .featured-title a,
+#ezblog-body .blog-post .blog-title,
+#ezblog-body .blog-post .blog-title a {
+  font-size: 20px;
+  font-family: "Merriweather";
+  font-weight: bold;
+  line-height: 30px;
+}
+#eblog-wrapper .blog-taglist a {
+  color: #fff;
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-size: 14px;
+  background: #acacac;
+  line-height: 30px;
+  height: 30px;
+  margin: 0 3px 6px 0;
+  padding: 0 10px;
+  display: inline-block;
+}
+#eblog-wrapper .blog-taglist a:hover {
+  background: #e9682e;
+  text-decoration: none;
+}
+#ezblog-body .blog-meta-bottom div > span + span {
+  border-left: 1px solid #858585;
+}
+#ezblog-body .blog-post .blog-comments a {
+  background: none;
+  color: #858585;
+  padding-left: 0;
+}
+#ezblog-body .featured-readmore,
+#ezblog-body .blog-readmore a {
+  padding: 0;
+  background: none;
+  font-family: "Merriweather";
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+}
+.eblog-pagination ul.pagination-list li {
+  float: left;
+  height: 23px;
+  width: 23px;
+}
+#ezblog-body .featured-slider {
+  background: #f4f4f4;
+  border: 0;
+  border-right: 1px solid #e4eff1;
+  padding: 0;
+}
+#ezblog-body ul.featured-entries .featured-image {
+  
+  float: left;
+  border: 0;
+  margin: 0 30px 0 0;
+  padding: 0;
+}
+#ezblog-body ul.featured-entries .featured-image div {
+  max-height: 428px;
+}
+#ezblog-body ul.featured-entries .featured-title {
+  border: 0;
+  padding-top: 28px;
+}
+#ezblog-body ul.featured-entries .featured-content {
+  margin-bottom: 15px;
+}
+#ezblog-body .featured-navi {
+  margin: 0;
+  background: #e9682e;
+  border: none;
+}
+#ezblog-body .featured-author {
+  
+  background: #626262;
+  display: block;
+  width: auto;
+  color: #fff;
+  font-family: "Merriweather";
+}
+#ezblog-body .featured-author .showcase-author {
+  padding: 0px 12px;
+  min-height: 68px;
+}
+#ezblog-body .featured-author .featured_item_author {
+  padding-top: 8px;
+}
+#ezblog-body .featured-author a.avatar {
+  margin-left: -30px;
+}
+#ezblog-body .featured-author a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+#ezblog-body .featured-author a:hover {
+  color: #e9682e;
+}
+#ezblog-body .featured-author img.avatar {
+  width: 68px;
+  border: 0;
+  margin-right: 12px;
+}
+#ezblog-body .featured-a {
+  border: 0;
+}
+#eblog-wrapper a:hover img.avatar {
+  opacity: 0.6;
+  border: 0;
+}
+#ezblog-label {
+  color: #e9682e;
+  font-size: 20px;
+  font-family: "Merriweather";
+  font-weight: 600;
+  border-bottom: 1px solid #d4d4d4;
+  text-transform: uppercase;
+}
+#ezblog-label .bt-label-lastest-post {
+  color: #666666;
+  font-size: 18px;
+  font-weight: bold;
+}
+#ezblog-label .bt-label-lastest-post span {
+  color: #e9682e;
+}
+.defaultLayout2 .include_tab .bt-inner .bt-title {
+  font-family: "Merriweather";
+}
+.tab_sidebar .tab-buttons ul li.active {
+  background: #e9682e;
+  color: #fff;
+}
+.tab_sidebar .tab-buttons ul li {
+  background: #e5e5e5;
+  color: #e9682e;
+  font-family: "Merriweather";
+  text-transform: uppercase;
+  border: none;
+  padding: 0 15px;
+}
+.tab_sidebar .tab-buttons ul li span {
+  color: #e9682e;
+}
+.tab_sidebar .tab-buttons ul li + li {
+  margin-left: 3px;
+}
+#ezblog-body.blog-read-item .blog-read .blog-title {
+  color: #e9682e;
+  font-size: 22px;
+  font-family: "Merriweather";
+  font-weight: 400;
+  padding-top: 25px;
+}
+#ezblog-body .blog-option li + li {
+  border-left: 0;
+}
+#ezblog-body.blog-read-item .blog-option ul li.font-switcher {
+  font-size: 12px;
+}
+#ezblog-body.blog-read-item .blog-option ul li.blog-hit,
+#ezblog-body.blog-read-item .blog-option ul li.blog-comments,
+#ezblog-body.blog-read-item .blog-option ul li.blog-email,
+#ezblog-body.blog-read-item .blog-option ul li.print,
+#ezblog-body.blog-read-item .blog-option ul li.bookmark,
+#ezblog-body.blog-read-item .blog-option ul li.blog-report {
+  float: right;
+  font-size: 12px;
+}
+#ezblog-body.blog-read-item .blog-option ul li.print {
+  background: url("../../templates/bt_education/images/icon-print.png") no-repeat left center !Important;
+}
+#ezblog-body.blog-read-item .blog-option ul li.blog-email {
+  background: url("../../templates/bt_education/images/icon-email.png") no-repeat left center !Important;
+}
+#ezblog-body.blog-read-item .blog-option ul li.blog-email,
+#ezblog-body.blog-read-item .blog-option ul li.print,
+#ezblog-body.blog-read-item .blog-option ul li.bookmark,
+#ezblog-body.blog-read-item .blog-option ul li.blog-report {
+  margin: 0 0 0 10px;
+}
+#eblog-wrapper #section-author .author_info .author-name a {
+  display: block;
+  text-transform: uppercase;
+  font-family: "Merriweather";
+  font-size: 16px;
+  font-weight: bold;
+}
+#ezblog-body .profile-connect {
+  padding-top: 5px;
+}
+#ezblog-body .profile-connect .connect-links li + li {
+  padding-left: 5px;
+  margin-left: 5px;
+  border-left: 0;
+}
+#section-author .author_recent_post h3 {
+  text-transform: uppercase;
+  font-family: "Merriweather";
+  font-size: 18px;
+  font-weight: 400;
+  color: #747474;
+}
+#section-author .author_recent_post h3 span {
+  color: #e9682e;
+}
+#ezblog-body .blog-section .section-title {
+  text-transform: uppercase;
+  font-family: "Merriweather";
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  background: #303030;
+  padding: 10px 23px 7px 23px;
+}
+#ezblog-body .blog-section .section-title span {
+  color: #e9682e;
+}
+#eblog-dialog .pam,
+#eblog-wrapper .pam {
+  padding: 10px 0;
+}
+#ezblog-body .blog-section .section-title.title-list-comment {
+  background: transparent;
+  padding-left: 0;
+  padding-bottom: 20px;
+}
+#ezblog-body #blog-comment img.avatar,
+#ezblog-body #comment-form img.avatar {
+  width: 57px;
+  border-radius: 3px;
+}
+#eblog-wrapper .list-comment .comment-author {
+  font-family: "Merriweather";
+  font-size: 14px;
+  font-weight: bold;
+  color: #303030;
+}
+#ezblog-body .comment-avatar + .comment-content {
+  margin: 0 0 0 73px;
+}
+#comment-form .form-row-inner label {
+  background: transparent;
+  color: #555555;
+  font-weight: normal;
+  text-shadow: none;
+  font-family: arial;
+  font-size: 12px;
+  display: block;
+}
+#comment-form .form-row-inner .inputbox {
+  border-radius: 0;
+  border: 1px solid #bbbbbb;
+  width: 100%;
+  height: 26px;
+  padding: 0 4px;
+  box-shadow: none !important;
+}
+body #comment-form #markItUpComment textarea {
+  border-color: #bbbbbb;
+  border-radius: 0;
+}
+.form-row-inner {
+  padding-right: 10px;
+  margin-right: 10px;
+}
+.username-field .form-row-inner,
+.website-field .form-row-inner {
+  padding-right: 0px;
+}
+#eblog-wrapper .list-comment .comment-date {
+  color: #585858;
+  font-family: "Merriweather";
+  font-size: 14px;
+  font-weight: 300;
+}
+#ezblog-body .author_recent_post .entry-related-post li {
+  border-top: 1px solid #e5e5e5;
+  background: url("../../templates/bt_education/images/icon-li-relate.png") no-repeat left 17px;
+  padding: 10px 0 10px 16px;
+  line-height: 24px;
+}
+#ezblog-body .author_recent_post .entry-related-post li a {
+  color: #666666;
+}
+#ezblog-body .author_recent_post .entry-related-post li a:hover {
+  color: #e9682e;
+}
+.easy-blog-comment .name-field,
+.easy-blog-comment .email-field,
+.easy-blog-comment .website-field {
+  float: left;
+  width: 33.3333%;
+}
+#comment-form.easy-blog-comment .bg-form-row {
+  margin-top: 10px;
+}
+.subscription-bg input,
+.subscription-bg label,
+.auto-register-bg input,
+.auto-register-bg label {
+  float: left;
+  line-height: normal;
+}
+.auto-register-bg label,
+.subscription-bg label {
+  margin-right: 10px;
+}
+.html_3 .box_left {
+  width: 58%;
+  float: left;
+  text-align: center;
+  padding-top: 15px;
+}
+.html_3 .box_right {
+  width: 40%;
+  float: right;
+}
+.html_3 .box_desc {
+  text-align: center;
+  padding: 18px 50px 50px 50px;
+  font-family: "Merriweather";
+  font-size: 16px;
+  font-weight: 300;
+}
+.bt_scrolling h3.module-title {
+  text-align: center;
+  margin: 0;
+  font-size: 36px;
+  font-family: "Merriweather";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.green_title h3.module-title {
+  color: #e9682e;
+}
+.green_title h3.module-title > span {
+  border-bottom: 1px solid #e9682e;
+}
+.html_2 .box_desc {
+  line-height: 30px;
+  font-family: "Merriweather";
+  font-size: 16px;
+  font-weight: 300;
+  padding: 15px 120px 30px 120px;
+  text-align: center;
+}
+.scroll_showcase .defaultLayout2 .bt-inner {
+  background: #222222;
+  color: #fff;
+  margin: 0 0 0 20px;
+}
+.scroll_showcase .jcarousel-skin-tango {
+  margin-left: -20px;
+}
+.scroll_showcase .item_subject_title {
+  line-height: 30px;
+  font-family: "Merriweather";
+  font-size: 16px;
+  color: #7d7d7d;
+  font-weight: 300;
+  padding: 15px 120px 18px 120px;
+  text-align: center;
+}
+.scroll_showcase .defaultLayout2 .bt-author a:hover {
+  color: #e9682e;
+  background: none;
+}
+.scroll_showcase .defaultLayout2 .bt-author {
+  background: url("../../templates/bt_education/images/showcase_scroll_author.png") scroll no-repeat left center transparent;
+  margin-right: 10px;
+  padding-left: 20px;
+}
+.scroll_showcase .defaultLayout2 .bt-date {
+  background: url("../../templates/bt_education/images/showcase_scroll_date.png") scroll no-repeat left center transparent;
+  padding-left: 20px;
+}
+.scroll_showcase .defaultLayout2 .bt-date,
+.scroll_showcase .defaultLayout2 .bt-author {
+  color: #c5c5c5;
+  font-family: "Merriweather";
+  font-size: 11px;
+  font-weight: bold;
+}
+.scroll_showcase .defaultLayout2 .bt-inner a.bt-image-link:before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  z-index: 99;
+  height: 14px;
+  width: 14px;
+  background: url("../../templates/bt_education/images/bg-scroll-showcase-a-before.png") scroll no-repeat left top transparent;
+}
+.scroll_showcase .defaultLayout2 .bt-inner:hover {
+  background: #e9682e;
+}
+.scroll_showcase .defaultLayout2 .bt-inner:hover a.bt-image-link:before {
+  background: url("../../templates/bt_education/images/bg-scroll-showcase-a-before-hover.png") scroll no-repeat left top transparent;
+}
+.scroll_showcase .defaultLayout2 .bt-inner a.bt-image-link:hover .hover_over {
+  background: url("../../templates/bt_education/images/bg-scroll-showcase-img-before.png") scroll no-repeat center center transparent;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 99;
+  display: block;
+}
+.custom_layout .modal {
+  width: auto;
+  left: auto;
+  top: auto;
+  position: relative;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  margin: 0;
+  background: none;
+}
+.social .box_social .number_follow,
+.social .box_social .link_follow,
+.scroll_showcase2 .defaultLayout2 .bt-inner .bt-introtext,
+.scroll_showcase2 .defaultLayout2 .bt-inner .bt-title {
+  font-family: "Merriweather";
+}
+.abovefooter_showcase h3.module-title {
+  font-family: "Merriweather";
+  padding-left: 45px;
+}
+.abovefooter_showcase h3.module-title > span {
+  border-bottom: 1px solid #e9682e;
+}
+.social .box_social {
+  width: 25%;
+  float: left;
+}
+.social .box_social .box_social_inner {
+  padding-left: 40px;
+}
+.social .box_social img {
+  float: left;
+  margin-right: 20px;
+}
+.mod_btquickcontact.contact_footer .btqc-field-container.label-bg-name,
+.mod_btquickcontact.contact_footer .btqc-field-container.label-bg-email {
+  float: left;
+  width: 50%;
+}
+.mod_btquickcontact.contact_footer {
+  border: none;
+  padding-right: 20px;
+}
+.mod_btquickcontact.contact_footer form {
+  margin: 0 0 0 -6px;
+}
+.mod_btquickcontact.contact_footer .btqc-field-container-inner {
+  margin-bottom: 17px;
+  margin-left: 6px;
+}
+.mod_btquickcontact.contact_footer .label-submit-button .btqc-field-container-inner {
+  margin-right: -2px;
+}
+.btqc-field-container input.btqc_submit {
+  background: #e9682e;
+  font-family: "open sans";
+  text-align: left;
+}
+#ezblog-menu .blog-navi li.user-access > a > span {
+  background: url(../../templates/bt_education/images/easyblog/toolbar-login.png) center no-repeat;
+}
+#ezblog-head .component-links a.link-email span {
+  background: url(../../templates/bt_education/images/easyblog/mail-plus.png) 0 center no-repeat;
+  color: #626262;
+}
+#ezblog-head .component-links a.link-rss span {
+  background: url(../../templates/bt_education/images/easyblog/feed-plus.png) 0 center no-repeat;
+  color: #626262;
+}
+#ezblog-menu .blog-navi li.user-write > a > span {
+  background: url(../../templates/bt_education/images/easyblog/toolbar-write.png) center no-repeat;
+}
+#ezblog-menu .blog-navi li.user-micro > a > span {
+  background: url(../../templates/bt_education/images/easyblog/toolbar-micro.png) center no-repeat;
+}
+#ezblog-menu .blog-navi li.user-setting > a > span {
+  background: url(../../templates/bt_education/images/easyblog/toolbar-cog.png) center no-repeat;
+}
+.blog-rating .ui-stars-star a {
+  width: 16px !important;
+  height: 16px !important;
+}
+.itemRatingList .itemCurrentRating {
+  background: url("../../templates/bt_education/images/rate-image-easyblog.png") scroll repeat-x left -34px transparent;
+}
+.itemRatingList {
+  background: url("../../templates/bt_education/images/rate-image-easyblog.png") scroll repeat-x left top transparent;
+}
+.itemRatingList li a:hover {
+  background: url("../../templates/bt_education/images/rate-image-easyblog.png") scroll repeat-x left -17px transparent;
+}
+.blog-rating .ui-stars-star a {
+  background: url("../../templates/bt_education/images/rate-image-easyblog.png") repeat-x scroll left top transparent !important;
+}
+.blog-rating .ui-stars-star-on a {
+  background: url("../../templates/bt_education/images/rate-image-easyblog.png") repeat-x scroll left -34px transparent !important;
+}
+.blog-rating .ui-stars-star-hover a,
+.blog-rating .ui-stars-star-hover a:hover {
+  background: url("../../templates/bt_education/images/rate-image-easyblog.png") repeat-x scroll left -17px transparent !important;
+}
+#ezblog-body .featured-a a span {
+  background: url("../../templates/bt_education/images/easyblog/feature_slide_icon.png") no-repeat scroll center center transparent;
+}
+#ezblog-body .featured-a a.active span {
+  background: url("../../templates/bt_education/images/easyblog/feature_slide_icon_active.png") no-repeat scroll center center transparent;
+}
+#eblog-wrapper .forBlogger img.avatar {
+  border: 0;
+  height: auto;
+  width: 160px;
+}
+#eblog-wrapper .forBlogger .pabs {
+  position: absolute;
+  right: -1px;
+  top: 35px;
+  background: url("../../templates/bt_education/images/easyblog/icon-pabs-ltr.png") no-repeat center center;
+  height: 26px;
+  width: 14px;
+}
+#eblog-wrapper .forBlogger div.profile-info {
+  border: 1px solid #e9e9e9;
+}
+#eblog-wrapper .forBlogger .bt-blogger .blog-content .bt-image-head {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+#eblog-wrapper .forBlogger .bt-blogger .blog-content .bt-image-head .blog-image {
+  float: none;
+  width: 100%;
+}
+#eblog-wrapper .forBlogger .bt-blogger .blog-content .bt-image-head .blog-image img {
+  width: 100%;
+}
+#eblog-wrapper .forBlogger .bt-blogger .blog-content .bt-image-head .bt-meta-bloger {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 44px;
+  line-height: normal;
+  background: url("../../templates/bt_education/images/bg-category-easyblog.png") repeat;
+}
+#eblog-wrapper .forBlogger .bt-blogger .blog-content .bt-image-head .bt-meta-bloger div.inner {
+  padding: 18px 0 0 101px;
+  color: #fff;
+}
+#eblog-wrapper .forBlogger .bt-blogger .blog-content .bt-image-head .bt-meta-bloger div.inner a:hover {
+  text-decoration: none;
+}
+#eblog-wrapper .forBlogger .bt-blogger .blog-content .bt-image-head .bt-meta-bloger div.inner .blog-category {
+  float: left;
+  margin-right: 5px;
+}
+#eblog-wrapper .forBlogger .bt-blogger .blog-content-inner .blog-created {
+  float: left;
+  position: relative;
+  width: 68px;
+  height: 68px;
+  background: #e9682e;
+  margin-top: -36px;
+  text-align: center;
+  color: #fff;
+  font-family: "Merriweather";
+  margin-left: 19px;
+  margin-right: 13px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+#eblog-wrapper .forBlogger .bt-blogger .blog-content-inner .blog-created .date {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+}
+#eblog-wrapper .forBlogger .bt-blogger .blog-title a {
+  color: #2a2a2a;
+  padding-top: 10px;
+  margin-bottom: 15px;
+  display: block;
+}
+#eblog-wrapper .forBlogger .bt-blogger .blog-title a:hover {
+  color: #e9682e;
+}
+#eblog-wrapper .blog-brief {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  background: url("../../templates/bt_education/images/bg-category-easyblog.png") repeat;
+  text-align: left;
+  color: #fff;
+  font-weight: bold;
+}
+#eblog-wrapper .blog-brief div.inner {
+  padding: 18px 0 0 101px;
+  color: #fff;
+}
+#eblog-wrapper .blog-brief div.inner a:hover {
+  text-decoration: none;
+}
+#eblog-wrapper .blog-brief div.inner .blog-category {
+  float: left;
+  margin-right: 10px;
+}
+#eblog-wrapper .blog-brief .blog-author,
+#eblog-wrapper .blog-brief .blog-category {
+  display: inline;
+}
+#eblog-wrapper .blog-brief .blog-created {
+  float: left;
+  position: relative;
+  width: 68px;
+  height: 68px;
+  background: #e9682e;
+  margin-top: 10px;
+  text-align: center;
+  color: #fff;
+  font-family: "Merriweather";
+  margin-left: 19px;
+  margin-right: 13px;
+  text-transform: uppercase;
+  line-height: normal;
+  font-size: 18px;
+}
+#eblog-wrapper .blog-brief .blog-created .date {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+}
+#eblog-wrapper .blog-option {
+  margin-left: 100px;
+  margin-top: 10px;
+  color: #000;
+  font-weight: bold;
+}
+#eblog-wrapper .blog-read-item .blog-image-container {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+#eblog-wrapper .blog-read-item .blog-image-container .easyblog-thumb-preview img {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+#eblog-wrapper .blog-read-item .blog-taglist {
+  border-top: 0;
+  float: left;
+  width: auto;
+  margin-right: 30px;
+  padding-top: 0 !important;
+  margin-top: 0;
+}
+#eblog-wrapper .blog-read-item li.rating {
+  list-style: none;
+  margin-top: 17px;
+}
+#eblog-wrapper .blog-read-item .tab_button {
+  border: 0;
+}
+#eblog-wrapper .blog-read-item .tab_button .li.item-active a span,
+#eblog-wrapper .blog-read-item .tab_button .li.item-active a:hover span {
+  background: none !important;
+}
+#eblog-wrapper .blog-read-item .tab_button #button-related a {
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+#eblog-wrapper .blog-read-item .tab-wrapper .blog-related.tab_container {
+  padding: 0;
+  border: 0;
+}
+#eblog-wrapper .blog-read-item .tab-wrapper .blog-related.tab_container ul li {
+  border-bottom: 1px solid #e5e5e5;
+  background: url("../../templates/bt_education/images/icon-li-relate.png") no-repeat left 17px;
+  margin: 0;
+  padding: 10px 0 10px 16px;
+}
+#eblog-wrapper .blog-read-item .tab-wrapper .blog-related.tab_container ul li a {
+  color: #666666;
+}
+#eblog-wrapper .blog-read-item .tab-wrapper .blog-related.tab_container ul li a:hover {
+  color: #e9682e;
+}
+#eblog-wrapper .blog-read-item .tab-wrapper .blog-related.tab_container ul li+li {
+  border-top: 0;
+}
+#eblog-wrapper .blog-read-item .tab_button li {
+  padding-bottom: 15px;
+}
+#eblog-wrapper .blog-read-item .facebook-likes.mtm {
+  margin-top: 15px;
+  border-bottom: 1px solid #e9e9e9;
+  height: 46px;
+  width: 100%;
+}
+#eblog-wrapper .blog-read-item .profile-connect .connect-links {
+  display: block;
+}
+#eblog-wrapper .blog-read .blog-navi {
+  border: 1px solid #e5e5e5;
+  border-radius: 0;
+  margin: 28px 0;
+  padding: 0 18px;
+}
+#eblog-wrapper .blog-read .blog-navi li a {
+  background: url("../../templates/bt_education/images/blog-navi-prev-ltr.png") no-repeat left center !important;
+  padding: 18px 0 17px 24px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #626262 !important;
+}
+#eblog-wrapper .blog-read .blog-navi li a:hover {
+  background: url("../../templates/bt_education/images/blog-navi-prev-hover-ltr.png") no-repeat left center !important;
+  color: #e9682e !important;
+}
+#ezblog-body .blog-read .blog-navi li.entry-prev a {
+  background: url("../../templates/bt_education/images/blog-navi-prev-ltr.png") no-repeat left center !important;
+  padding: 18px 0 17px 24px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #626262 !important;
+}
+#ezblog-body .blog-read .blog-navi li.entry-prev a:hover {
+  background: url("../../templates/bt_education/images/blog-navi-prev-hover-ltr.png") no-repeat left center !important;
+  color: #e9682e !important;
+}
+#ezblog-body div.tag-featured {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #e9682e;
+  border: 0;
+  padding: 10px 20px;
+  font-family: "Merriweather";
+  border-bottom-left-radius: 20px;
+}
+#ezblog-body div.tag-featured > i {
+  position: relative;
+  top: 0;
+  right: 0;
+  background: #e9682e;
+}
+#ezblog-body .tab_button li.item-active a,
+#ezblog-body .tab_button li.item-active a:hover {
+  font-family: "Merriweather";
+  font-size: 18px;
+  font-weight: 400;
+  color: #747474;
+  text-transform: uppercase;
+}
+#ezblog-body .tab_button li.item-active a span,
+#ezblog-body .tab_button li.item-active a:hover span {
+  background: none;
+  color: #e9682e;
+  padding: 0;
+}
+.bt-blog.readmore .icon-readmore {
+  width: 10px;
+  height: 11px;
+  border-radius: 100%;
+  background: #e9682e url("../../templates/bt_education/images/easyblog/icon-readmore-ltr.png") no-repeat center center;
+  float: left;
+  margin: 5px 8px 0 0;
+  text-decoration: none;
+}
+.bt-blog.readmore:hover .icon-readmore {
+  background-color: #b74613;
+}
+.bt-blog.readmore .blog-readmore a {
+  text-decoration: none;
+}
+#eblog-wrapper #section-author {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+}
+#eblog-wrapper #section-author .author_info {
+  border: 1px solid #e9e9e9;
+  margin: 0 0 30px 0;
+  padding: 20px 20px 0;
+  clear: both;
+  background: #fff;
+}
+#eblog-wrapper #section-author .author_info img.avatar img {
+  margin: 0;
+}
+#eblog-wrapper .list-pagination {
+  border: 1px solid #e5e5e5;
+  margin-top: 0;
+}
+#eblog-wrapper .list-pagination li {
+  margin: 0;
+}
+#eblog-wrapper .list-pagination li a {
+  padding: 0 20px;
+  border-right: 1px solid #e5e5e5;
+  color: #000;
+  font-weight: bold;
+  line-height: 36px;
+}
+#eblog-wrapper .list-pagination li a:hover {
+  text-decoration: none;
+  border-top: 2px solid #e9682e;
+  margin-top: -1px;
+  color: #e9682e;
+  line-height: 34px;
+}
+#eblog-wrapper .list-pagination li.disble a {
+  border-top: 2px solid #e9682e;
+  color: #e9682e;
+  margin-top: -1px;
+  padding: 0 20px;
+  border-right: 1px solid #e5e5e5;
+  line-height: 34px;
+}
+#eblog-wrapper .list-pagination li.active b {
+  border-top: 2px solid #e9682e;
+  color: #e9682e;
+  margin-top: -1px;
+  padding: 0 20px;
+  border-right: 1px solid #e5e5e5;
+  line-height: 34px;
+}
+#ezblog-body .profile-item {
+  border: 1px solid #e9e9e9;
+  margin: 0 0 30px 0;
+  padding: 20px 20px 0;
+  clear: both;
+  border-radius: 0;
+}
+#ezblog-body .profile-item .profile-avatar {
+  display: block;
+  float: left;
+  border: 0;
+  margin: -21px 0 -1px -21px;
+  position: relative;
+  margin-right: 28px;
+  border-right: 1px solid #e9e9e9;
+}
+#ezblog-body .profile-item .pabs {
+  position: absolute;
+  right: -1px;
+  top: 35px;
+  background: url('../../templates/bt_education/images/easyblog/icon-pabs-ltr.png') no-repeat scroll center center transparent;
+  height: 26px;
+  width: 14px;
+}
+#ezblog-category .list-categories > li {
+  border: 1px solid #e9e9e9;
+  margin: 0 0 30px 0;
+  padding: 20px 20px 0;
+  clear: both;
+}
+#ezblog-category .list-categories > li .bt-user-avatar img.avatar {
+  width: 260px;
+}
+#ezblog-category .list-categories > li .category-status li .link-rss {
+  background: url("../../templates/bt_education/images/icon-rss-category.png") no-repeat 0 center;
+}
+section.readmore a {
+  color: #fff;
+  line-height: 33px;
+  padding: 0 10px;
+  border-radius: 2px;
+  display: inline-block;
+  background: #e9682e;
+}
+section.readmore a:hover {
+  background: #ce4f16;
+}
+section.readmore a span {
+  background: url(../../templates/bt_education/images/icon-readmore.png) no-repeat center left;
+  padding-left: 15px;
+}
+

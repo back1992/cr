@@ -1,0 +1,52 @@
+// Style themes Bowthemes for kunena
+#Kunena {
+	a:link, a:visited, a:active {
+		color: @linkColor !important;
+	}
+	a:hover {color: #2c2929 !important;}
+	a.kwho-admin {color: @secondColorK !important;}
+	.kprofileboxcnt a {color: #ffffff !important;}
+	#ktop span.ktoggler {position: absolute;right: 0; margin-right: 3px;}
+	#ktab {
+		a span {
+			font-family: @main_font;
+		}
+		ul.menu {
+			li {
+				border-right: 1px solid #505050;
+				-webkit-transition: all 0.3s ease-in-out 0s;
+				-moz-transition: all 0.3s ease-in-out 0s;
+				-o-transition: all 0.3s ease-in-out 0s;
+				transition: all 0.3s ease-in-out 0s;
+			}
+			li.active, li:hover, #current {
+				background: @linkColor;
+				border-right-color: @linkColor;
+				a span {color:#fff;}
+			}
+		}
+	}
+	.kpbox {
+		background: @linkColor;
+		color: #fff;
+	}
+	.kblock.kpathway {
+		background: @linkColor;
+	}
+	.path-element-first {
+		background: url(@{image_path}/pathway_start.png) no-repeat left top;
+	}
+	.kforum-pathway .path-element, .kforum-pathway-bottom .path-element {
+		background: url("@{image_path}/bt_k_arrow-ltr.png") no-repeat left center;
+	}
+	.kforum-pathway a:hover {color: #2c2929 !important;}
+	.kheader h3,
+	.kheader h2 {font-family: @headKCategoryFont;}
+	div.kthead-title a {font-family: @main_font;}
+	.kpost-profile span.kavatar img, .kprofilebox .kavatar {max-width: none !important;}
+} 
+#Kunena #ktop{position: relative;}
+#Kunena #ktop span.ktoggler{top: 0;}
+#Kunena .kprofileboxcnt .kbutton{color: #fff; border: 2px solid #fff;}
+#Kunena .kprofileboxcnt .kbutton:focus,
+#Kunena .kprofileboxcnt .kbutton:hover {color: #fff; background: @secondColorK;border-color: @secondColorK;}

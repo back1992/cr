@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="publish" version="2.5" method="upgrade">
+<name>Facebook Page </name>
+<type>Facebook page</type>
+<version>1.0</version>
+<author>BowThemes</author>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<creationDate>October 2013</creationDate>
+<description>Get your facebook page that you create </description>
+<languages>
+		<language tag="en-GB">language/en-GB.facebookpage.ini</language>		
+</languages>
+<config>
+<fields name="params">
+	<fieldset name="basic" addfieldpath="/administrator/components/com_bt_socialconnect/publishes/facebookpage/elements">		
+		<field name="groupid" type="fbconnect" label="PUBLISHED_FACEBOOK_PAGE" description="PUBLISHED_FACEBOOK_PAGE_DESC" default="" />
+		<field name="uid"	type="hidden" 	default=""/>		
+		<field name="uname"	type="hidden" 	default=""/>
+		<field name="app_appid"	type="hidden" 	default=""/>
+		<field name="access_token"	type="hidden" 	default="" />
+		<field name ="ajax" type="ajax"/>
+	</fieldset>	
+</fields>
+</config>
+</extension>

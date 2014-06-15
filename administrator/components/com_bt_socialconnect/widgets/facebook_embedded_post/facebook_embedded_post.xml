@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="widget" version="2.5" method="upgrade">
+<name>Facebook Embedded Posts</name>
+<type>Social Widgets</type>
+<version>1.0</version>
+<author>BowThemes</author>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<creationDate>October 2013</creationDate>
+<description>Embedded Posts are a way to put public posts - by a Page or a person on Facebook - into the content of your web site or web page.</description>
+<languages>
+		<language tag="en-GB">language/en-GB.facebook_embedded_post.ini</language>		
+</languages>
+<config>
+<fields name="params">
+			<fieldset name="basic">
+				<field name="urlembed" class="bt_control" type="text" size="40" default="" label="WIDGET_FACEBOOK_EMBEDDED_LABEL" description="WIDGET_FACEBOOK_EMBEDDED_DESC"/>  
+			</fieldset>
+	</fields>
+</config>
+</extension>

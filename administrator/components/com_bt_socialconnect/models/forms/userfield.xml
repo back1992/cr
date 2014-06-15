@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fieldset name="detail">	
+		<field type="text" name="name" required="true" class="inputbox"  label="COM_BT_SOCIALCONNECT_TITLE_LABEL" description="COM_BT_SOCIALCONNECT_TITLE_DESC" size="35"/>
+		<field name="alias" type="text" label="JFIELD_ALIAS_LABEL" readonly="true"
+			description="JFIELD_ALIAS_DESC" class="inputbox" size="35" />
+		<field type="list" name="type" class="readonly"  autocomplete="off" required="true" onchange="switchType(this.value)" 	description="COM_BT_SOCIALCONNECT_FIELD_TYPE_DESC" filter="raw" label="COM_BT_SOCIALCONNECT_FIELD_TYPE_LABEL">
+			<option value ="">COM_BT_SOCIALCONNECT_SELECTTYPE_OPTION</option>
+			<option value="string">COM_BT_SOCIALCONNECT_SELECTTYPE_STRING</option>
+			<option value="text">COM_BT_SOCIALCONNECT_SELECTTYPE_TEXT</option>
+			<option value="dropdown">COM_BT_SOCIALCONNECT_SELECTTYPE_DROPDOWN</option>
+			<option value="image">COM_BT_SOCIALCONNECT_SELECTTYPE_IMAGE</option>
+			<option value="date">COM_BT_SOCIALCONNECT_SELECTTYPE_DATE</option>			
+		</field>		
+		<field type="text" name="type_string" autocomplete="off" class="inputbox"	description="COM_BT_SOCIALCONNECT_USERFIELD_DEFAULT_DESC" filter="raw" label="COM_BT_SOCIALCONNECT_DEFAULT_LABEL" size="35"/>
+		<field type="editor" name="type_text" autocomplete="off" class="inputbox"	description="COM_BT_SOCIALCONNECT_USERFIELD_DEFAULT_DESC" filter="raw" label="COM_BT_SOCIALCONNECT_DEFAULT_LABEL" size="35"/>
+		<field name="type_dropdown" type="dropbox"	label="COM_BT_SOCIALCONNECT_DEFAULT_LABEL" description="COM_BT_SOCIALCONNECT_TYPE_DDOPTIONS_DESC"
+			rows="3" cols="30" class="inputbox" default="" />
+		<field name="type_image" type="uploadimage" directory="bt_socialconnect" class="inputbox"
+				hide_none="1" label="COM_BT_SOCIALCONNECT_DEFAULT_LABEL"
+				size="30"
+				description="COM_BT_SOCIALCONNECT_DEFAULT_DESC" />
+		<field name="type_date" type="calendar" format="%Y-%m-%d %H:%M:%S" filter="user_utc" size="30"
+			label="COM_BT_SOCIALCONNECT_DEFAULT_LABEL" description="COM_BT_SOCIALCONNECT_DEFAULT_DESC"
+			 class="inputbox type_date"  default="" />
+		<field 	name="published" type="list"	label="JSTATUS"	description="JFIELD_PUBLISHED_DESC"	class="inputbox" size="1" default="1"	>			<option value="1">
+				JPUBLISHED</option>
+			<option value="0">
+				JUNPUBLISHED</option>			
+
+		</field>
+		<field name="ordering" type="fieldordering" label="JFIELD_ORDERING_LABEL"
+			description="JFIELD_ORDERING_DESC" class="inputbox" default="0" />	
+		<field	name="required" type="radio" default="0" class="btn-group"	label="COM_BT_SOCIALCONNECT_USERFIELD_REQUIRED_LABEL" description="COM_BT_SOCIALCONNECT_USERFIELD_REQUIRED_DESC">
+				<option	value="0">JNO</option>
+				<option	value="1">JYES</option>
+		</field>
+		<field	name="show_registration" type="radio" default="1" class="btn-group"	label="COM_BT_SOCIALCONNECT_USERFIELD_SHOWREGISTRATION_LABEL" description="COM_BT_SOCIALCONNECT_USERFIELD_SHOWREGISTRATION_DESC">
+				<option	value="0">JNO</option>
+				<option	value="1">JYES</option>
+		</field>
+		<field	name="show_listing" type="radio" default="1" class="btn-group"	label="COM_BT_SOCIALCONNECT_USERFIELD_SHOWLISTING_LABEL" description="COM_BT_SOCIALCONNECT_USERFIELD_SHOWLISTING_DESC">
+				<option	value="0">JNO</option>
+				<option	value="1">JYES</option>
+		</field>
+		<field  type="editor" name="description" class="inputbox"   default=""  label="COM_BT_SOCIALCONNECT_USERFIELD_DESCRIPTION_LABEL" description="COM_BT_SOCIALCONNECT_USERFIELD_DESCRIPTION_DESC" />	
+		
+	
+		<field type="asset" name="asset" path="administrator/components/com_bt_socialconnect/models/fields/assets/" />	
+		<field	name="id" type="hidden"	/>		
+		
+	</fieldset>	
+	<fieldset name="assign">
+		<field type="profilefield" social="facebook" default="" name="facebook" class="inputbox" label= "COM_BT_SOCIALCONNECT_USERFIELD_ASSIGNFACEBOOK_LABEL" description="COM_BT_SOCIALCONNECT_USERFIELD_ASSIGNFACEBOOK_DESC"/>
+		<field type="profilefield" social="twitter" default="" name="twitter"  class="inputbox" label= "COM_BT_SOCIALCONNECT_USERFIELD_ASSIGNTWITTER_LABEL" description="COM_BT_SOCIALCONNECT_USERFIELD_ASSIGNTWITTER_DESC"/>
+		<field type="profilefield" social="google" default="" name="google"  class="inputbox"  label= "COM_BT_SOCIALCONNECT_USERFIELD_ASSIGNGOOGLE_LABEL" description="COM_BT_SOCIALCONNECT_USERFIELD_ASSIGNGOOGLE_DESC"/>
+		<field type="profilefield" social="linkedin" default="" name="linkedin"  class="inputbox" label= "COM_BT_SOCIALCONNECT_USERFIELD_ASSIGNLINKEDIN_LABEL" description="COM_BT_SOCIALCONNECT_USERFIELD_ASSIGNLINKEDIN_DESC"/>
+	</fieldset>
+</form>

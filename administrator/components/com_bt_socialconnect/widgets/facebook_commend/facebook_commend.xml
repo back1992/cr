@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="widget" version="2.5" method="upgrade">
+<name>Facebook Commend</name>
+<type>Social Widgets</type>
+<version>1.0</version>
+<author>BowThemes</author>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<creationDate>October 2013</creationDate>
+<description><![CDATA[
+<p>The Comments box is a social plugin that enables people to comment on your site.
+ Comments are easily shared with friends or with people who like your Page on Facebook. If people leave the “Post to Facebook” box checked when they post a comment, a story appears on their friends’ news feed indicating that they've made a comment on your website, which will also link back to your site.</p>]]></description>
+<languages>
+		<language tag="en-GB">language/en-GB.facebook_commend.ini</language>		
+</languages>
+<config>
+<fields name="params">
+			<fieldset name="basic">
+				<field name="fbrendering" type="list" default="0" label="WIDGET_FBCOMMEND_RENDERING" description="WIDGET_FBCOMMEND_RENDERING_DESC" >
+                  <option value="html5">HTML5</option>
+                  <option value="xfbml">XFBML</option>
+               </field>				
+				<field name ="fbwidth" type ="text" default="470" label ="WIDGET_FBCOMMEND_WIDTH" description= "WIDGET_FBCOMMEND_WIDTH_DESC"/>
+				<field name="fbnumber_post" type="text" default="10" label="WIDGET_FBCOMMEND_NUMBER_POST" description ="WIDGET_FBCOMMEND_NUMBER_POST_DESC"/>
+				<field name="fbcolorscheme" type="list" default="light" label="WIDGET_FBCOMMEND_COLOR_SCHEME" description="WIDGET_FBCOMMEND_COLOR_SCHEME_DESC" >
+					<option value="light">Light</option>
+					<option value="dark">Dark</option>
+				</field>
+				<field name="fborder_by" type="list" default="social" label="WIDGET_FBCOMMEND_ORDERBY" description="WIDGET_FBCOMMEND_ORDERBY_DESC">
+					<option value="social">social</option>
+					<option value="reverse_time">reverse time</option>
+					<option value="time">time</option>
+				</field>
+			</fieldset>
+		</fields>
+</config>
+</extension>

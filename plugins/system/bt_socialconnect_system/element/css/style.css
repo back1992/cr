@@ -1,0 +1,69 @@
+.social_btlogin {   
+	width:100%;
+	overflow: hidden;
+}
+.btnsc{
+	border-radius: 4px;
+    height: 30px;
+    padding: 0px 8px;
+	width: 95px;
+	float: left;
+	margin: 10px 2px 2px;
+}
+.btn-fb{
+	background:url(../images/bg-fb.png) repeat-x;
+	
+}
+.btn-tt{
+	background:url(../images/bg-tt.png) repeat-x;	
+}
+.btn-gg{
+	background:url(../images/bg-gg.png) repeat-x;	
+}
+.btn-in{
+	background:url(../images/bg-in.png) repeat-x;	
+}
+.iconsc{
+	float: left;
+    height: 25px !important;
+    padding:0 4px;
+    width: 13px;
+	margin-top: 7px;	
+}
+.icon-fb{
+	background:url(../images/fb.png) no-repeat;	
+}
+.icon-tt{
+	background:url(../images/tt.png) no-repeat;	
+}
+.icon-gg{
+	background:url(../images/gg.png) no-repeat;		
+}
+.icon-in{
+	background:url(../images/in.png) no-repeat;		
+}
+.icon-border-sc{
+	float:left;
+	height: 25px !important;
+   width: 8px !important;	
+}
+.icon-border-fb{
+	background:url(../images/boder-hover.png) no-repeat;
+	
+}
+.icon-border-tt{
+	background:url(../images/border-tt.png) no-repeat;
+	
+}
+.icon-border-gg{
+	background:url(../images/border-gg.png) no-repeat;	
+}
+.icon-border-in{
+	background:url(../images/border-in.png) no-repeat;	
+}
+.text-sc{
+	color:#FFFFFF;
+	text-decoration:none;
+	line-height: 30px;
+	float:left;
+}

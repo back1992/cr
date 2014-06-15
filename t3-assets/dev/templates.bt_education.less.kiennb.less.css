@@ -1,0 +1,753 @@
+
+
+.header_top_inner_right,
+.header_bottom_inner_left {
+  background: #e9682e;
+}
+.top_header_right {
+  background: #e9682e;
+}
+#btl .btl-panel #btl-panel-login {
+  background: url("../../templates/bt_education/images/bg_bt_login_button.png") no-repeat scroll center center #ce4f16;
+}
+#btl .btl-panel #btl-panel-registration {
+  background: url("../../templates/bt_education/images/bg_bt_register_button.png") no-repeat scroll center center #ce4f16;
+}
+.t3-mainnav .navbar .nav > li > a {
+  font-family: "Merriweather";
+}
+.t3-mainnav .navbar .nav > li > a {
+  color: #e9682e;
+}
+#cp-caption,
+h3.cp-title {
+  font-family: "Merriweather";
+}
+.why_about_us {
+  background: #e9682e;
+  font-family: "Merriweather";
+}
+.why_about_us .title_why {
+  border-bottom: 1px solid #ee895c;
+}
+.content_why_box + .content_why_box .content_why_box_inner {
+  border-left: 1px solid #ee895c;
+}
+.defaultLayout .bt-inner .bt-title {
+  font-family: "Merriweather";
+}
+.showcase_style1 .defaultLayout .bt-date {
+  font-family: "Myriad Pro";
+}
+.showcase_style1 .defaultLayout .bt-inner .bt-introtext {
+  font-family: "Open Sans";
+}
+.showcase_style1 .defaultLayout .bt-inner .readmore a {
+  background: url("../../templates/bt_education/images/showcase1_readmore.png") no-repeat scroll right center;
+  padding-right: 19px;
+  display: inline-block;
+  font-family: "Open Sans";
+  font-weight: bold;
+  color: #e9682e;
+}
+.showcase_style1 h3.module-title {
+  font-family: "Merriweather";
+}
+.showcase_style1 span.module-title-inner span {
+  color: #e9682e;
+}
+.showcase_style1 .defaultLayout .btcontentshowcase-navigation .bullet,
+.showcase_style2 .defaultLayout .btcontentshowcase-navigation .bullet {
+  background: url("../../templates/bt_education/images/showcase1_bullet.png") no-repeat scroll left top !important;
+}
+.showcase_style1 .defaultLayout .btcontentshowcase-navigation .bullet.current,
+.showcase_style1 .defaultLayout .btcontentshowcase-navigation .bullet:hover,
+.showcase_style2 .defaultLayout .btcontentshowcase-navigation .bullet.current,
+.showcase_style2 .defaultLayout .btcontentshowcase-navigation .bullet:hover {
+  background: url("../../templates/bt_education/images/showcase1_bullet.png") no-repeat scroll left bottom !important;
+}
+.showcase_style1 .defaultLayout .bt-inner .bt-title:hover {
+  color: #e9682e;
+}
+.showcase_style2 .defaultLayout .bt-inner .bt-introtext {
+  font-family: "Merriweather";
+}
+.showcase_style2 .defaultLayout .bt-inner .readmore a {
+  background: url("../../templates/bt_education/images/showcase2_readmore.png") no-repeat scroll left center;
+  padding-left: 16px;
+  display: inline-block;
+  font-family: "Merriweather";
+  font-weight: bold;
+}
+.showcase_style2 .defaultLayout .bt-inner .readmore a:hover {
+  color: #666;
+}
+.module_menu_sidebar {
+  background: #e9682e;
+}
+.module_menu_sidebar h3.module-title,
+#community-wrap .module_menu_sidebar h3.module-title {
+  font-family: "Merriweather";
+  background: #e55818;
+  padding-top: 7px;
+  padding-bottom: 2px;
+  padding-left: 20px;
+}
+.module_menu_sidebar ul.nav li a,
+#community-wrap .module_menu_sidebar ul.nav li a {
+  color: #fff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 17px;
+  font-family: "Merriweather";
+  font-weight: bold;
+  font-size: 13px;
+  border-top: 1px solid #eb7945;
+}
+.module_menu_sidebar ul.nav li a:hover,
+.module_menu_sidebar ul.nav li.current a,
+.module_menu_sidebar ul.nav li a:focus,
+#community-wrap .module_menu_sidebar ul.nav li a:hover,
+#community-wrap .module_menu_sidebar ul.nav li a:focus {
+  background: #e55818;
+}
+.module_menu_sidebar ul.nav li a img + .image-title {
+  padding-left: 11px;
+}
+.showcase_sidebar2 .defaultLayout .bt-date-2 {
+  background: #e9682e;
+  font-family: "Merriweather";
+}
+.showcase_sidebar2 .defaultLayout .bt_inner_infor {
+  font-family: "Merriweather";
+}
+.t3-sidebar .t3-module h3.module-title {
+  font-family: "Merriweather";
+}
+.t3-sidebar .module-title-inner span {
+  color: #e9682e;
+}
+.breadcrumb-wrapper {
+  background: url("../../templates/bt_education/images/bg_pathway.png") no-repeat scroll left top #e9682e;
+  padding-left: 49px;
+}
+.breadcrumb {
+  background: #232323;
+  padding: 10px 0 10px 20px;
+}
+.breadcrumb a {
+  color: #e9682e;
+}
+.back_to_top a:hover {
+  color: #e9682e;
+}
+.back_to_top {
+  position: absolute;
+  top: 10px;
+  right: 17px;
+}
+.t3-footer .t3-module h3.module-title {
+  font-family: "Merriweather";
+}
+.about_footer img {
+  float: left;
+  margin-right: 15px;
+  margin-top: 7px;
+  margin-bottom: 20px;
+}
+.acysubbuttons .subbutton {
+  background: #e9682e;
+}
+.contact_footer .phone_and_email {
+  background: url("../../templates/bt_education/images/icon_phone_contact.png") no-repeat scroll left top transparent;
+  padding-left: 75px;
+  margin-left: 2px;
+}
+.contact_footer .big_number {
+  font-family: "Merriweather";
+  color: #e9682e;
+}
+.contact_footer .small_number {
+  background: #e9682e;
+}
+.contact_footer .contact_email {
+  font-family: "Merriweather";
+}
+#bt_ul li a:hover {
+  color: #e9682e;
+}
+.btl-reset ul#bt_ul {
+  font-family: "Merriweather";
+}
+#btl-content-login .text-sc {
+  font-family: "Open Sans";
+}
+.desc_social_arena_button {
+  font-family: "Merriweather";
+}
+.btl-buttonsubmit input.btl-buttonsubmit,
+.btl-buttonsubmit button.btl-buttonsubmit {
+  font-family: "Merriweather";
+  background: #e9682e;
+}
+.btl-content-block h3.h3_title,
+#cWindowContentTop {
+  font-family: "Merriweather";
+}
+.fancybox-wrap .fancybox-close,
+.fancybox-wrap .fancybox-close:hover,
+#cWindowContentTop #cwin_close_btn {
+  background: url("../../templates/bt_education/images/close_popup_login.png") no-repeat scroll center center #e9682e !important;
+  border-radius: 2px;
+}
+.btl-buttonsubmit button.btl-buttonlogout {
+  background: url("../../templates/bt_education/images/btl_logout_button.png") no-repeat scroll center center #ce4f16 !important;
+}
+#module-in-profile {
+  background: #e9682e;
+}
+#btl-content-profile #module-in-profile h3 {
+  background: #e9682e;
+  font-family: "Merriweather";
+}
+#btl-content #btl-content-profile #module-in-profile ul li a {
+  border-top: 1px solid #eb7945;
+}
+#btl-content #btl-content-profile #module-in-profile ul li a:hover,
+#btl-content #btl-content-profile #module-in-profile ul li.current a {
+  background: #ce4f16 !important;
+  color: #fff !important;
+}
+#community-wrap .js-toolbar .nav > li > a {
+  font-family: "Merriweather";
+}
+#community-wrap .js-toolbar .nav > li > a:hover,
+#community-wrap .js-toolbar .nav > li > a:focus {
+  background: #e9682e !important;
+}
+#community-wrap .js-toolbar .nav li.active > a,
+#community-wrap .js-toolbar .nav li.dropdown.open > .dropdown-toggle,
+#community-wrap .js-toolbar .nav li.dropdown.active > .dropdown-toggle,
+#community-wrap .js-toolbar .nav li.dropdown.open.active > .dropdown-toggle {
+  background: #e9682e !important;
+  color: #fff !important;
+}
+#community-wrap .dropdown-menu > li > a:hover,
+#community-wrap .dropdown-menu > li > a:focus,
+#community-wrap .dropdown-submenu:hover > a,
+#community-wrap .dropdown-submenu:focus > a {
+  background: #e9682e !important;
+}
+#community-wrap .jomsocial-module .module-title {
+  font-family: "Merriweather";
+}
+#t3-mainbody .app-box-filter a.active-state {
+  border: 1px solid #e9682e !important;
+  color: #e9682e;
+}
+#t3-mainbody .cThumb-Calendar {
+  background: #e9682e;
+  font-family: "Merriweather";
+}
+#community-wrap .joms-stream-box article > a {
+  color: #e9682e;
+}
+#community-wrap .joms-stream-content .cStream-Respond .stream-icon {
+  color: #e9682e;
+}
+#community-wrap .cStream-Respond .cStream-Likes {
+  border-left: 2px solid #e9682e;
+}
+#community-wrap .cStream-FormInput {
+  border: 1px solid #f8ccb8;
+}
+#community-wrap .cActivity-LoadMore .more-activity-text {
+  background: #e9682e;
+  font-family: "Merriweather";
+}
+#community-wrap .cover-block-name h3 {
+  color: #e9682e;
+  font-family: "Merriweather";
+}
+#community-wrap .cover-link .js-focus-menu ul.inline > li > a {
+  font-family: "Merriweather";
+}
+#community-wrap .cover-link .js-focus-menu ul.inline > li > a:hover {
+  color: #e9682e;
+  text-decoration: none;
+}
+#community-wrap .js-focus-actions .navbar-inner {
+  background: #e9682e;
+}
+#community-wrap .js-focus-actions .navbar .nav > li > span,
+#community-wrap .js-focus-actions .navbar .nav > li > a {
+  font-family: "Merriweather";
+}
+#community-wrap .js-focus-actions .navbar .nav > li > a:hover {
+  background: #ce4f16;
+}
+#community-wrap .js-focus-actions .navbar .nav.nav-option .dropdown-menu > li > a:hover {
+  color: #e9682e;
+  background: none !important;
+}
+#community-wrap .js-focus-actions .navbar .nav.nav-option .dropdown-menu > li > a {
+  font-family: "Merriweather";
+}
+#community-wrap .js-focus-actions .navbar .nav.nav-option li.open > a,
+#community-wrap .js-focus-actions .navbar .nav.nav-option li > a:focus {
+  background: #ce4f16;
+}
+.app-box-footer a {
+  font-family: "Merriweather";
+}
+#community-wrap .joms-postbox > .joms-postbox-tab li {
+  font-family: "Merriweather";
+  color: #e9682e;
+}
+.cThumb-Detail {
+  font-family: "Merriweather";
+}
+#community-wrap .cSubmenu li > a {
+  font-family: "Merriweather";
+}
+#community-wrap h4.title_above_cSubmenu {
+  font-family: "Merriweather";
+}
+#community-wrap .cMedia-ThumbList.Photos .cMedia-Avatar .photo_remove_button {
+  padding-left: 18px;
+  font-family: "Merriweather";
+}
+#community-wrap .cMedia-ThumbList.Photos .cMedia-Avatar .photo_remove_button:hover {
+  background: url("../../templates/bt_education/images/jomsocial/button-photo-remove-image.png") no-repeat scroll 95% center #e9682e;
+}
+#community-wrap .joms-postbox-action button.joms-postbox-save,
+body #cWindow .btn.btn-primary,
+#community-wrap .btn.btn-primary {
+  font-family: "Merriweather";
+  background-color: #e9682e !important;
+  background-image: -moz-linear-gradient(top,#e9682e,#ce4f16) !important;
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#e9682e),to(#ce4f16)) !important;
+  background-image: -webkit-linear-gradient(top,#e9682e,#ce4f16) !important;
+  background-image: -o-linear-gradient(top,#e9682e,#ce4f16) !important;
+  background-image: linear-gradient(to bottom,#e9682e,#ce4f16) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@main_color',endColorstr='darken(@main_color, 10%)',GradientType=0) !important;
+}
+#community-wrap .joms-postbox-action button.joms-postbox-save:hover,
+body #cWindow .btn.btn-primary:hover,
+#community-wrap .btn.btn-primary:hover,
+#community-wrap .joms-postbox-action button.joms-postbox-save:focus,
+body #cWindow .btn.btn-primary:focus,
+#community-wrap .btn.btn-primary:focus {
+  font-family: "Merriweather";
+  background-color: #e9682e !important;
+  background-image: -moz-linear-gradient(top,#ce4f16,#e9682e) !important;
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#ce4f16),to(#e9682e)) !important;
+  background-image: -webkit-linear-gradient(top,#ce4f16,#e9682e) !important;
+  background-image: -o-linear-gradient(top,#ce4f16,#e9682e) !important;
+  background-image: linear-gradient(to bottom,#ce4f16,#e9682e) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='darken(@main_color, 10%)',endColorstr='@main_color',GradientType=0) !important;
+}
+#community-wrap .joms-postbox-action button.joms-postbox-cancel {
+  font-family: "Merriweather";
+}
+#community-wrap .cMedia-ThumbList.Albums .cMedia-Summary *,
+#community-wrap .cSlider-List.Photos * {
+  font-family: "Merriweather";
+}
+#community-wrap .cFeaturedTitle a {
+  font-family: "Merriweather";
+  color: #e9682e;
+}
+#community-wrap .cFeaturedTop .feature_imageFromAlbum {
+  font-family: "Merriweather";
+}
+#community-wrap .cFeaturedBottom .cBoxPad {
+  font-family: "Merriweather";
+}
+#community-wrap .cFeatured-Group .cFeaturedBottom .cFeaturedTitle {
+  color: #e9682e;
+}
+.cMods-HelloMe .hellome-icon {
+  font-family: "Merriweather";
+  background-position: 13px center;
+  background-repeat: no-repeat;
+  color: #333333;
+  display: block;
+  border: none;
+  font-weight: bold;
+  height: 48px;
+  padding: 0;
+  line-height: 48px;
+  margin: 0;
+  text-align: left;
+  font-size: 14px;
+  text-decoration: none;
+}
+.cMods-HelloMe .cHello-Menu .hellome-icon + .hellome-icon {
+  border-top: 1px solid #DEDEDE;
+}
+.cMods-HelloMe .cMod-Notify {
+  background: #e9682e;
+}
+.cMods-HelloMe a.hello-me-name {
+  font-family: "Merriweather";
+  color: #e9682e;
+}
+.cMods-HelloMe .cHello-Menu .hellome-icon a:hover {
+  text-decoration: none;
+  color: #e9682e;
+  border-left: 2px solid #e9682e;
+  background: url("../../templates/bt_education/images/jomsocial/bg-a-hellome-hover.png") no-repeat scroll 95% center transparent;
+}
+.cMods-HelloMe .edit-stt,
+.cMods-HelloMe .save-stt {
+  background: url("../../templates/bt_education/images/jomsocial/save-stt.png") no-repeat scroll right center #333333;
+  color: #fff;
+  line-height: 35px;
+  height: 35px;
+  padding-left: 20px;
+  font-size: 13px;
+}
+.cMods-HelloMe .edit-stt:hover,
+.cMods-HelloMe .save-stt:hover {
+  background: url("../../templates/bt_education/images/jomsocial/save-stt.png") no-repeat scroll right center #333333;
+  color: #e9682e;
+}
+.quick_search .search_form_button {
+  background: url("../../templates/bt_education/images/jomsocial/quicksearch_button.png") no-repeat scroll center center #e9682e;
+}
+.quick_search .app-box-footer a:hover {
+  color: #e9682e;
+}
+.frontpage_guest_arena {
+  font-family: "Merriweather";
+}
+#community-wrap .hero-area .link_register {
+  background: #e9682e;
+}
+#community-wrap .cGuest .reminder-link:hover {
+  color: #e9682e;
+}
+#community-wrap .cGuest .button_guest_register {
+  font-family: "Merriweather";
+}
+#community-wrap .cGuest .button_guest_register:hover {
+  background: #e9682e;
+}
+#community-wrap .cPageTabs {
+  border: none;
+  border-bottom: 2px solid #ce4f16;
+}
+#community-wrap .cPageTabs li {
+  font-family: "Merriweather";
+}
+#community-wrap .cPageTabs li.cTabCurrent a,
+#community-wrap .cPageTabs li:hover a {
+  background-color: #e9682e;
+  background-image: -moz-linear-gradient(top,#e9682e,#ce4f16);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#e9682e),to(#ce4f16));
+  background-image: -webkit-linear-gradient(top,#e9682e,#ce4f16);
+  background-image: -o-linear-gradient(top,#e9682e,#ce4f16);
+  background-image: linear-gradient(to bottom,#e9682e,#ce4f16);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@main_color',endColorstr='darken(@main_color, 10%)',GradientType=0);
+}
+.t3-mainnav .dropdown-menu li > a:hover,
+.t3-mainnav .dropdown-menu li > a:focus,
+.t3-mainnav .dropdown-submenu:hover > a,
+.t3-mainnav .dropdown-menu li.active > a {
+  background: #e9682e;
+}
+.t3-megamenu .mega-nav > li a,
+.t3-megamenu .dropdown-menu .mega-nav > li a {
+  font-family: "Merriweather";
+}
+.top_mainbody_title,
+.top_mainbody_desc,
+.button_download a {
+  font-family: "Merriweather";
+}
+.button_download a:hover {
+  background: #e9682e;
+  border-color: #e9682e;
+}
+.why_about_us .content_why a {
+  background: #e9682e;
+}
+.why_about_us .content_why a:hover {
+  color: #e9682e;
+}
+.content_why a:hover .description_box:after {
+  background: #e9682e;
+}
+.content_why a:hover .description_box:before {
+  color: #e9682e;
+}
+a.slideshow_button:hover {
+  background: #e9682e;
+  border-color: #e9682e;
+}
+.module_menu_footer ul.nav > li > a:hover,
+.module_menu_footer ul.nav > li.active > a {
+  color: #e9682e;
+}
+.module_menu_footer ul.nav > li > a:hover:before,
+.module_menu_footer ul.nav > li.active > a:before {
+  background: #e9682e;
+}
+.head_contact_infor .infor_email {
+  background: url("../../templates/bt_education/images/icon_top_contact_email.png") no-repeat scroll left center;
+  padding-left: 35px;
+  margin-right: 20px;
+}
+.head_contact_infor .infor_phone {
+  background: url("../../templates/bt_education/images/icon_top_contact_phone.png") no-repeat scroll left center;
+  padding-left: 26px;
+}
+#btl-content-login .btl-input .user,
+#btl-content-login .btl-input .pass {
+  padding: 5px 5px 5px 50px !important;
+}
+#btl .btl-panel .btl-profile {
+  padding-left: 5px;
+  margin-left: 5px;
+  border-left: 1px solid #fafafa;
+  float: left;
+}
+#btl-content #btl-content-profile #module-in-profile ul li a {
+  padding-left: 20px;
+  text-align: left;
+}
+#module-in-profile .dropdown-menu {
+  background: #e9682e;
+}
+.head_search .search #mod-search-searchword {
+  padding: 5px 45px 5px 0;
+  background: url("../../templates/bt_education/images/search_button.png") no-repeat scroll 97% center;
+}
+.why_about_us .title_why .title_why_sub {
+  float: right;
+  padding: 14px 20px 10px 10px;
+}
+.showcase_style1 .defaultLayout .bt_inner_infor {
+  padding-left: 13px;
+}
+.showcase_style1 .defaultLayout .bt-date {
+  background: url("../../templates/bt_education/images/showcase1_date_icon.png") no-repeat scroll left center;
+  padding-left: 17px;
+}
+.module_menu_footer ul.nav > li > a {
+  padding: 3px 0 3px 17px;
+}
+.module_menu_footer ul.nav > li > a:before {
+  left: 4px;
+}
+#community-wrap .jomsocial-module .module-title {
+  padding: 7px 5px 7px 25px;
+}
+#community-wrap .activitie_privacy .dropdown-menu li a span {
+  padding-left: 2px;
+}
+#community-wrap .activitie_privacy .joms-share-meta.date {
+  background: url("../../templates/bt_education/images/jomsocial/icon_js_timepost.png") no-repeat scroll left center transparent;
+  padding-left: 19px;
+}
+#community-wrap .cover-link .js-focus-menu ul.inline > li + li {
+  padding-left: 10px;
+  margin-left: 10px;
+  border-left: 2px solid #303030;
+}
+#community-wrap .js-focus-actions .navbar .nav > li a .joms-icon-share:before {
+  padding-right: 2px;
+  float: left;
+  background: url("../../templates/bt_education/images/jomsocial/jsfocus-icon-share.png") no-repeat scroll left center transparent;
+}
+#community-wrap .js-focus-actions .navbar .nav > li a .joms-icon-thumbs-up:before {
+  padding-right: 2px;
+  float: left;
+  background: url("../../templates/bt_education/images/jomsocial/jsfocus-icon-like.png") no-repeat scroll left center transparent;
+}
+#community-wrap .js-focus-actions .navbar .nav > li span .joms-icon-eye:before {
+  padding-right: 2px;
+  float: left;
+  background: url("../../templates/bt_education/images/jomsocial/jsfocus-icon-view.png") no-repeat scroll left center transparent;
+}
+#community-wrap .cMedia-ThumbList.Albums .cMedia-Summary {
+  padding: 12px 20px 20px 20px;
+}
+.cMods-HelloMe .cHello-Menu .hellome-icon a {
+  border-left: 2px solid transparent;
+  padding: 0 0 0 45px;
+  background: url("../../templates/bt_education/images/jomsocial/bg-a-hellome.png") no-repeat scroll 95% center transparent;
+}
+#community-wrap .cGuest .login-area {
+  padding: 29px 24px 0 24px;
+}
+.t3-megamenu .mega-nav > li a,
+.t3-megamenu .dropdown-menu .mega-nav > li a {
+  padding: 7px 10px 7px 40px;
+}
+.cMods-HelloMe .cMod-Notify a + a {
+  border-left: 1px solid #393939;
+}
+#community-wrap .cFeaturedMeta li + li {
+  margin: 0 0 0 5px;
+  padding: 0 0 0 7px;
+  background-position: left center;
+}
+.contact_footer .small_number {
+  left: 30px;
+}
+.top_header_right {
+  margin-left: 284px;
+  height: 45px;
+}
+.header_top .social_head {
+  margin-left: 30px;
+}
+.head_infor {
+  float: left;
+  margin-left: 15px;
+}
+.bt-scroll button.btl-buttonsubmit {
+  margin-left: 140px;
+}
+.head_search .search {
+  margin-right: 12px;
+}
+.t3-mainnav {
+  margin-left: 284px;
+}
+.showcase_sidebar2 .defaultLayout .bt_inner_infor {
+  padding: 0 10px 0 0;
+  margin-left: 84px;
+}
+#t3-mainbody .cThumb-Calendar {
+  margin-right: 15px;
+  float: left;
+}
+#community-wrap .activitie_privacy .activitie_privacy_inner + .joms-share-meta.date {
+  margin-left: 10px;
+}
+.cover-block-avatar {
+  margin-left: 20px;
+  float: left;
+}
+.cover-block-infor {
+  margin-left: 150px;
+}
+#community-wrap .joms-postbox > .joms-postbox-tab span {
+  margin-left: 2px;
+}
+#community-wrap .cSlider-List li {
+  margin: 0 25px 0 0;
+}
+#community-wrap .cFeaturedInfo {
+  margin-left: 190px;
+}
+.header_top_inner_left,
+.header_bottom_inner_left {
+  float: left;
+}
+.showcase_style1 .defaultLayout #btcontentshowcase-control,
+.showcase_style2 .defaultLayout #btcontentshowcase-control {
+  float: right;
+}
+.header_top_inner_right,
+.header_bottom_inner_right {
+  float: right;
+}
+.top_header_left {
+  position: absolute;
+  top: 0;
+}
+#community-wrap .activitie_privacy .joms-privacy-dropdown.joms-stream-privacy {
+  float: left;
+}
+#community-wrap .activitie_privacy .activitie_privacy_inner {
+  float: left;
+}
+.cover-block-name {
+  float: left;
+}
+.cover-block-infor-detail {
+  float: right;
+}
+#community-wrap .js-focus-actions .navbar .nav > li {
+  float: left;
+}
+#community-wrap .cMain dt {
+  float: left;
+  padding-right: 5px;
+}
+#community-wrap .hero-area h1.title_intro {
+  float: left;
+}
+.head_login,
+.head_search {
+  float: right;
+}
+.why_about_us .title_why .title_why_big {
+  float: left;
+}
+#community-wrap .cFeaturedLike {
+  left: -1px;
+}
+#community-wrap .cFeaturedInfo.Page {
+  margin-left: 190px;
+}
+#community-wrap .cFeatured-Rsvp {
+  right: 20px;
+  left: auto;
+}
+#community-wrap .navbar .nav > li > .dropdown-menu:before,
+#community-wrap .navbar .nav > li > .dropdown-menu:after {
+  left: 10px;
+  right: auto;
+}
+.t3-mainnav .navbar .nav > li > .dropdown-menu:before {
+  left: 20%;
+}
+#community-wrap .cMedia-ThumbList.Albums .cMedia-Summary > * {
+  text-align: left;
+}
+#community-wrap .cSlider-List.Photos * {
+  text-align: left;
+}
+#community-wrap .cFeatured-Events .cFeaturedBottom .cFeaturedTitle,
+#community-wrap .cFeatured-Events .cFeaturedBottom .cFeaturedMeta {
+  text-align: left;
+}
+.cMods-HelloMe .cMod-Notify {
+  text-align: right;
+}
+.cMods-HelloMe .link-user-1,
+.cMods-HelloMe .cHello-Karma {
+  text-align: left;
+}
+.head_search .search #mod-search-searchword:focus,
+.head_search .search #mod-search-searchword:hover {
+  background: url("../../templates/bt_education/images/search_button.png") no-repeat scroll 97% center #fff;
+}
+#community-wrap .joms-postbox > .joms-postbox-tab ul li[data-tab="status"] .joms-icon-pencil:before {
+  background: url("../../templates/bt_education/images/jomsocial/icon-post-stt.png") no-repeat scroll left center transparent;
+}
+#community-wrap .joms-postbox > .joms-postbox-tab ul li[data-tab="photo"] .joms-icon-camera:before {
+  background: url("../../templates/bt_education/images/jomsocial/icon-post-photo.png") no-repeat scroll left center transparent;
+}
+#community-wrap .joms-postbox > .joms-postbox-tab ul li[data-tab="video"] .joms-icon-videocam:before {
+  background: url("../../templates/bt_education/images/jomsocial/icon-post-video.png") no-repeat scroll left center transparent;
+}
+#community-wrap .joms-postbox > .joms-postbox-tab ul li[data-tab="event"] .joms-icon-calendar:before {
+  background: url("../../templates/bt_education/images/jomsocial/bg-hellome-my-event.png") no-repeat scroll left center transparent;
+}
+#community-wrap .cMedia-ThumbList.Photos .cMedia-Avatar .photo_remove_button {
+  background: url("../../templates/bt_education/images/jomsocial/button-photo-remove-image.png") no-repeat scroll 95% center #333333;
+  text-align: left;
+}
+#cp-caption #cp-caption-inner {
+  text-align: left;
+}
+

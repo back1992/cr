@@ -1,0 +1,151 @@
+.scale-up {
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-ms-transform: scale(0);
+	-o-transform: scale(0);
+	transform: scale(0);
+	-webkit-animation: 0.3s ease-in-out 0s normal forwards 1 scaleUp;
+	-moz-animation: 0.3s ease-in-out 0s normal forwards 1 scaleUp;
+	-ms-transform: 0.3s ease-in-out 0s normal forwards 1 scaleUp;
+	-o-transform: 0.3s ease-in-out 0s normal forwards 1 scaleUp;
+	animation: 0.3s ease-in-out 0s normal forwards 1 scaleUp;
+}
+.move-up {
+	-webkit-transform: translateY(200px);
+	-moz-transform: translateY(200px);
+	-ms-transform: translateY(200px);
+	-o-transform: translateY(200px);
+	transform: translateY(200px);
+	
+	-webkit-animation: 0.65s ease 0s normal forwards 1 moveUp;
+	-moz-animation: 0.65s ease 0s normal forwards 1 moveUp;
+	-ms-transform: 0.65s ease 0s normal forwards 1 moveUp;
+	-o-transform: 0.65s ease 0s normal forwards 1 moveUp;
+	animation: 0.65s ease 0s normal forwards 1 moveUp;
+	opacity: 0;
+}
+.move-up-h {
+	-webkit-transform: translateY(100px);
+	-moz-transform: translateY(100px);
+	-ms-transform: translateY(100px);
+	-o-transform: translateY(100px);
+	transform: translateY(100px);
+	
+	-webkit-animation: 0.65s cubic-bezier(0.39, 1.5, 0.66, 1.06) 0s normal forwards 1 moveUp;
+	-moz-animation: 0.65s cubic-bezier(0.39, 1.5, 0.66, 1.06) 0s normal forwards 1 moveUp;
+	-ms-transform: 0.65s cubic-bezier(0.39, 1.5, 0.66, 1.06) 0s normal forwards 1 moveUp;
+	-o-transform: 0.65s cubic-bezier(0.39, 1.5, 0.66, 1.06) 0s normal forwards 1 moveUp;
+	animation: 0.65s cubic-bezier(0.39, 1.5, 0.66, 1.06) 0s normal forwards 1 moveUp;
+	opacity: 0;
+}
+.move-up-r {
+	-webkit-transform: rotate(50deg);
+	-moz-transform: rotate(50deg);
+	-ms-transform: rotate(50deg);
+	-o-transform: rotate(50deg);
+	transform: rotate(50deg);
+	
+	-webkit-animation: 0.65s ease 0s normal forwards 1 moveRotate;
+	-moz-animation: 0.65s ease 0s normal forwards 1 moveRotate;
+	-ms-transform: 0.65s ease 0s normal forwards 1 moveRotate;
+	-o-transform: 0.65s ease 0s normal forwards 1 moveRotate;
+	animation: 0.65s ease 0s normal forwards 1 moveRotate;
+	opacity: 0;
+}
+.move-right {
+	-webkit-transform: translateX(-200px);
+	-moz-transform: translateX(-200px);
+	-ms-transform: translateX(-200px);
+	-o-transform: translateX(-200px);
+	transform: translateX(-200px);
+	
+	-webkit-animation: moveRight 0.65s ease forwards;
+	-moz-animation: moveRight 0.65s ease forwards;
+	-ms-transform: moveRight 0.65s ease forwards;
+	-o-transform: moveRight 0.65s ease forwards;
+	animation: moveRight 0.65s ease forwards;
+	opacity: 0;
+}
+.scroll_showcase .item-inner,.box-scale,.box_right .box,.box_left img{
+    opacity: 0;
+}
+
+@-webkit-keyframes moveUp {
+	to { -webkit-transform: translateY(0); opacity: 1; }
+}
+
+@-moz-keyframes moveUp {
+	to { -moz-transform: translateY(0); opacity: 1; }
+}
+
+@-ms-keyframes moveUp {
+	to { -moz-transform: translateY(0); opacity: 1; }
+}
+
+@-o-keyframes moveUp {
+	to { -moz-transform: translateY(0); opacity: 1; }
+}
+
+@keyframes moveUp {
+	to { transform: translateY(0); opacity: 1; }
+}
+
+@-webkit-keyframes moveRight {
+	to { -webkit-transform: translateX(0); opacity: 1; }
+}
+
+@-moz-keyframes moveRight {
+	to { -moz-transform: translateX(0); opacity: 1; }
+}
+
+@-ms-keyframes moveRight {
+	to { -moz-transform: translateX(0); opacity: 1; }
+}
+
+@-o-keyframes moveRight {
+	to { -moz-transform: translateX(0); opacity: 1; }
+}
+
+@keyframes moveRight {
+	to { transform: translateX(0); opacity: 1; }
+}
+
+@-webkit-keyframes scaleUp {
+	to { -webkit-transform: scale(1); opacity: 1; }
+}
+
+@-moz-keyframes scaleUp {
+	to { -moz-transform: scale(1); opacity: 1; }
+}
+
+@-ms-keyframes scaleUp {
+	to { -moz-transform: scale(1); opacity: 1; }
+}
+
+@-o-keyframes scaleUp {
+	to { -moz-transform: scale(1); opacity: 1; }
+}
+
+@keyframes scaleUp {
+	to { transform: scale(1); opacity: 1; }
+}
+
+@-webkit-keyframes moveRotate {
+	to { -webkit-transform: rotate(0); opacity: 1; }
+}
+
+@-moz-keyframes moveRotate {
+	to { -moz-transform: rotate(0); opacity: 1; }
+}
+
+@-ms-keyframes moveRotate {
+	to { -moz-transform: rotate(0); opacity: 1; }
+}
+
+@-o-keyframes moveRotate {
+	to { -moz-transform: rotate(0); opacity: 1; }
+}
+
+@keyframes moveRotate {
+	to { transform: rotate(0); opacity: 1; }
+}

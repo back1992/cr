@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="widget" version="2.5" method="upgrade">
+<name>Linkedin Build a Jobs</name>
+<type>Social Widgets</type>
+<version>1.0</version>
+<author>BowThemes</author>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<creationDate>October 2013</creationDate>
+<description><![CDATA[
+<p>The Linkedin show job .</p>]]></description>
+<languages>
+		<language tag="en-GB">language/en-GB.linkedin_job.ini</language>		
+</languages>
+<config>
+<fields name="params">
+			<fieldset name="basic">
+				<field name="job"  type="list" default="0" class="bt_control" label="WIDGET_LINKEDIN_JOB_LABEL" description="WIDGET_LINKEDIN_JOB_DESC">
+                    <option value="1">Your jobs</option>
+                    <option value="0">All jobs</option>                    
+                </field>
+				<field
+					name="company_id" class="job_1"  type="text" size="33"
+					default=""
+					label="WIDGET_LINKEDIN_COMPANY_ID_LABEL"
+					description="WIDGET_LINKEDIN_COMPANY_ID_DESC">
+				</field>				
+				
+								
+				
+			</fieldset>			
+			
+</fields>
+</config>
+</extension>

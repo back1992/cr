@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="widget" version="2.5" method="upgrade">
+<name>Twitter feed</name>
+<type>Social Widgets</type>
+<version>1.0</version>
+<author>BowThemes</author>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<creationDate>October 2013</creationDate>
+<description><![CDATA[
+<p>You can display any twitter-user tweets on your Joomla site by simple adding the twitter user-name.</p>]]></description>
+<languages>
+		<language tag="en-GB">language/en-GB.twitter_feed.ini</language>		
+</languages>
+<config>
+		<fields name="params">
+			<fieldset
+				name="Settings" label="WIDGET_SETTINGS">
+				<field type="spacer"   class="bt-spacer" name="WIDGET_INTRO" />
+				
+				<field
+					name="embed_code"
+					type="textarea"
+					default=""
+					filter="raw"
+					rows="5"
+					cols="50"
+					label="WIDGET_EMBED_CODE_LABEL"
+					description="WIDGET_EMBED_CODE_DESC">
+				</field>
+			</fieldset>
+			<fieldset name="Preferences" label="WIDGET_PREFERENCES">
+				<field
+					name="tweet-limit"
+					type="text"
+					default=""
+					size="5"
+					label="WIDGET_NUMBER_TWEET_LABEL"
+					description="WIDGET_NUMBER_TWEET_DESC">			
+				</field>
+				<field
+					name="width"
+					type="text"
+					default=""
+					size="5"
+					label="WIDGET_WIDTH_LABEL"
+					description="WIDGET_WIDTH_DESC">
+				</field>
+				<field
+					name="height"
+					type="text"
+					default=""
+					size="5"
+					label="WIDGET_HEIGHT_LABEL"
+					description="WIDGET_HEIGHT_DESC">
+				</field>
+				<field
+					name="theme"
+					type="list"
+					default="true"
+					class="btn-group"
+					label="WIDGET_THEME_LABEL"
+					description="WIDGET_THEME_DESC">
+					<option	value="">Default</option>
+					<option	value="dark">Dark</option>
+					<option	value="light">Light</option>
+				</field>
+				<field
+					name="link-color"
+					type="text"
+					class="bt_color"
+					default=""			
+					label="WIDGET_LINK_COLOR_LABEL"
+					description="WIDGET_LINK_COLOR_DESC">
+				</field>
+				<field
+					name="border-color"
+					type="text"
+					class="bt_color"
+					default=""			
+					label="WIDGET_LINK_BORDERCOLOR_LABEL"
+					description="WIDGET_LINK_BORDERCOLOR_DESC">
+				</field>
+				
+				<field
+					name="noheader"
+					type="radio"
+					class="btn-group"
+					default="0"
+					label="WIDGET_NOHEADER_LABEL"
+					description="WIDGET_NOHEADER_DESC">
+					<option
+						value="1">JYES</option>
+					<option
+						value="0">JNO</option>
+				</field>
+				<field
+					name="nofooter"
+					type="radio"
+					class="btn-group"
+					default="0"
+					label="WIDGET_NOFOOTER_LABEL"
+					description="WIDGET_NOFOOTER_DESC">
+					<option
+						value="1">JYES</option>
+					<option
+						value="0">JNO</option>
+				</field>
+				<field
+					name="noborder"
+					type="radio"
+					class="btn-group"
+					default="0"
+					label="WIDGET_NOBORDER_LABEL"
+					description="WIDGET_NOBORDER_DESC">
+					<option
+						value="1">JYES</option>
+					<option
+						value="0">JNO</option>
+				</field>
+				<field
+					name="noscrollbar"
+					type="radio"
+					class="btn-group"
+					default="0"
+					label="WIDGET_NOSCROLLBAR_LABEL"
+					description="WIDGET_NOSCROLLBAR_DESC">
+					<option
+						value="1">JYES</option>
+					<option
+						value="0">JNO</option>
+				</field>
+				<field
+					name="transparent"
+					type="radio"
+					class="btn-group"
+					default="0"
+					label="WIDGET_TRANSPARENT_LABEL"
+					description="WIDGET_TRANSPARENT_DESC">
+					<option
+						value="1">JYES</option>
+					<option
+						value="0">JNO</option>
+				</field>
+				
+			</fieldset>
+			
+		</fields>
+	</config>
+</extension>

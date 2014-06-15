@@ -1,0 +1,85 @@
+
+
+@media (max-width: 767px) {
+  #ezblog-menu .blog-navi li.toolbar-item {
+    border: none;
+  }
+  #ezblog-menu.narrow .blog-navi li .tips {
+    z-index: 11;
+  }
+}
+@media (max-width: 479px) {
+  .head_search .search #mod-search-searchword {
+    background: url("../../templates/bt_education/images/search_button.png") no-repeat scroll 97% center #fff !important;
+    color: #666 !important;
+  }
+  div.bt-inforbasic-item {
+    line-height: 23px;
+  }
+  div.bt-inforbasic-item .itemCategory {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 1199px) and (min-width: 320px) {
+  #eblog-wrapper .in-block,
+  #eblog-wrapper .float-r,
+  #eblog-wrapper .float-l {
+    float: left !important;
+  }
+  #eblog-wrapper.w320 #ezblog-body .profile-avatar + .profile-info {
+    margin: 0px 0px 0px 160px;
+    clear: none;
+  }
+  #ezblog-body ul.featured-entries .featured-image {
+    border: 0px none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    clear: both;
+  }
+  #ezblog-body ul.featured-entries .featured-image img {
+    width: 100%;
+    max-width: 100%;
+  }
+  #ezblog-body .featured-author a.avatar {
+    margin-left: 0;
+  }
+  #ezblog-body .featured-author a {
+    display: inline-block;
+    line-height: 34px;
+    padding-bottom: 5px;
+  }
+  #ezblog-body .featured-author {
+    padding-bottom: 5px;
+  }
+  #ezblog-body .bt-default-item .bt-image-head .blog-image {
+    width: 100%;
+  }
+  #ezblog-body .blog-avatar + .blog-cap {
+    padding-bottom: 1px;
+  }
+  #eblog-wrapper .in-block,
+  #eblog-wrapper .float-r,
+  #eblog-wrapper .toolbar-item.user-access.float-r {
+    float: right !important;
+  }
+  #ezblog-body .bt-default-item .blog-meta-list-item .blog-author a {
+    display: inline-block;
+    margin-top: 5px;
+  }
+  #Kunena {
+    position: relative;
+  }
+  #Kunena #ktop span.ktoggler {
+    top: 0;
+    margin-right: 7px;
+  }
+  #Kunena .kprofilebox form .input span input.ks {
+    margin-bottom: 10px;
+  }
+  #Kunena div.kblock span.ktoggler,
+  #Kunena #ktop span.ktoggler {
+    margin: 0px 3px 0px 0px;
+  }
+}
+

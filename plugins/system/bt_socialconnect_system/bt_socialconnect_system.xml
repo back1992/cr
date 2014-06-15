@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" group="system" type="plugin" method="upgrade">
+	<name>BT Social Connect - System</name>
+	<author>Bowthemes</author>
+	<creationDate>January 2014</creationDate>
+	<copyright>Copyright (C) 2014 BowThemes.com. All rights reserved.</copyright>
+	<authorEmail>support@BowThemes.com</authorEmail>
+	<authorUrl>http://www.BowThemes.com/</authorUrl>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>1.0.0</version>
+	<description>This is system plugin of BT Social Connect</description>
+	<files>
+		<filename plugin="bt_socialconnect_system">bt_socialconnect_system.php</filename>
+		<folder>element</folder>
+	</files>	
+</extension>

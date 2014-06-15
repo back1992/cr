@@ -1,0 +1,359 @@
+/** 
+ *------------------------------------------------------------------------------
+ * @package       T3 Framework for Joomla!
+ *------------------------------------------------------------------------------
+ * @copyright     Copyright (C) 2004-2013 JoomlArt.com. All Rights Reserved.
+ * @license       GNU General Public License version 2 or later; see LICENSE.txt
+ * @authors       JoomlArt, JoomlaBamboo, (contribute to this project at github 
+ *                & Google group to become co-author)
+ * @Google group: https://groups.google.com/forum/#!forum/t3fw
+ * @Link:         http://t3-framework.org 
+ *------------------------------------------------------------------------------
+ */
+
+@media (max-width: @navbarCollapseWidth) {
+  body {
+    padding-top: 0px;
+  }
+    // BT Style
+	.header_bottom .container{
+		position: relative;
+	}
+  .navbar-collapse-fixed-top, .navbar-collapse-fixed-bottom{
+	right: 0;
+	left: auto!important;
+	top: 20px!important;
+	position: absolute;
+  }
+  .head_login{
+	margin-right: 20px;
+  }
+  .t3-navhelper{
+	margin: 0;
+  }
+  .logo{
+	padding: 0 0 0 20px;
+  }
+  .t3-mainnav{
+	background: none!important;
+  }
+  .t3-mainnav .navbar .btn-navbar{
+	float: right;
+	margin: 0 20px 0 0;
+  }
+  .t3-mainnav .navbar .btn-navbar [class^="icon-"], .t3-mainnav .navbar .btn-navbar [class^=" icon-"]{
+	color: #fff;
+  }
+  .t3-mainnav .navbar .btn-navbar{
+	background: @linkColor;
+  }
+  .navbar-collapse-fixed-top .nav-collapse, .navbar-collapse-fixed-bottom .nav-collapse{
+	top: 50px;
+  }
+  .t3-mainnav .navbar .nav{
+	margin: 5px 0 15px;
+  }
+  .t3-mainnav .navbar .nav > li > a{
+	padding: 8px 15px!important;
+  }
+  .t3-megamenu .mega > .mega-dropdown-menu{
+	margin-top: 0!important;
+  }
+  .nav-collapse .nav > li{
+	border-bottom: 1px solid #E5E5E5;
+  }
+  .t3-mainnav .nav-collapse .dropdown-menu{
+	background: none;
+  }
+  .t3-mainnav .nav-collapse .dropdown-menu a{
+	border-color: #e5e5e5;
+  }
+  .t3-mainnav .dropdown-menu li:first-child > a{
+	border-top: 1px solid #e5e5e5;
+  }
+  .t3-mainnav .navbar .nav > li > .dropdown-menu:before{
+	top: 35px!important;
+	left: 40px!important;
+  }
+  .t3-mainnav .nav-collapse .dropdown-menu.open a, .t3-mainnav .nav-collapse .dropdown-submenu.open > a, .t3-mainnav .nav-collapse .dropdown-menu a:hover{
+	background: @linkColor;
+  }
+  .t3-mainnav .navbar .btn-navbar:hover,
+  .t3-mainnav .navbar .btn-navbar:active,
+  .t3-mainnav .navbar .btn-navbar:focus{
+	background: darken(@linkColor,10%);
+  }
+  .logo{
+	position: relative;
+	z-index: 12;
+  }
+  .t3-mainnav{
+	z-index: 11;
+  }
+  .background_slideshow{
+	height: 400px!important;
+  }
+  #cp-caption-inner{
+	top: 30px!important;
+  }
+  .cp-desc-block{
+	padding: 0 20px;
+  }
+  .cp-title,
+  .cp-title a{
+	font-size: 24px!important;
+	line-height: 36px!important;
+  }
+  .bgslideshow_desc_big{
+	font-size: 18px!important;
+  }
+  .bgslideshow_desc_small{
+	font-size: 13px!important;
+	line-height: 24px!important;
+  }
+  
+	
+} 
+
+//
+
+@media (max-width: 1199px) {
+	// Sidebar
+	#login-form input[type="text"], #login-form input[type="password"]{
+		width: 80%!important;
+	}
+	
+	// Easy Blog
+	#ezblog-body .bt-default-item .bt-image-head .blog-image{
+		margin: 0;
+	}
+	#ezblog-body .blog-text img, #ezblog-body .blog-content img{
+		width: 100%;
+	}
+	#ezblog-menu .blog-navi li.toolbar-item{
+		border: none;
+	}
+	#ezblog-posts .blog-content .blog-image{
+		float: none;
+		display: inline;
+		margin: 0;
+	}
+	#ezblog-body .blog-avatar{
+		margin-left: 0;
+	}
+	#ezblog-body .blog-avatar + .blog-cap{
+		clear: none!important;
+		margin-top: 0!important;
+	}
+	.blog-meta-bottom,
+	.blog-taglist{
+		margin: 0 10px;
+	}
+	.bg-form-row .form-row{
+		width: 50%!important;
+		float: left;
+	}
+	.form-row-inner{
+		padding-right: 10px!important;
+	}
+	.name-field .form-row-inner,
+	.website-field .form-row-inner{
+		padding: 0!important;
+	}
+	.head_infor{
+		position: absolute;
+	}
+	.navbar .nav > li > a{
+		padding: 10px 15px!important;
+	}
+	.t3-megamenu .mega > .mega-dropdown-menu{
+		margin-top:0!important;
+	}
+	
+}
+// MOBILE
+// -------------------------------------------------------------
+@media (max-width: 767px) {
+
+  // HEADER
+  // ---------------------------------------------------------
+  // Logo
+  // ----
+  .logo {
+    float: left !important;
+    text-align: center;
+    /*width: 100% !important;*/
+  }
+
+  // Head Search
+  // -----------
+  .head-search {
+    float: left !important;
+    margin-top: @T3globalMargin;
+    margin-left: 0 !important;
+    width: 100% !important;
+
+    form {
+      float: none;
+    }
+  
+    .input {
+      width: 100%;
+      .box-sizing(border-box);
+      height: 30px;
+      // focus state
+      &:focus {
+        width: 100%;
+      }
+    }
+  
+  }
+
+  .t3-header .span8, 
+  .t3-header .span4 {
+    width: 100% !important;
+    margin-left: 0 !important;
+    float: none;
+  } 
+
+  .languageswitcherload{
+    float: left;
+    .mod-languages {
+      text-align: right;
+    }
+  }
+
+
+  // SPOTLIGHTS
+  // ---------------------------------------------------------
+  .t3-sl {
+    padding-bottom: @T3globalPadding;
+    padding-top: @T3globalPadding;
+  }
+
+
+  // FOOTER
+  // ---------------------------------------------------------
+  .t3-footer {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+
+  // Footnav
+  // -------
+  .t3-footnav {
+    padding: @T3globalPadding 20px 0;
+    font-size: @T3smallerFontSize;
+  }
+
+  .t3-footnav .module-title {
+    font-size: @baseFontSize;
+    font-weight: bold;
+  }
+
+  // Copyright
+  // ---------
+  .t3-copyright {
+    padding: @T3globalPadding 20px (@T3globalPadding * 2);
+    .clearfix();
+  }
+
+  .copyright,
+  .poweredby {
+    float: none;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .poweredby {
+    margin-top: @T3globalMargin / 2;
+    .t3-logo,
+    .t3-logo-small {
+      float: none;
+      display: inline-block;
+    }
+  }
+  //End
+  
+  //BT
+  //Header
+  .header_top_inner, .header_bottom_inner{
+	display: none;
+  }
+  .header_top .container{
+	height: auto!important;
+  }
+  .top_header_right,
+  .top_header_left{
+	float: none;
+	width: auto!important;
+	margin: 0;
+  }
+  .top_header_left{
+	position: static;
+  }
+  
+  .header_bottom{
+	background: @linkColor;
+  }
+  .t3-header,
+  #background_slideshow,
+  .top_mainbody,
+  .t3-navhelper,
+  .t3-copyright{
+	margin: 0 -20px;
+  }
+  .t3-footer .t3-module{
+	padding: 0 20px;
+  }
+  .why_about_us .content_why_box{
+	width: 33%!important;
+	border-bottom: 1px solid lighten(@linkColor, 10%);
+  }
+
+}
+@media (max-width: 479px) {
+	// K2
+	
+	.itemCommentsForm .form-row .inputbox{
+		width: 100%;
+		padding: 4px;
+		margin: 0;
+	}
+	div.item-col-of2{
+		float: none;
+		width: 100%;
+	}
+	div.itemRelated{
+		margin-left: 0;
+	}
+	.head_search .search #mod-search-searchword:focus, .head_search .search #mod-search-searchword:hover{
+		width: 180px!important;
+	}
+	.why_about_us .content_why_box{
+		width: 50%!important;
+	}
+	#ezblog-body .tab_button li{
+		width: 100%;
+	}
+	#eb-fblikes{
+		overflow: hidden;
+		width: 100%;
+	}
+	#eblog-wrapper .blog-header .blog-avatar{
+		float: left!important;
+	}
+	#ezblog-body .forCategory .profile-avatar, #ezblog-body .forTeamBlog .profile-avatar{
+		width: auto;
+		float: left!important;
+		margin: 0 15px 10px 0;
+	}
+	#ezblog-body .forCategory .profile-avatar .avatar-wrapper img, #ezblog-body .forTeamBlog .profile-avatar .avatar-wrapper img{
+		width: auto;	
+	}
+	#eblog-wrapper.w320 #ezblog-body .profile-avatar + .profile-info{
+		margin: 0;
+		padding: 15px 10px;
+		clear: none;
+	}
+}

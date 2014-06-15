@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="widget" version="2.5" method="upgrade">
+<name>Google Comment</name>
+<type>Social Widgets</type>
+<version>1.0</version>
+<author>BowThemes</author>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<creationDate>October 2013</creationDate>
+<description><![CDATA[
+<p>The Google+ comment allows visitors to your site cant comment</p>]]></description>
+<languages>
+		<language tag="en-GB">language/en-GB.google_comment.ini</language>		
+</languages>
+<config>
+		<fields name="params">
+          <fieldset name="basic">			
+			<field name="width" type="text" default="650" label="WIDGET_GOOGLE_WIDTH" description="WIDGET_GOOGLE_WIDTH_DESC" />
+		</fieldset>		
+     </fields>
+	 </config>
+</extension>

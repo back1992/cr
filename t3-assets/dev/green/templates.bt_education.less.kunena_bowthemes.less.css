@@ -1,0 +1,75 @@
+
+
+#Kunena a:link,
+#Kunena a:visited,
+#Kunena a:active {
+  color: #75b510 !important;
+}
+#Kunena a:hover {
+  color: #2c2929 !important;
+}
+#Kunena a.kwho-admin {
+  color: #bd920d !important;
+}
+#Kunena .kprofileboxcnt a {
+  color: #ffffff !important;
+}
+#Kunena #ktop span.ktoggler {
+  position: absolute;
+  right: 0;
+  margin-right: 78px;
+}
+#Kunena #ktab a span {
+  font-family: "Merriweather";
+}
+#Kunena #ktab ul.menu li {
+  border-right: 1px solid #505050;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+#Kunena #ktab ul.menu li.active,
+#Kunena #ktab ul.menu li:hover,
+#Kunena #ktab ul.menu #current {
+  background: #75b510;
+  border-right-color: #75b510;
+}
+#Kunena #ktab ul.menu li.active a span,
+#Kunena #ktab ul.menu li:hover a span,
+#Kunena #ktab ul.menu #current a span {
+  color: #fff;
+}
+#Kunena .kpbox {
+  background: #75b510;
+  color: #fff;
+}
+#Kunena .kblock.kpathway {
+  background: #75b510;
+}
+#Kunena .path-element-first {
+  background: url(../../../templates/bt_education/images/themes/green/pathway_start.png) no-repeat left top;
+}
+#Kunena .kforum-pathway .path-element,
+#Kunena .kforum-pathway-bottom .path-element {
+  background: url("../../../templates/bt_education/images/themes/green/bt_k_arrow-ltr.png") no-repeat left center;
+}
+#Kunena .kforum-pathway a:hover {
+  color: #2c2929 !important;
+}
+#Kunena .kheader h2 {
+  font-family: "Oswald";
+}
+#Kunena div.kthead-title a {
+  font-family: "Merriweather";
+}
+#Kunena .kpost-profile span.kavatar img,
+#Kunena .kprofilebox .kavatar {
+  max-width: none !important;
+}
+#Kunena .kprofileboxcnt .kbutton:hover {
+  color: #fff;
+  background: #bd920d;
+  border-color: #bd920d;
+}
+

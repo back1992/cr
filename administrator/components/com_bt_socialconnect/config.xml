@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset name="socialsetting" label="COM_BT_SOCIALCONNECT_CONFIG_SOCIAL_SETTING_LABEL"
+		addfieldpath="/administrator/components/com_bt_socialconnect/models/fields">
+		<field type="spacer" label="Facebook:" />
+		<field name="fbactive" type="radio" class="btn-group bt_control" 
+			label="COM_BT_SOCIALCONNECT_CONFIG_FACBOOK_ACTIVE_LABEL" description="COM_BT_SOCIALCONNECT_CONFIG_FACBOOK_ACTIVE_DESC"
+			default="1">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="fbappId" type="text"  
+			label="COM_BT_SOCIALCONNECT_CONFIG_FACBOOK_APPID_LABEL" description="COM_BT_SOCIALCONNECT_CONFIG_FACBOOK_APPID_DESC"
+			default=""/>
+			
+		<field name="fbsecret" type="text" 
+			label="COM_BT_SOCIALCONNECT_CONFIG_SECRET_LABEL" description="COM_BT_SOCIALCONNECT_CONFIG_SECRET_DESC"
+			default=""/>
+			
+		<field name="fbregister" type="list" default="automatic" label="COM_BT_SOCIALCONNECT_CONFIG_REGISTRATION_LABEL" description="COM_BT_SOCIALCONNECT_CONFIG_REGISTRATION_DESC">
+			<option value="normally">Normally</option>
+			<option value="automatic">Automatic</option>
+		</field>		
+		
+		<field type="spacer" label="Google:" />
+		<field name="ggactive" type="radio" class="btn-group bt_control" 
+			label="COM_BT_SOCIALCONNECT_CONFIG_GOOGLE_ACTIVE_LABEL" description="COM_BT_SOCIALCONNECT_CONFIG_GOOGLE_ACTIVE_DESC"
+			default="1">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="ggappId" type="text"  
+			label="COM_BT_SOCIALCONNECT_CONFIG_GOOGLE_APPID_LABEL" description="COM_BT_SOCIALCONNECT_CONFIG_GOOGLE_APPID_DESC"
+			default=""/>
+			
+		<field name="ggsecret" type="text" 
+			label="COM_BT_SOCIALCONNECT_CONFIG_SECRET_LABEL" description="COM_BT_SOCIALCONNECT_CONFIG_SECRET_DESC"
+			default=""/>
+			
+		<field name="ggregister" type="list" default="automatic" label="COM_BT_SOCIALCONNECT_CONFIG_REGISTRATION_LABEL" description="COM_BT_SOCIALCONNECT_CONFIG_REGISTRATION_DESC">
+			<option value="normally">Normally</option>
+			<option value="automatic">Automatic</option>
+		</field>		
+		
+		<field type="spacer" label="Twitter:" />
+		<field name="ttactive" type="radio" class="btn-group bt_control" 
+			label="COM_BT_SOCIALCONNECT_CONFIG_TWITTER_ACTIVE_LABEL" description="COM_BT_SOCIALCONNECT_CONFIG_TWITTER_ACTIVE_DESC"
+			default="1">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="ttappId" type="text" 
+			label="COM_BT_SOCIALCONNECT_CONFIG_TWITTER_APPID_LABEL" description="COM_BT_SOCIALCONNECT_CONFIG_TWITTER_APPID_DESC"
+			default=""/>
+			
+		<field name="ttsecret" type="text" 
+			label="COM_BT_SOCIALCONNECT_CONFIG_SECRET_LABEL" description="COM_BT_SOCIALCONNECT_CONFIG_SECRET_DESC"
+			default=""/>
+			
+		<field name="ttregister" type="list" default="automatic" label="COM_BT_SOCIALCONNECT_CONFIG_REGISTRATION_LABEL" description="COM_BT_SOCIALCONNECT_CONFIG_REGISTRATION_DESC">
+			<option value="normally">Normally</option>
+			<option value="automatic">Automatic</option>
+		</field>		
+		<field type="spacer" label="LinkedIn:" />
+		<field name="linkactive" type="radio" class="btn-group bt_control" 
+			label="COM_BT_SOCIALCONNECT_CONFIG_LINKEDIN_ACTIVE_LABEL" description="COM_BT_SOCIALCONNECT_CONFIG_LINKEDIN_ACTIVE_DESC"
+			default="1">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="linkappId" type="text" 
+			label="COM_BT_SOCIALCONNECT_CONFIG_LINKEDIN_APPID_LABEL" description="COM_BT_SOCIALCONNECT_CONFIG_LINKEDIN_APPID_DESC"
+			default=""/>
+			
+		<field name="linksecret" type="text" 
+			label="COM_BT_SOCIALCONNECT_CONFIG_SECRET_LABEL" description="COM_BT_SOCIALCONNECT_CONFIG_SECRET_DESC"
+			default=""/>
+			
+		<field name="linkregister" type="list" default="automatic" label="COM_BT_SOCIALCONNECT_CONFIG_REGISTRATION_LABEL" description="COM_BT_SOCIALCONNECT_CONFIG_REGISTRATION_DESC">
+			<option value="normally">Normally</option>
+			<option value="automatic">Automatic</option>
+		</field>
+	</fieldset>
+	
+	<fieldset name="user_setting" label="COM_BT_SOCIALCONNECT_USER_SETTING">
+		<field type="spacer" label="User setting" />
+		<field name="remove_user" type="radio" default="0" class="btn-group bt_control" label="COM_BT_SOCIALCONNECT_REMOVE_USER_LABEL" description="COM_BT_SOCIALCONNECT_REMOVE_USER_DESC">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="ignore_activate" type="radio" default="1" class="btn-group bt_control" label="COM_BT_SOCIALCONNECT_IGNORE_ACTIVATE_LABEL" description="COM_BT_SOCIALCONNECT_IGNORE_ACTIVATE_DESC">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="userautologin" type="radio" default="1" class="btn-group bt_control" label="COM_BT_SOCIALCONNECT_USER_AUTOLOGIN_LABEL" description="COM_BT_SOCIALCONNECT_USER_AUTOLOGIN_DESC">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="loginredirection" type="text" default="" size="50" label="COM_BT_SOCIALCONNECT_LOGIN_REDIRECTION_LABEL"	description="COM_BT_SOCIALCONNECT_LOGIN_REDIRECTION_DESC"/>
+		<field name="logoutredirection" type="text" default="" size="50"  label="COM_BT_SOCIALCONNECT_LOGOUT_REDIRECTION_LABEL"	description="COM_BT_SOCIALCONNECT_LOGOUT_REDIRECTION_DESC"/>
+		<field type="spacer" label="User social setting" />
+		<field name="fbuserautologin" type="radio" default="0" class="btn-group bt_control" label="COM_BT_SOCIALCONNECT_FACEBOOKUSER_AUTOLOGIN_LABEL" description="COM_BT_SOCIALCONNECT_FACEBOOKUSER_AUTOLOGIN_DESC">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field name="usernametype" type="list" default="auto" label="COM_BT_SOCIALCONNECTION_USERNAME_TYPE_LABEL" description="COM_BT_SOCIALCONNECTION_USERNAME_TYPE_DESC">
+			<option value="auto">COM_BT_SOCIALCONNECT_AUTO</option>
+			<option value="psocialid">COM_BT_SOCIALCONNECT_PREFIX_SOCIALID</option>
+			<option value="psocialusername">COM_BT_SOCIALCONNECT_PREFIX_SOCIALUSERNAME</option>
+			<option value="socialid">COM_BT_SOCIALCONNECT_SOCIALID</option>
+			<option value="socialusername">COM_BT_SOCIALCONNECT_SOCIALUSERNAME</option>
+			<option value="socialemail">COM_BT_SOCIALCONNECT_SOCIALEMAIL</option>
+
+		</field>			
+		<field type="asset" name="asset" path="administrator/components/com_bt_socialconnect/models/fields/assets/" />
+	</fieldset>
+	
+	<fieldset name="publishing_setting" label="COM_BT_SOCIALCONNECT_PUBLISHING_SETTING">
+		<field type="radio" name="enabled_publishing" default="1" autocomplete="off" class="btn-group bt_control"	description="COM_BT_SOCIALCONNECT_ENABLED_PUBLISHING_DESC" filter="raw" label="COM_BT_SOCIALCONNECT_ENABLED_PUBLISHING_LABEL" size="40">
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+		<field type="radio" name="count_post" default="1" autocomplete="off" class="btn-group bt_control"	description="COM_BT_SOCIALCONNECT_COUNT_POST_DESC" filter="raw" label="COM_BT_SOCIALCONNECT_COUNT_POST_LABEL" size="40">
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>		
+		<field name="shorturl" type="list" default="none" class="bt_control" label="COM_BT_SOCIALCONNECT_SHORT_URL_LABEL" description="COM_BT_SOCIALCONNECT_SHORT_URL_DESC">
+			<option value="none">COM_BT_SOCIALCONNECT_NONE</option>
+			<option value="bitly">COM_BT_SOCIALCONNECT_BITLY</option>
+			<option value="google">COM_BT_SOCIALCONNECT_GOOGLE</option>
+			<option value="tiny">COM_BT_SOCIALCONNECT_TINY</option>
+		</field>	
+		<field type="spacer" label="COM_BT_SOCIALCONNECT_BITLY_SPACE" class="shorturl_bitly"/>
+		<field name="bitly_login" type="text" default="" class="shorturl_bitly" label="COM_BT_SOCIALCONNECT_BITLY_LOGIN_LABEL" description="COM_BT_SOCIALCONNECT_BITLY_LOGIN_DESC"/>
+		<field name="bitly_apikey" type="text" default="" class="shorturl_bitly" label="COM_BT_SOCIALCONNECT_BITLY_APIKEY_LABEL" description="COM_BT_SOCIALCONNECT_BITLY_APIKEY_DESC"/>
+		<field type="spacer" label="COM_BT_SOCIALCONNECT_GOOGLE_SPACE" class="shorturl_google"/>
+		<field name="google_apikey" type="text" default="" size="40" class="shorturl_google" label="COM_BT_SOCIALCONNECT_GOOGLE_APIKEY_LABEL" description="COM_BT_SOCIALCONNECT_GOOGLE_APIKEY_DESC"/>
+	
+	</fieldset>
+	<fieldset name="image_setting" label="COM_BT_SOCIALCONNECT_IMAGESETTING_SETTING">
+		<field type="radio" name="cropthumb" default="0" autocomplete="off" class="btn-group bt_control"	description="COM_BT_SOCIALCONNECT_CROPTHUMB_DESC" filter="raw" label="COM_BT_SOCIALCONNECT_CROPTHUMB_LABEL" size="40">
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+		<field name="thumbwidth" type="text" class="cropthumb_1" default="180" label="COM_BT_SOCIALCONNECT_THUMBWIDTH_LABEL" description="COM_BT_SOCIALCONNECT_THUMBWIDTH_DESC"/>
+		<field name="thumbheight" type="text" class="cropthumb_1" default="110" label="COM_BT_SOCIALCONNECT_THUMBHEIGHT_LABEL" description="COM_BT_SOCIALCONNECT_THUMBHEIGHT_DESC"/>
+	</fieldset>
+</config>

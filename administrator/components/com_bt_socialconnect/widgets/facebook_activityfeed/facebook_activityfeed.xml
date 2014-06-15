@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="widget" version="2.5" method="upgrade">
+<name>Facebook Activity Feed</name>
+<type>Social Widgets</type>
+<version>1.0</version>
+<author>BowThemes</author>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<creationDate>October 2013</creationDate>
+<description><![CDATA[
+<style>
+.bt_description{
+				text-align:left;
+			}
+</style>
+<div class="bt_description"> 
+<p>
+The activity feed displays stories when people interact with content on your site, such as like, watch, read, or any custom action. 
+Activity is also displayed when people share content from your site in Facebook or if they comment on a page on your site in the Comments box. If people are logged in to Facebook, the plugin will be personalized to highlight content from their friends. If people are logged out, the activity feed will show recommendations from across your site, and provide the option to log in to Facebook
+</p>
+</div>
+]]></description>
+<languages>
+		<language tag="en-GB">language/en-GB.facebook_activityfeed.ini</language>		
+</languages>
+<config>
+<fields name="params">
+			<fieldset name="basic">				
+				<field name="fbdomain" type="text" size="30" default="" label="WIDGET_FACEBOOKACTIVITYFEED_DOMAIN" description="WIDGET_FACEBOOKACTIVITYFEED_DOMAIN_DESC" />
+				<field name="fbRendering" type="list" default="2" label="WIDGET_RENDERING" description="WIDGET_RENDERING_DESC" >
+				   <option value="1">XFBML</option>
+				   <option value="2">HTML5</option>
+				</field>
+				<field name="fbappid" type="text" default="" label="WIDGET_FACEBOOKACTIVITYFEED_APP_ID" description="WIDGET_FACEBOOKACTIVITYFEED_APP_ID_DESC" />							
+				<field name="fbaction" type="text" default="" label="WIDGET_FACEBOOKACTIVITYFEED_ACTION" description="WIDGET_FACEBOOKACTIVITYFEED_APP_ID_DESC" />							
+				
+				<field name="fbwidth" type="text" size="10" default="300" label="WIDGET_FACEBOOKACTIVITYFEED_WIDTH" description="WIDGET_FACEBOOKACTIVITYFEED_WIDTH_DESC" />
+				<field name="fbheight" type="text" size="10" default="300" label="WIDGET_FACEBOOKACTIVITYFEED_HEIGHT" description="WIDGET_FACEBOOKACTIVITYFEED_HEIGHT_DESC" />
+				<field name="fbshowheader" type="radio" class="btn-group" default="true" label="WIDGET_FACEBOOKACTIVITYFEED_SHOW_HEADER" description="WIDGET_FACEBOOKACTIVITYFEED_SHOW_HEADER_DESC" >
+					<option value="true">Yes</option>
+					<option value="false">No</option>
+				</field>	
+				<field name="fbcolorscheme" type="list" default="light" label="WIDGET_FACEBOOKACTIVITYFEED_COLOR_SCHEME" description="WIDGET_FACEBOOKACTIVITYFEED_COLOR_SCHEME_DESC" >
+					<option value="light">Light</option>
+					<option value="dark">Dark</option>
+				</field>
+				<field name="fblinktarget" type="list" default="_blank" label="WIDGET_FACEBOOKACTIVITYFEED_LINK_TARGET" description="WIDGET_FACEBOOKACTIVITYFEED_LINK_TARGET_DESC">
+					<option value="_blank">Blank</option>
+					<option value="_top">Top</option>
+					<option value="_parent">Parent</option>
+				</field>
+				<field name="fbfont" type="list" default="" label="WIDGET_FONT" description="WIDGET_FONT_DESC">
+					<option value=""></option>
+					<option value="arial">arial</option>
+					<option value="lucida grande">lucida grande</option>
+					<option value="segoe ui">segoe ui</option>
+					<option value="tahoma">tahoma</option>
+					<option value="trebuchet ms">trebuchet ms</option>
+					<option value="verdana">verdana</option>
+				</field>
+				<field name="fbbordercolor" type="text" class="bt_color" size="10" default="" label="WIDGET_FACEBOOKACTIVITYFEED_BORDER_COLOR" description="WIDGET_FACEBOOKACTIVITYFEED_BORDER_COLOR_DESC" />
+				<field name="fbrecommendations" type="radio" class="btn-group" default="false" label="WIDGET_FACEBOOKACTIVITYFEED_SHOW_RECOMMENDATIONS" description="WIDGET_FACEBOOKACTIVITYFEED_SHOW_RECOMMENDATIONS_DESC">
+					<option value="true">Yes</option>
+					<option value="false">No</option>
+				</field>
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="moduleclass_sfx" type="text"
+					label="WIDGET_MODULECLASS_SFX_LABEL"
+					description="WIDGET_MODULECLASS_SFX_DESC" />
+
+				<field
+                    name="cache"                   
+                    default="1"
+					type="radio" class="btn-group"
+                    label="WIDGET_CACHING_LABEL"
+                    description="WIDGET">
+                    <option
+                        value="1">Yes</option>
+                    <option
+                        value="0">no</option>
+                </field>
+                <field
+                    name="cache_time"
+                    type="text"
+                    default="900"
+                    label="WIDGET_CACHE_TIME_LABEL"
+                    description="WIDGET_CACHE_TIME_DESC" />
+                
+			</fieldset>
+</fields>
+</config>
+</extension>

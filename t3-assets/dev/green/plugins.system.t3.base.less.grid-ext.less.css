@@ -1,0 +1,46 @@
+
+
+.wrap {
+  width: auto;
+  clear: both;
+}
+.offset-12 {
+  margin-left: -976px;
+}
+.offset-11 {
+  margin-left: -893px;
+}
+.offset-10 {
+  margin-left: -810px;
+}
+.offset-9 {
+  margin-left: -727px;
+}
+.offset-8 {
+  margin-left: -644px;
+}
+.offset-7 {
+  margin-left: -561px;
+}
+.offset-6 {
+  margin-left: -478px;
+}
+.offset-5 {
+  margin-left: -395px;
+}
+.offset-4 {
+  margin-left: -312px;
+}
+.offset-3 {
+  margin-left: -229px;
+}
+.offset-2 {
+  margin-left: -146px;
+}
+.offset-1 {
+  margin-left: -63px;
+}
+.row-fluid .spanfirst {
+  margin-left: 0 !important;
+}
+

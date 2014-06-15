@@ -1,0 +1,80 @@
+
+
+.blog-featured,
+.blog {
+  margin-top: -24px;
+}
+.items-more h3 {
+  margin: 10px 0;
+}
+.info-blog {
+  position: relative;
+}
+.item-image > img {
+  width: 100%;
+}
+.article-info-wrapper {
+  background: url("../../templates/bt_education/images/bg-category-easyblog.png") repeat scroll 0 0 rgba(0,0,0,0);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  color: #fff;
+  padding: 10px 0;
+}
+.hasDate {
+  margin-left: 100px !important;
+}
+.info-blog .blog-created {
+  background: none repeat scroll 0 0 #e9682e;
+  color: #FFFFFF;
+  float: left;
+  font-family: "Merriweather";
+  font-size: 18px;
+  height: 68px;
+  margin-left: 19px;
+  margin-right: 13px;
+  margin-top: 0px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  width: 68px;
+}
+.info-blog .blog-created .date {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px;
+  display: block;
+}
+.info-blog .blog-created .month {
+  font-weight: normal;
+}
+.article-info {
+  width: auto;
+}
+.article-title {
+  line-height: 30px;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+.article-header {
+  padding: 15px 0;
+}
+.article-title,
+.article-header h1 {
+  line-height: 24px;
+}
+.item-page {
+  padding: 0 0 20px 0;
+}
+.pagenav li a {
+  display: inline-block;
+}
+.descriptionCategory {
+  margin: 12px 0;
+}
+.subCategoryMore {
+  display: inline-block;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension 
+	type="module" 
+	version="2.5.0"
+	method="upgrade"
+	client="site">
+	<name>BT Social Connect - Login</name>
+    <author>BowThemes</author>
+	<creationDate>August 2013</creationDate>
+   <copyright>Copyright (C) 2013 Bowthemes. All rights reserved.</copyright>
+   <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+   <authorEmail>support@bowthemes.com</authorEmail>
+   <authorUrl>http://www.bowthemes.com</authorUrl>
+	<version>1.0.0</version>
+	<description>The login &amp; registration module for BT Social Connect</description>
+	<files>
+		<filename module="mod_btsocialconnect_login">mod_btsocialconnect_login.php</filename>		
+		<filename>helper.php</filename> 
+		<filename>index.html</filename>
+		<filename>mod_btsocialconnect_login.xml</filename>
+		<folder>admin</folder>
+		<folder>tmpl</folder>
+	</files>
+	<help key="JHELP_EXTENSIONS_MODULE_MANAGER_LOGIN" />
+	<config>
+		<fields name="params">
+			<fieldset name="Layout" label="MOD_BTSOCIALCONNECT_FIELD_LAYOUT">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field
+					name="align_option"
+					type="list"
+					default="right"
+					label="MOD_BTSOCIALCONNECT_FIELD_ALIGN_OPTION_LABEL"
+					description="MOD_BTSOCIALCONNECT_FIELD_ALIGN_OPTION_DESC">
+				<option value="right">JGLOBAL_RIGHT</option>
+				<option value="center">JGLOBAL_CENTER</option>
+				<option value="left">JGLOBAL_LEFT</option>
+				</field>
+				<field 
+					name="display_type" 
+					type="list" 
+					default="0" 					
+					label="MOD_BTSOCIALCONNECT_FIELD_DISPLAY_TYPE_LABEL" description="MOD_BTSOCIALCONNECT_FIELD_DISPLAY_TYPE_DESC">
+					<option value="0">MOD_BTSOCIALCONNECT_FIELD_MODAL</option>
+					<option value="1">MOD_BTSOCIALCONNECT_FIELD_DROPDOWN</option>
+				</field>
+				<field 
+					name="mouse_event" 
+					type="list" 
+					default="click" 					
+					label="MOD_BTSOCIALCONNECT_FIELD__MOUSE_EVENT" description="MOD_BTSOCIALCONNECT_FIELD_MOUSE_EVENT_DESC">
+					<option value="click">MOD_BTSOCIALCONNECT_FIELD_CLICK</option>
+					<option value="hover">MOD_BTSOCIALCONNECT_FIELD_HOVER</option>
+				</field>
+				<field 
+					name="logout_button" 
+					type="radio" 
+					class="btn-group"
+					default="1" 
+					label="MOD_BTSOCIALCONNECT_FIELD_LOG_OUT_BUTTON_LABEL" 
+					description="MOD_BTSOCIALCONNECT_FIELD_LOG_OUT_BUTTON_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field 
+					name="enabled_registration_tab" 
+					type="radio" 
+					class="btn-group bt_control"
+					default="1" 
+					label="MOD_BTSOCIALCONNECT_FIELD_REGISTRATION_TAB" 
+					description="MOD_BTSOCIALCONNECT_FIELD_REGISTRATION_TAB_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field
+					name="tag_login_modal"
+					type="text"
+					default=""
+					label="MOD_BTSOCIALCONNECT_FIELD_TAB_LOGON_MODAL_LABEL"
+					description="MOD_BTSOCIALCONNECT_FIELD_TAB_LOGON_MODAL_DESC"
+				/>
+				<field
+					name="tag_register_modal" class="enabled_registration_tab_1"
+					type="text"
+					default=""
+					label="MOD_BTSOCIALCONNECT_FIELD_TAB_REGISTER_MODAL_LABEL"
+					description="MOD_BTSOCIALCONNECT_FIELD_TAB_REGISTER_MODAL_DESC"
+				/>				
+				<field name="loginbox_size" type="text" default="300" label="LOGINBOX_SIZE_LABEL" description="LOGINBOX_SIZE_DESC" />
+				<field name="registrationbox_size" default="425" type="text" label="REGISTRATIONBOX_SIZE_LABEL" description="REGISTRATIONBOX_SIZE_DESC" />
+			</fieldset>
+			<fieldset name="basic">				
+				<field 
+					name="login" 
+					type="text" 
+					default="" 
+					disable="separator" 
+					size="35"
+					label="MOD_BTSOCIALCONNECT_FIELD_LOGIN_REDIRECTION_URL" 
+					description="MOD_BTSOCIALCONNECT_FIELD_LOGIN_REDIRECTION_DESC" > 
+					<option value="">JDEFAULT</option>
+				</field>
+				<field 
+					name="logout" 
+					type="text" 
+					default="" 
+					disable="separator"
+					size="35"					
+					label="MOD_BTSOCIALCONNECT_FIELD_LOGOUT_REDIRECTION_URL" 
+					description="MOD_BTSOCIALCONNECT_FIELD_PARAMLOGOUTREDIRECTURL" >
+					<option value="">JDEFAULT</option>
+				</field>
+				<field
+					name="name"
+					type="list"
+					default="0"
+					label="MOD_BTSOCIALCONNECT_FIELD_NAME_LABEL"
+					description="MOD_BTSOCIALCONNECT_FIELD_NAME_DESC">
+					<option
+						value="0">MOD_BTSOCIALCONNECT_VALUE_NAME</option>
+					<option
+						value="1">MOD_BTSOCIALCONNECT_VALUE_USERNAME</option>
+				</field>
+				<field name="avatar" type="radio" 
+					   class="btn-group" 
+					  default="1" label="MOD_BTSOCIALCONNECT_FIELD_SHOW_AVATAR_LABEL" description="MOD_BTSOCIALCONNECT_FIELD_SHOW_AVATAR_DESC">
+					<option
+						value="0">JNo</option>
+					<option
+						value="1">JYes</option>
+				</field>								
+				<field 
+					name="module_id" 
+					id="bt_module_id" 
+					type="sql" 
+					default="19" 
+					multiple="multiple" 
+					size="10" 
+					label="MOD_BTSOCIALCONNECT_FIELD_MODULEID_LABEL" 
+					description="MOD_BTSOCIALCONNECT_FIELD_MODULEID_DESC" 
+					query="SELECT id, module, title FROM #__modules WHERE  `client_id`=0 AND ( `published` !=-2 AND `published` !=0 ) ORDER BY position ASC" key_field="id" value_field="title" 
+					/>
+					
+				<field 
+					name="module_position" 
+					id="bt_module_position" 
+					type="sql" 
+					default="0" 
+					multiple="multiple" 
+					size="10" 
+					label="MOD_BTSOCIALCONNECT_FIELD_MODULEPOSITION_LABEL" 
+					description="MOD_BTSOCIALCONNECT_FIELD_MODULEPOSITION_DESC" 
+					query="SELECT DISTINCT position FROM #__modules ORDER BY position ASC" key_field="position" value_field="position" 
+					/>
+				<field
+					name="usesecure"
+					type="radio" 
+					class="btn-group"
+					default="0"
+					label="MOD_BTSOCIALCONNECT_FIELD_USESECURE_LABEL"
+					description="MOD_BTSOCIALCONNECT_FIELD_USESECURE_DESC">
+					<option
+						value="0">JNo</option>
+					<option
+						value="1">JYes</option>
+				</field>
+			</fieldset>
+			<fieldset
+				name="advanced">				
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field addfieldpath="/modules/mod_btsocialconnect_login/admin/formfield" type="asset" name="asset" path="modules/mod_btsocialconnect_login/admin/" />
+				<field
+					name="cache"
+					type="list"
+					default="0"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

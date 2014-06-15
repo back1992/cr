@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="widget" version="2.5" method="upgrade">
+<name>Login button</name>
+<type>Social Widgets</type>
+<version>1.0</version>
+<author>BowThemes</author>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<creationDate>October 2013</creationDate>
+<description><![CDATA[
+<p>When an app or website displays the login button, it provides people a way to log in and also shows the profile pictures of their friends who have already logged in for the app or site.</p>]]></description>
+<languages>
+		<language tag="en-GB">language/en-GB.login_button.ini</language>		
+</languages>
+<config>
+<fields name="params">
+			<fieldset name="basic"  addfieldpath="/administrator/components/com_bt_socialconnect/widgets/login_button/elements">
+				<field name="buttonlogin" type="btnlogin" default="all" label="WIDGET_BUTTON_LOGIN_LABEL" description="WIDGET_BUTTON_LOGIN_DESC" >
+                  <option value="all">JALL</option>               
+               </field>		
+			
+			</fieldset>
+		</fields>
+</config>
+</extension>

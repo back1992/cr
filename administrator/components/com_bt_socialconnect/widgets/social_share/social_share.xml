@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="widget" version="2.5" method="upgrade">
+<name>Social share button</name>
+<type>Social Shares</type>
+<version>1.0</version>
+<author>BowThemes</author>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<creationDate>October 2013</creationDate>
+<description><![CDATA[
+<p>It adds social media buttons on the left or on the right side in your articles . Using to Social Sharing and bookmarking the only way to your site content pages to share your website contents and drive traffic to your website</p>]]></description>
+<languages>
+		<language tag="en-GB">language/en-GB.social_share.ini</language>		
+</languages>
+<config>
+<fields name="params">
+	<fieldset name="Add_Setting" label="WIDGET_ADD_THIS_LABEL">
+			<field name="add_button" 
+					type="radio" 
+					class="btn-group"
+					default="1" 
+					label="WIDGET_SOCIALSHARE_ADD_BUTTON_LABEL" 
+					description="WIDGET_SOCIALSHARE_ADD_BUTTON_DESC" >
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+			</field>
+			<field name="profile_id" type="text" default="Your Profile ID" label="WIDGET_ADD_THIS_ID_LABEL" description="WIDGET_ADD_THIS_ID_DESC"/>
+			<field name="button_style" type="radio" default="lg-share-counter" label="Button Style" description="">
+				<option value="lg-share"><![CDATA[ <img src="../administrator/components/com_bt_socialconnect/widgets/social_share/image/share-long.gif" style="margin:0;"/><br/><br/>]]></option>
+				<option value="lg-small"><![CDATA[ <img src="../administrator/components/com_bt_socialconnect/widgets/social_share/image/plus-small.gif" style="margin:0;"/><br/><br/>]]></option>
+				<option value="lg-share-counter"><![CDATA[ <img src="../administrator/components/com_bt_socialconnect/widgets/social_share/image/share-counter.gif" style="margin:0;"/><br/><br/><script>			            
+            var field_content=document.getElementById('jform_params_button_style').innerHTML;			
+			document.getElementById('jform_params_button_style').innerHTML=field_content.replace(new RegExp('</label>', 'g'), "</label><br/><br/><br/>");			
+            </script>
+			]]></option>
+			  		   
+		</field> 
+	</fieldset>
+	<fieldset name="Facebook_Setting" label="WIDGET_FACEBOOK_SETTING_FIELDSET_LABEL">
+			
+			<field type="spacer" name="WIDGET_FACEBOOK_SHARE"  />					
+			<field name="facebook_share_button" 
+					type="radio" 
+					class="btn-group"
+					default="1" 
+					label="WIDGET_SOCIALSHARE_FACEBOOK_SHARE_BUTTON_LABEL" 
+					description="WIDGET_SOCIALSHARE_FACEBOOK_SHARE_BUTTON_DESC" >
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+			</field>
+			<field name="facebook_share_button_type" 
+					type="list" 
+					default="" 
+					label="WIDGET_SOCIALSHARE_FACEBOOK_SHARE_BUTTON_TYPE_LABEL" 
+					description="WIDGET_SOCIALSHARE_FACEBOOK_SHARE_BUTTON_TYPE_DESC" >
+					<option value="link">Link</option>
+					<option value="icon_link">Icon Link</option>
+					<option value="button">Button</option>
+					<option value="button_count">Button Count</option>
+					<option value="box_count">Box Count</option>
+					<option value="">Share Image</option>
+			</field>
+			<field type="spacer" name="WIDGET_FACEBOOK_LIKE_SEND"  />	
+			<field name="facebook_like" 
+					type="radio"
+					class="btn-group"
+					default="1" 
+					label="WIDGET_FACEBOOK_LIKE_LABEL" 
+					description="WIDGET_FACEBOOK_LIKE_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+			</field>
+			<field name="facebook_sendbutton" 
+					type="radio"
+					class="btn-group"
+					default="0" 
+					label="WIDGET_FACEBOOK_SENDBUTTON_LABEL" 
+					description="WIDGET_FACEBOOK_SENDBUTTON_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="facebook_like_type" type="list" default="button_count" label="WIDGET_FB_LIKE_TYPE" description="WIDGET_FB_LIKE_TYPE_DESC" >
+					<option value="standard">WIDGET_FB_LIKE_STANDARD</option>
+				   <option value="box_count">WIDGET_FB_LIKE_BOX_COUNT</option>
+				   <option value="button_count">WIDGET_FB_LIKE_BUTTON_COUNT</option>
+				</field>
+				<field name="facebook_like_width" type="text" default="70"  label="WIDGET_FB_LIKE_WIDTH" description="WIDGET_FB_LIKE_WIDTH_DESC" />
+				<field name="facebook_showface" 
+					type="radio"
+					class="btn-group"
+					default="1" 
+					label="Show faces" 
+					description="Specifies whether to display profile photos below the button (standard layout only) ">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="facebook_like_font" type="list" default="arial" label="WIDGET_FB_LIKE_FONT_LABEL" description="WIDGET_FB_LIKE_FONT_DESC">
+					<option value="arial">Arial</option>
+					<option value="lucida grande">Lucida Grande</option>
+					<option value="segoe ui">Segoe Ui</option>
+					<option value="tahoma">Tahoma</option>
+					<option value="trebuchet ms">Trebuchet Ms</option>
+					<option value="verdana">Verdana</option>
+				</field>
+				<field name="facebook_like_color" type="list" default="light" label="WIDGET_FB_LIKE_COLOR_LABEL" description="WIDGET_FB_LIKE_COLOR_DESC">
+					<option value="light">Light</option>
+					<option value="dark">Dark</option>
+				</field>
+				<field name="facebook_like_action" type="list" default="like" label="Verb to display" description="The verb to display on the button. Options: 'like', 'recommend' " >
+					<option value="like">Like</option>
+				   <option value="recommend">Recommend</option>
+				</field>
+				
+	</fieldset>
+	<fieldset name="TWITTER_SETTING" label="WIDGET_TWITTER_SETTING_FIELDSET_LABEL">
+		<field type="spacer" name="TWITTER_BUTTON"  />
+				<field name="twitter" 
+					type="radio" 
+					class="btn-group"
+					default="1" 
+					label="WIDGET_SHOW_TWITTER_BUTTON" 
+					description="WIDGET_SHOW_TWITTER_BUTTON_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="twitter_name" type="text" default="BowThemes"  label="WIDGET_TWITTER_NAME" description="WIDGET_TWITTER_NAME_DESC" />
+				<field name="twitter_counter" type="list" default="horizontal" label="WIDGET_TWITTER_COUNTER" description="WIDGET_TWITTER_COUNTER_DESC" >
+				   <option value="none">WIDGET_HIDE</option>
+				   <option value="vertical">WIDGET_TWITTER_VERTICAL</option>
+				   <option value="horizontal">WIDGET_TWITTER_HORIZONTAL</option>
+				</field>
+				<field name="twitter_size" type="list" default="medium" label="WIDGET_TWITTER_SIZE_LABEL" description="WIDGET_TWITTER_SIZE_DESC">
+					<option  value="medium">Medium</option>
+					<option value="large">Large</option>
+				</field>
+				<field name="twitter_language" type="list" default="en" label="WIDGET_TWITTER_LANG" description="WIDGET_TWITTER_LANG_DESC" >
+				   <option value="en">English</option>
+				   <option value="fr">French</option>
+				   <option value="gr">German</option>
+				   <option value="it">Italian</option>
+				   <option value="es">Spanish</option>
+				   <option value="ko">Korean</option>
+				   <option value="jp">Japanese</option>
+				</field>
+				<field name="twitter_width" type="text" default="80" label="WIDGET_TWITTER_WIDTH_LABEL" description="WIDGET_TWITTER_WIDTH_BUTTON" />
+				<field type="spacer" name="WIDGET_BUFFER_BUTTON_SETTING"  />
+				<field name="bufferButton" type="radio" class="btn-group" default="0" label="WIDGET_BUFFER_BUTTON" description="WIDGET_BUFFER_BUTTON_DESC" >
+                   <option value="1">JYES</option>
+                   <option value="0">JNO</option>
+                </field>
+				<field name="bufferType" type="list" default="horizontal" label="WIDGET_BUFFER_TYPE" description="WIDGET_BUFFER_TYPE_DESC" >
+                   <option value="none">WIDGET_NONE</option>
+                   <option value="horizontal">WIDGET_HORIZONTAL</option>
+                   <option value="vertical">WIDGET_VERTICAL</option>
+                </field>
+                <field name="bufferTwitterName" type="text" default="" size="20" label="WIDGET_BUFFER_USERNAME" description="WIDGET_BUFFER_USERNAME_DESC" />
+	</fieldset>
+	<fieldset name="GOOGLE_SETTING" label="WIDGET_GOOGLE_SETTING_FIELDSET_LABEL">
+		<field name="googleplus" type="radio" class="btn-group" default="0" label="WIDGET_GOOGLE_ONE_BUTTON" description="WIDGET_GOOGLE_ONE_BUTTON_DESC" >
+		           <option value="1">JYES</option>
+                   <option value="0">JNO</option>
+		  </field>
+		<field name="google_plus_annotation" 
+					type="list" 
+					default="bubble" 
+					label="WIDGET_SHOW_GOOGLE_PLUS_ANNOTATION" 
+					description="WIDGET_SHOW_GOOGLE_PLUS_ANNOTATION_DESC">
+					<option value="bubble">Bubble</option>
+					<option value="inline">Inline</option>
+					<option value="vertical-bubble">Vertical-Bubble</option>
+					<option value="none">None</option>								
+				</field>
+				<field name="google_plus_width" type="text" default="120" label="WIDGET_GOOGLEPLUS_WIDTH_LABEL" description="WIDGET_GOOGLEPLUS_WIDTH_DESC"/>			
+				<field name="google_plus_type" 
+					type="list"
+					default="20" 
+					label="WIDGET_SHOW_GOOGLE_PLUS_TYPE" 
+					description="WIDGET_SHOW_GOOGLE_PLUS_TYPE_DESC">
+					<option value="15">Small (15px)</option>
+					<option value="20">Medium (20px)</option>
+					<option value="24">Standard (24px)</option>
+				</field>
+	
+	</fieldset>
+	<fieldset name="LINKEDIN_SETTING" label="WIDGET_LINKEDIN_SETTING_FIELDSET_LABEL">
+		<field type="spacer" name="WIDGET_LINKEDIN_SHARE"  />
+		<field name="linkedin" type="radio" class="btn-group" default="0" label="WIDGET_LINKEDIN_BUTTON" description="WIDGET_LINKEDIN_BUTTON_DESC" >
+		           <option value="1">JYES</option>
+                   <option value="0">JNO</option>
+		</field>
+		<field name="linkedIn_type" type="list" default="right" label="WIDGET_LINKEDIN_TYPE" description="WIDGET_LINKEDIN_TYPE_DESC" >
+				   <option value="none">WIDGET_LINKEDIN_COUNTER_NONE</option>
+				   <option value="top">WIDGET_LINKEDIN_COUNTER_TOP</option>
+				   <option value="right">WIDGET_LINKEDIN_COUNTER_RIGHT</option>
+		</field> 
+		<field name="linkedIn_showzero" type="radio" default="0" class="btn-group" label="WIDGET_LINKEDIN_SHOWZERO_LABEL" description="WIDGET_LINKEDIN_SHOWZERO_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+		</field>
+		<field type="spacer" name="WIDGET_LINKEDIN_FOLLOW_COMPANY"  />
+		<field name="linkedinfollow" type="radio" class="btn-group" default="0" label="WIDGET_LINKEDIN_FOLLOW_BUTTON" description="WIDGET_LINKEDIN_FOLLOW_BUTTON_DESC" >
+		           <option value="1">JYES</option>
+                   <option value="0">JNO</option>
+		</field>
+		<field name="followcompany" type="text" default="3129602" label="WIDGET_LINKEDIN_FOLLOW_COMPANYNAME" description="WIDGET_LINKEDIN_FOLLOW_COMPANYNAME_DESC"/>
+		<field name="linkedInfollow_type" type="list" default="right" label="WIDGET_LINKEDIN_TYPE" description="WIDGET_LINKEDIN_TYPE_DESC" >
+				   <option value="none">WIDGET_LINKEDIN_COUNTER_NONE</option>
+				   <option value="top">WIDGET_LINKEDIN_COUNTER_TOP</option>
+				   <option value="right">WIDGET_LINKEDIN_COUNTER_RIGHT</option>
+		</field> 
+		<field name="linkedInfollow_showzero" type="radio" default="0" class="btn-group" label="WIDGET_LINKEDIN_SHOWZERO_LABEL" description="WIDGET_LINKEDIN_SHOWZERO_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+		</field>
+		<field type="spacer" name="WIDGET_LINKEDIN_RECOMMEND"  />
+		<field name="linkedin_recommend" type="radio" class="btn-group" default="0" label="WIDGET_LINKEDIN_RECOMMEND_BUTTON" description="WIDGET_LINKEDIN_RECOMMEND_BUTTON_DESC" >
+		           <option value="1">JYES</option>
+                   <option value="0">JNO</option>
+		</field>
+		<field name="company_name" type="text" default="" label="WIDGET_LINKEDIN_RECOMMEND_COMPANY_NAME" description="WIDGET_LINKEDIN_RECOMMEND_COMPANY_NAME_DESC"/>
+		<field name="product_id" type="text" default="" label="WIDGET_LINKEDIN_RECOMMEND_PRODUCT_ID" description="WIDGET_LINKEDIN_RECOMMEND_PRODUCT_ID_DESC"/>
+		<field name="linkedInrecommend_type" type="list" default="right" label="WIDGET_LINKEDIN_TYPE" description="WIDGET_LINKEDIN_TYPE_DESC" >
+				   <option value="none">WIDGET_LINKEDIN_COUNTER_NONE</option>
+				   <option value="top">WIDGET_LINKEDIN_COUNTER_TOP</option>
+				   <option value="right">WIDGET_LINKEDIN_COUNTER_RIGHT</option>
+		</field> 
+	</fieldset>
+	<fieldset name="PRINTERES_SETTING" label="WIDGET_PRINTERES_SETTING_FIELDSET_LABEL">
+		<field name="printeres" type="radio" class="btn-group" default="0" label="WIDGET_PRINTERES_BUTTON" description="WIDGET_PRINTERES_BUTTON_DESC" >
+		           <option value="1">JYES</option>
+                   <option value="0">JNO</option>
+		</field>
+			<field
+					name="pin_count" 
+					type="list" 
+					default="above" 
+					label="WIDGET_PIN_COUNT" 
+					description="WIDGET_PIN_COUNT_DESC">
+					<option 
+						value="beside">Horizontal</option>
+					<option 
+						value="above">Vertical</option>
+					<option 
+						value="none">No Count</option>
+				</field>
+				<field name="description" type="text" size="40" default="" class="btn-group" label="WIDGET_LINKEDIN_DESCRIPTION_LABEL" description="WIDGET_LINKEDIN_DESCRIPTION_DESC"/>
+					
+	</fieldset>
+	<fieldset name="STUMBLE_SETTING" label="WIDGET_STUMBLE_SETTING_FIELDSET_LABEL">
+		<field name="stumble" type="radio" class="btn-group" default="0" label="WIDGET_STUMBLE_BUTTON" description="WIDGET_STUMBLE_BUTTON_DESC" >
+		           <option value="1">JYES</option>
+                   <option value="0">JNO</option>
+		</field>
+		<field name="stumble_type" type="list" default="1" label="WIDGET_STUMBLE_TYPE" description="WIDGET_STUMBLE_TYPE_DESC" >
+				   <option value="1">WIDGET_STUMBLE_STYLE1</option>
+				   <option value="2">WIDGET_STUMBLE_STYLE2</option>
+				   <option value="3">WIDGET_STUMBLE_STYLE3</option>
+				   <option value="4">WIDGET_STUMBLE_STYLE4</option>
+				   <option value="5">WIDGET_STUMBLE_STYLE5</option>
+				   <option value="6">WIDGET_STUMBLE_STYLE6</option>
+		</field>  
+	</fieldset>
+	<fieldset name="DIGG_SETTING" label="WIDGET_DIGG_SETTING_FIELDSET_LABEL">
+		<field name="digg" type="radio" class="btn-group" default="0" label="WIDGET_DIGG_BUTTON" description="WIDGET_DIGG_BUTTON_DESC" >
+		           <option value="1">JYES</option>
+                   <option value="0">JNO</option>
+		</field>
+		<field name="digg_type" type="list" default="DiggCompact" label="WIDGET_DIGG_TYPE" description="WIDGET_DIGG_TYPE_DESC" >
+			   <option value="DiggWide">WIDGET_DIGG_WIDE</option>
+			   <option value="DiggMedium">WIDGET_DIGG_MEDIUM</option>
+			   <option value="DiggCompact">WIDGET_DIGG_COMPACT</option>
+			   <option value="DiggIcon">WIDGET_DIGG_ICON</option>
+			</field>
+	</fieldset>
+</fields>
+</config>
+</extension>

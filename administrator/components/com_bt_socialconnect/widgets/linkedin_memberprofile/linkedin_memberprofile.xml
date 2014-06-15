@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="widget" version="2.5" method="upgrade">
+<name>Linkedin member profile</name>
+<type>Social Widgets</type>
+<version>1.0</version>
+<author>BowThemes</author>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<creationDate>October 2013</creationDate>
+<description><![CDATA[
+<p>The Linkedin show member profile.</p>]]></description>
+<languages>
+		<language tag="en-GB">language/en-GB.linkedin_memberprofile.ini</language>		
+</languages>
+<config>
+<fields name="params">
+			<fieldset name="basic">				
+				<field
+					name="profile_url"  type="text" size="33"
+					default=""
+					label="WIDGET_LINKEDIN_PROFILE_PAGE_URL_LABEL"
+					description="WIDGET_LINKEDIN_PROFILE_PAGE_URL_DESC">
+				</field>				
+				<field name="layout"  type="list" default="inline" class="bt_control" label="WIDGET_LINKEDIN_MEMBER_PROFILE_LAYOUT_LABEL" description="WIDGET_LINKEDIN_MEMBER_PROFILE_LAYOUT_DESC">
+                    <option value="inline">Inline</option>
+                    <option value="iconname">Icon/name</option>
+                    <option value="icon">Icon</option>
+                </field>
+				<field name="textname" type="text" class="layout_iconname" default="" label="WIDGET_LINKEDIN_MEMBER_PROFILE_TEXTNAME_LABEL" description="WIDGET_LINKEDIN_MEMBER_PROFILE_TEXTNAME_DESC"/>
+				<field name="event" type="list" class="layout_iconname layout_icon" default="click" label="WIDGET_LINKEDIN_MEMBER_PROFILE_EVENT_LABEL" description="WIDGET_LINKEDIN_MEMBER_PROFILE_EVENT_DESC">
+					<option value="click">On click</option>
+					<option value="hover">On hover</option>
+				</field>
+				<field type="radio" name="connection" default="false" autocomplete="off" class="btn-group bt_control"	description="WIDGET_LINKEDIN_MEMBER_PROFILE_SHOWCONNECTION_DESC" filter="raw" label="WIDGET_LINKEDIN_MEMBER_PROFILE_SHOWCONNECTION_LABEL">
+					<option value="true">JYES</option>
+				<option value="false">JNO</option>
+				</field>				
+				
+			</fieldset>			
+			
+</fields>
+</config>
+</extension>

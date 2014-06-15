@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fieldset name="detail">	
+		<field type="text" name="title" size="29" required="true" class="inputbox" label="COM_BT_SOCIALCONNECT_SOCIAL_NAME_LABEL" description="COM_BT_SOCIALCONNECT_SOCIAL_NAME_DESC"/>
+		<field name="alias" type="text" label="JFIELD_ALIAS_LABEL"
+			description="JFIELD_ALIAS_DESC" class="inputbox" size="35" />
+		<field type="hidden" name="type" autocomplete="off"/>
+		<field type="hidden" name="author" autocomplete="off"/>
+		<field type="hidden" name="version" autocomplete="off"/>
+		<field type="hidden" name="description" autocomplete="off"/>
+		<field 	name="published" type="list"	label="JSTATUS"	description="JFIELD_PUBLISHED_DESC"	class="inputbox" size="1" default="1"	>			<option value="1">
+				JPUBLISHED</option>
+			<option value="0">
+				JUNPUBLISHED</option>	
+		</field>		
+		<field name="ordering" type="publishordering" label="JFIELD_ORDERING_LABEL"
+			description="JFIELD_ORDERING_DESC" class="inputbox" default="0" />			
+	
+		<field type="calendar" name="created" size="35" label="COM_BT_SOCIALCONNECT_CREATED_TIME_LABEL" description="COM_BT_SOCIALCONNECT_CREATED_TIME_DESC"/>		
+		<field	name="id" type="hidden"	/>							
+		<field type="asset" name="asset" path="administrator/components/com_bt_socialconnect/models/fields/assets/" /> 	
+	</fieldset>		
+</form>

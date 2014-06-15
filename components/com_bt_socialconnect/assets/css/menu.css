@@ -1,0 +1,365 @@
+/*----*/
+.profile-edit{
+margin:0;
+padding:0;
+}
+.profile-edit #menu { 
+background: none repeat scroll 0 0 #FDFDFD !important;
+border:1px solid #F1F1F1 !important;
+height:38px;
+-moz-box-shadow: 0 0 5px #666; -webkit-box-shadow: 0 0 5px #666; }
+
+.profile-edit #menu .nav { overflow: hidden; list-style:none;}
+.profile-edit #menu ul{ margin:0; padding:0}
+.profile-edit #menu .nav li { min-width: 130px; float: left;}
+.profile-edit #menu .nav li.last { margin-right: 0; }
+.profile-edit #menu .nav li a { display: block; line-height: 38px;  font-size: 12px; text-align: center; border: 0; text-decoration:none;  color: #095197; }
+.profile-edit #menu .nav li.active a {
+    background: url('../img/active_profile.png') repeat-x;
+	border-left: 1px solid #F1F1F1;
+	border-right: 1px solid #F1F1F1;
+	height: 39px;
+}
+#users-profile-core .user-image{
+	float:left;
+}
+#users-profile-core .user-info{
+	float:left;
+	width:70%;
+}
+.profile #menu{	
+	height:38px;
+}
+.profile  #menu .nav li.active a{
+	height:39px;
+}
+#users-profile{
+	margin:0 !important;
+	padding: 10px 20px;
+	border-bottom: 1px solid #F1F1F1;
+    border-right: 1px solid #F1F1F1;
+	border-left:4px solid #cccccc ;
+	color:#737373;
+}
+.btn-submit {
+    padding: 10px;
+}
+.login-fields{
+	margin:0 4px 4px 0px!important;
+	float:left;
+}
+.profile-edit #menu .nav-tabs > li > a {
+	padding:0;
+}
+.btnresc {
+height:35px;
+float:left;
+}
+.text-resc{
+	padding: 0 8px;
+	line-height: 35px;	 
+}
+.bgsc{
+	 width:40px;
+	 height:35px;
+	 float:left;
+}
+.bg-fb{
+	 background: url('../img/re-fb.png') no-repeat;
+
+}
+.bg-tt{
+	 background: url('../img/re-tt.png') no-repeat;
+
+}
+.bg-gg{
+	 background: url('../img/re-gg.png') no-repeat;
+}
+.bg-in{
+	 background: url('../img/re-in.png') no-repeat;
+
+}
+.sc-icon{
+	 float: left;
+    height: 28px;   
+    margin: 10px;   
+    width: 20px;
+}
+.fb-icon{
+	 background: url('../img/fb.png')  no-repeat;
+}
+.tt-icon{
+	 background: url('../img/tt.png')  no-repeat;
+}
+.gg-icon{
+	 background: url('../img/gg.png')  no-repeat;
+}
+.in-icon{
+	 background: url('../img/in.png')  no-repeat;
+}
+.btn-refb{
+	background: none repeat scroll 0 0 #F9F9F9;
+    border: 1px solid #CCCCCC;
+}
+.bt-nomal{
+	border-left:4px solid #cccccc !important;
+}
+.bt-hover{
+	border-left:4px solid #4d78b6 !important;
+}
+
+.profile-edit #member-profile select, #member-registration select {  
+    border: 1px solid #CCCCCC;
+    padding: 5px 10px;	
+	height:30px;
+	color: #363636;
+	min-width: 260px;
+	background:url("../img/bg-select_register.png") no-repeat scroll right top rgba(0, 0, 0, 0);
+	color:#737373;
+	border-radius:3px;
+}
+#member-profile  select  option,
+#member-registration select option
+{
+ padding: 8px 10px;
+ display: block;
+ background: none repeat scroll 0 0 #FFFFFF;
+  border-bottom: 1px solid #E3E3E3;
+}
+.controls.btl-input > input[type=checkbox] {
+	width:14px!important;
+}
+.imageupload .inputbox{
+	position:absolute;
+	height:25px;
+}
+.btl-hidden{
+line-height:25px;
+}
+.control-label{
+   padding: 7px 10px !important;
+}
+.btn {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F5F5F5;
+    background-image: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    background-repeat: repeat-x;
+    border-color: #BBBBBB #BBBBBB #A2A2A2;
+    border-image: none;
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 0;
+    padding: 3px 10px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+	height:30px;
+}
+.btn-primary {
+	background-color: #54ACEE !important;
+    background-image: linear-gradient(to bottom, #54ACEE, #469CEB) !important;
+    background-repeat: repeat-x !important;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;
+    color: #FFFFFF !important;
+    height: 30px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) !important;
+}
+.btl-input > input[type="text"],.btl-input > input[type="email"],.btl-input > input[type="file"], .btl-input > input[type="password"] {    
+    border: 1px solid #CCCDCF;
+    border-radius: 3px;   
+    display: inline;
+    font-size: 13px;
+    height: 26px;
+    margin: 0;
+    padding: 5px 0 !important;
+    text-indent: 5px;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;    
+	max-width:250px;
+	background-color:#e7e7e7;
+	color:#363636;
+}
+#member-registration .btl-input > input[type=text] ,
+#member-registration .btl-input > input[type=password],
+#member-registration .btl-input > input[type=email],
+#member-registration .btl-input > input[type=file],
+#member-profile .btl-input > input[type=text] ,
+#member-profile .btl-input > input[type=password],
+#member-profile .btl-input > input[type=email],
+#member-profile .btl-input > input[type=file]{
+	height: 20px !important;
+	width: 100% !important;
+	min-width: 260px;
+	background: none ;
+	color:#737373;
+}
+#member-registration  .btl-input > textarea ,#member-profile  .btl-input > textarea {
+  border: 1px solid #DADADA;
+    border-radius: 3px ;
+    margin: 5px 0;
+    padding: 5px 10px;
+    text-indent: 5px;
+    width: 100%;	
+	color:#363636;
+	color:#737373;
+}
+#member-profile .btn-submit,#member-registration  .btn-submit{
+	margin-left:200px;
+}
+#users-profile-core{
+	margin:0!important;	
+	border:1px solid #F1F1F1 !important;
+	border-bottom:0 none !important;
+}
+#users-profile-core  button{
+	border-radius: 3px;
+    height: 26px;
+    margin-top: 5px;
+    padding: 0 5px;
+}
+#users-profile-core dd{
+	color:#2eabd1;
+}
+.btn-primary.btn > span{
+	 float:left;
+}
+.pencil-small {
+	 background: url('../img/pencil.png')  no-repeat;
+	 width:12px; height:13px;
+	 margin-left:5px;
+}
+#users-profile-custom{
+	border:1px solid #F1F1F1 !important;
+	border-top: 0 none !important;
+    margin: 0 0 10px !important;
+
+}
+#users-profile-custom dd,#users-profile-custom dt{
+	padding:10px 0px!important;
+	color:#737373;
+	overflow:hidden;
+}
+#users-profile-custom .colon {
+    float: left;
+    margin-right: 10px;
+    padding: 10px 0 !important;
+    text-align: center;
+}
+#users-profile-core .colon{
+	float:left;
+	margin-right: 10px;
+	
+}
+
+.login .btl-input > input[type=text] ,
+.login .btl-input > input[type=password] 
+{
+    width: 80% !important;
+	border: 0 none;
+	background:#FBFBFB !important;
+}
+
+#member-registration .inputupload input,
+#member-profile .inputupload input{  
+    border: 1px solid #CCCDCF;
+    border-radius: 3px;    
+    height: 30px;
+    min-width: 258px;   
+	padding:0!important;
+	background:#FBFBFB;
+}
+#member-registration .btl-input,#member-profile  .btl-input {  
+    position: relative;
+	line-height: 33px;	
+	margin-left:15px !important;
+	padding:7px 5px;
+	min-width:260px;
+}
+
+#member-registration .calendar, 
+#member-profile .calendar, 
+#member-registration .calendar table 
+#member-profile .calendar table 
+{
+    position: relative;
+	right:18px;
+	top:3px;
+  
+}
+#member-profile fieldset,#member-registration fieldset{
+	margin:0 !important;
+	border:1px solid #F1F1F1 !important;
+	border-top:0 !important;
+	margin-bottom: 10px !important;
+	color:#737373;
+	padding:15px 0 0 15px !important;
+
+}
+.post {
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+	border-color: #CCCCCC #FBFBFB #CCCCCC #CCCCCC !important;
+}
+
+.login-fields #modlgn-username ,.login-fields #modlgn-password{
+ border:1px solid #CCCCCC;
+ text-indent:28px;
+ width:200px!important;
+
+}
+.login #modlgn-username ,.login #modlgn-password{
+    color: #737373;
+    font-family: FontAwesome;
+    font-size: 16px;
+    line-height: 1.5em;
+	background: url("../img/user.png") no-repeat scroll 9px center rgba(0, 0, 0, 0) !important;	
+	float:left;
+}
+.login #modlgn-password {
+    color: #737373;
+    font-family: FontAwesome;
+    font-size: 16px;
+    line-height: 1.5em;
+	background: url("../img/pass.png") no-repeat scroll 9px center rgba(0, 0, 0, 0) !important;	
+}
+.postfix {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #F2F2F2;
+    border-bottom-right-radius: 2px;
+    border-color: #E6E7E9 #CCCDCF #CCCDCF -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-top-right-radius: 2px;
+    border-width: 1px 1px 1px 0;
+    display: inline-block;
+    height: 20px;    
+    vertical-align: top;
+    width: 17px !important;
+}
+#socialaccount table {
+	width:100%;
+}
+#socialaccount .tbl_social  tr ,.tbl_social  td{
+	border:0px;
+	line-height: 40px;
+}
+.profile dl dt{	
+    float: left;   
+    text-align: left;
+    white-space: nowrap;
+    width: 105px !important;
+	color:#737373;
+	margin-right: 10px;
+}

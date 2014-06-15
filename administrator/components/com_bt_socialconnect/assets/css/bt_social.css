@@ -1,0 +1,293 @@
+
+#submenu-box div.m {
+	padding:0!important;
+	background: url("../image/bg-mega.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+#submenu li a, #submenu span.nolink {
+	border:0!important;
+	padding:0!important;
+	margin-left:10px;
+}
+#submenu li.active{
+	background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+.submenu-box, div.m{
+	border-radius:0px !important;	
+	color: #3B3B3B !important;
+}
+#submenu li { 
+    border-right: 1px solid #CCCCCC !important;
+    padding: 15px 20px !important;
+	margin:0 -1px -1px 0 !important;
+	
+}
+#submenu  .sub-panel{
+	background:  url("../image/sub-panel.png") no-repeat scroll 5px center transparent !important;  
+} 
+#submenu  .sub-user{
+	background:  url("../image/sub-user.png") no-repeat scroll 5px center transparent !important;  
+} 
+#submenu  .sub-userfield{
+	background:  url("../image/sub-userfield.png") no-repeat scroll 5px center transparent !important;  
+}
+#submenu  .sub-cloud{
+	background:  url("../image/sub-cloud.png") no-repeat scroll 5px center transparent !important;  
+} 
+#submenu  .sub-joomla{
+	background:  url("../image/sub-joomla.png") no-repeat scroll 5px center transparent !important;  
+} 
+#submenu  .sub-log{
+	background:  url("../image/sub-log.png") no-repeat scroll 5px center transparent !important;  
+}
+#submenu  .sub-statistic{
+	background:  url("../image/sub-statistic.png") no-repeat scroll 5px center transparent !important;  
+} 
+.cpanel div.icon a {
+background:#fcfcfc !important;
+border:1px solid #f0f0f0 !important;
+width: 98px!important;
+}
+.cpanel_section{
+  border: 1px solid #d4d4d4;
+    line-height: 30px;
+    margin-bottom: 10px;  
+    width: 100%;
+	background:#fcfcfc;
+
+}
+div.cpanel-left {
+	border-right:1px solid #d4d4d4 !important;
+}
+.cpanel {
+	overflow:hidden;
+	border-bottom: 1px solid #CCCCCC;
+	background: none repeat scroll 0 0 #FFFFFF;
+}
+.bt-toggle{
+width:30px;
+height:30px;
+background:#ededed;
+float:right;
+cursor: pointer;
+border-left: 1px solid #CCCCCC;
+}
+.cpanel_about {
+    border-bottom: 1px solid #CCCCCC;
+    line-height: 35px;
+}
+.bt-space {
+    font-family: verdana;
+    font-size: 12px;
+	margin-left: 10px;
+}
+.bt-down{
+ background:url(../image/down.png) no-repeat;
+ width:20px;
+ height:8px;
+ float:left;
+   margin: 12px 5px
+}
+.bt-static{
+
+ width: 100%;
+ float:left;
+}
+.bt-title {   
+    color: #626262;
+    font-weight: bold;
+    padding: 9px;
+	font-size: 14px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.bt-userstatic{
+	border:1px solid #CCCCCC !important;
+	float: left;
+    width: 40%;
+	margin: 12px;
+}
+.bt-staspace{
+ border: 1px solid #CCCCCC;
+ margin:0px 10px;
+ width: 96%;
+ float:left;
+ overflow: hidden;
+ background: none repeat scroll 0 0 #FFFFFF;
+}
+.bt-viewmore {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #CCCCCC;
+    border-image: none;
+    border-right: 1px solid #CCCCCC;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    float: left;
+    margin: 0 10px 34px;   
+    width: 96%;
+	line-height: 30px;
+}
+.bt-userstatic .icon{
+	background:url(../image/user-static.png) no-repeat;
+	width:40px;
+	height:40px;
+	float:left;
+	margin: 6px;
+}
+.views{
+	float: right;
+    margin: 10px
+}
+.views .detail{
+	float: left;
+    width: 100%;
+	text-align: center;
+}
+.views .nub{
+	font-size:20px;
+	font-weight:bold;
+	color:#898989;
+}
+.bt-click{
+	border:1px solid #CCCCCC !important;
+	width: 40%;
+	float:right;
+	 margin: 12px;
+}
+.bt-click .icon{
+	background:url(../image/static.png) no-repeat;
+	width:48px;
+	height:40px;
+	float:left;
+	margin: 6px;
+}
+
+.gga {
+    border-top: 1px solid #CCCCCC;
+    float: left;
+    width: 100%;
+	 line-height: 30px;
+}
+.gga .more{
+	margin-left:10px;
+ 
+}
+.gga .check {
+    float: right;
+	background:url(../image/bt-check.png) repeat-x;
+	 padding: 0 12px;
+	 border-radius:2px;
+	 color:#FFFFFF;
+	 margin: 5px;
+	 line-height: 25px;
+}
+.bt-viewmore .more{
+	float:left;
+}
+.bt-viewmore .showmore {
+    float: right;
+    min-width: 20%;
+}
+ .down{
+	background:url(../image/arrow-left.png) no-repeat;
+	width:10px;
+	height:18px;
+	float:right;
+	margin: 6px;
+}
+.bt-description{
+	float:left;
+	width:100%;
+}
+.showall{
+	float:left;
+	width:96%;
+	background:red;
+}
+.bt-table{
+	width:101%;
+	border-collapse:collapse;
+	
+}
+#StatisticPage  td {      
+    padding: 0;
+	text-align: center;
+}
+
+.bt-table th ,td{
+	border-bottom: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	padding: 8px;	
+}
+.bt-submited{
+	background:#91ac13 !important;
+	padding: 4px 6px;
+	border-radius:3px;
+}
+.bt-pending{
+	background:#dd7e0f !important;
+	padding: 4px 6px;
+	border-radius:3px;	
+}
+.bt-error{
+	background:#fb3601 !important;
+	padding: 4px 6px;
+	border-radius:3px;	
+}
+ .white-text{
+	color:#ffffff;
+	line-height: 10px;	
+}
+
+
+.btn-disable { 	
+    background-color: #E6E6E6;
+    background-image: linear-gradient(to bottom, #E6E6E6, #CCCCCC) !important;
+    border-color: #D4D4D4 #D4D4D4 #D4D4D4;	
+    border-radius: 3px;
+    color: #FFFFFF;       
+    width:120px;
+	min-height:25px;
+	text-shadow:-1px -1px 0 rgba(0, 0, 0, 0.3);
+	border:1px solid #CCCCCC !important;
+}
+
+.btn-socialsend { 	
+    background-color: #A5B8DA;
+    background-image: -moz-linear-gradient(center top , #A5B8DA, #7089B3);
+    border-color: #758FBA #6C84AB #5C6F91;	
+    border-radius: 3px;
+    color: #FFFFFF;       
+    width:120px;
+	min-height:25px;
+	text-shadow:-1px -1px 0 rgba(0, 0, 0, 0.3);
+	border:1px solid #8E98A9 !important;
+}
+.btn-socialsend:before {    
+    border-radius: 0.15em 0 0 0.15em;
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.5), 2px 0 0 rgba(255, 255, 255, 0.5);    
+    margin: 0 1em 0 -1em;
+    float:left;
+	 margin:0px;
+}
+.btn-socialsend:hover{
+	background-color: #9BADCC;
+    background-image: -moz-linear-gradient(center top , #9BADCC, #687FA6);
+    border-color: #6D86AD #647A9E #546685;
+    color: #FFFFFF;
+}
+.bt-loading{
+	background:url(../image/loadding.gif) no-repeat;
+	width:100px;
+	float:left;
+	margin-left:3px;
+}
+
+#bt-contain {  
+	background:none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC; 
+    display: inline-block;     
+    padding: 5px;
+}

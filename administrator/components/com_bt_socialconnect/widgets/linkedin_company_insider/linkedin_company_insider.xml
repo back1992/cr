@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="widget" version="2.5" method="upgrade">
+<name>Linkedin company Insider</name>
+<type>Social Widgets</type>
+<version>1.0</version>
+<author>BowThemes</author>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<creationDate>October 2013</creationDate>
+<description><![CDATA[
+<p>The Linkedin show Company Insider.</p>]]></description>
+<languages>
+		<language tag="en-GB">language/en-GB.linkedin_company_insider.ini</language>		
+</languages>
+<config>
+<fields name="params">
+			<fieldset name="basic">				
+				<field
+					name="company_id"  type="text" size="33"
+					default="3129602"
+					label="WIDGET_LINKEDIN_COMPANY_ID_LABEL"
+					description="WIDGET_LINKEDIN_COMPANY_ID_DESC">
+				</field>				
+				<field name="view"  type="list" default="innetwork" multiple ="true" class="bt_control" label="WIDGET_LINKEDIN_COMPANY_LAYOUT_LABEL" description="WIDGET_LINKEDIN_COMPANY_LAYOUT_DESC">
+                    <option value="innetwork">In Your Network</option>
+                    <option value="newhires"> New Hires</option>
+                    <option value="jobchanges"> Promotions and Changes</option>
+                </field>				
+			</fieldset>			
+			
+</fields>
+</config>
+</extension>

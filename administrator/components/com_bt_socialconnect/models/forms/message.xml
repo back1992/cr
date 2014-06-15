@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fieldset name="detail">	
+		<field type="text" name="createdby" size="40"  class="inputbox" label="COM_BT_SOCIALCONNECT_MESSAGE_CONNECTION_LABEL" description="COM_BT_SOCIALCONNECT_MESSAGE_CONNECTION_DESC"/>
+		<field type="text" name="type" size="40" class="inputbox" label ="COM_BT_SOCIALCONNECT_MESSAGE_TYPE_LABEL" description="COM_BT_SOCIALCONNECT_MESSAGE_TYPE_DESC"/>
+		<field type="text" name="title" required="true"   size="35" class="inputbox" label ="COM_BT_SOCIALCONNECT_MESSAGE_TITLE_LABEL" description="COM_BT_SOCIALCONNECT_MESSAGE_TITLE_DESC"/>
+		<field type="text" name="message"   size="40" class="inputbox" label ="COM_BT_SOCIALCONNECT_MESSAGE_MESSAGE_LABEL" description="COM_BT_SOCIALCONNECT_MESSAGE_MESSAGE_DESC"/>
+		<field type="text" name="url" size="80" class="inputbox" label ="COM_BT_SOCIALCONNECT_MESSAGE_URL_LABEL" description="COM_BT_SOCIALCONNECT_MESSAGE_URL_DESC"/>
+		<field type="textarea" name="fulltext" rows="8" cols="5" filter="raw"  class="inputbox" label="COM_BT_SOCIALCONNECT_MESSAGE_FULLTEXT_LABEL" description="COM_BT_SOCIALCONNECT_MESSAGE_FULLTEXT_DESC"/>
+		<field type="media" name="image" size="40" label="COM_BT_SOCIALCONNECT_MESSAGE_IMAGE_LABEL" description="COM_BT_SOCIALCONNECT_MESSAGE_IMAGE_DESC"/>
+		<field type="channel" name="channel" multiple="true" required="true"  size="10" label="COM_BT_SOCIALCONNECT_MESSAGE_SOCIAL_PUBLISH_LABEL" description ="COM_BT_SOCIALCONNECT_MESSAGE_SOCIAL_PUBLISH_DESC"/>
+		<field type="schedule" name="schedule" default="" label="COM_BT_SOCIALCONNECT_MESSAGE_SCHEDULE_LABEL" description="COM_BT_SOCIALCONNECT_MESSAGE_SCHEDULE_DESC"/>
+		<field type="text" name="trigger" size="40"  class="inputbox" label="COM_BT_SOCIALCONNECT_MESSAGE_TRIGGER_LABEL" description="COM_BT_SOCIALCONNECT_MESSAGE_TRIGGER_DESC"/>
+		<field 	name="published" type="list"	label="JSTATUS"	description="JFIELD_PUBLISHED_DESC"	class="inputbox" size="1" default="2"	>			
+		<option value="1">
+				COM_BT_SOCIALCONNECT_SUBMITTED</option>
+			<option value="2">
+				COM_BT_SOCIALCONNECT_PENDDING</option>	
+			<option value="0">
+				COM_BT_SOCIALCONNECT_ERROR</option>			
+
+		</field>		
+		<field type="editor" name="log" size="40" label="COM_BT_SOCIALCONNECT_MESSAGE_LOG_LABEL" description="COM_BT_SOCIALCONNECT_MESSAGE_LOG_DESC"/>
+		<field type="editor" name="event" size="40" label="COM_BT_SOCIALCONNECT_MESSAGE_EVENT_LABEL" description="COM_BT_SOCIALCONNECT_MESSAGE_EVENT_DESC"/>
+		<field type="calendar" name="sent_time" size="40" label="COM_BT_SOCIALCONNECT_MESSAGE_SENT_TIME_LABEL" description="COM_BT_SOCIALCONNECT_MESSAGE_SENT_TIME_DESC"/>		
+		<field type="calendar" name="created_time" size="40" label="COM_BT_SOCIALCONNECT_MESSAGE_CREATED_TIME_LABEL" description="COM_BT_SOCIALCONNECT_MESSAGE_CREATED_TIME_DESC"/>		
+		<field	name="id" type="hidden"	/>
+		<field	name="scron" type="hidden"/>		
+		<field type="asset" name="asset" path="administrator/components/com_bt_socialconnect/models/fields/assets/" />		
+	</fieldset>		
+</form>

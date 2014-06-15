@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="widget" version="2.5" method="upgrade">
+<name>Facebook Like Box</name>
+<type>Social Widgets</type>
+<version>1.0</version>
+<author>BowThemes</author>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<creationDate>October 2013</creationDate>
+<description><![CDATA[
+<p>The Like button is a simple plugin that lets people quickly share content on Facebook..</p>]]></description>
+<languages>
+		<language tag="en-GB">language/en-GB.facebook_likebox.ini</language>		
+</languages>
+<config>
+<fields name="params">
+			<fieldset name="basic">
+				<field name="type" class="bt_control" type="list" default="likebox" label="WIDGET_FACEBOOK_PAGE_TYPE_LABEL" description="WIDGET_FACEBOOK_PAGE_TYPE_DESC">
+                    <option value="likebox">Likebox</option>
+					<option value="follow">Follow Button</option>
+                </field>
+				<field
+					name="profile" class="type_follow" type="text" size="33"
+					default=""
+					label="WIDGET_FACEBOOK_PROFILE_URL_LABEL"
+					description="WIDGET_FACEBOOK_PROFILE_URL_DESC">
+				</field>
+				<field
+					name="href" class="type_likebox" type="text" size="33"
+					default="http://www.facebook.com/bowthemes"
+					label="WIDGET_FACEBOOK_PAGE_URL_LABEL"
+					description="WIDGET_FACEBOOK_PAGE_URL_DESC">
+				</field>
+				<field name="width" type="text" default="" label="WIDGET_FACEBOOK_PAGE_WIDTH_LABEL" description="WIDGET_FACEBOOK_PAGE_WIDTH_DESC" />
+                <field name="height" class="type_likebox" required="true" type="text" default="556" label="WIDGET_FACEBOOK_PAGE_HEIGHT_LABEL" description="WIDGET_FACEBOOK_PAGE_HEIGHT_DESC" />
+                <field name="height_follow" class="type_follow" type="text" default="" label="WIDGET_FACEBOOK_PAGE_HEIGHT_FOLLOW_LABEL" description="WIDGET_FACEBOOK_PAGE_HEIGHT_FOLLOW_DESC" />
+				<field name="layout" class="type_follow" type="list" default="standard" label="WIDGET_FACEBOOK_LAYOUT_LABEL" description="WIDGET_FACEBOOK_LAYOUT_DESC">
+                    <option value="standard">Standard</option>
+                    <option value="button_count">Button_count</option>
+                    <option value="box_count">Box_count</option>
+                </field>
+				<field
+					name="font" class="type_follow" type="list" default=""
+					label="WIDGET_FACEBOOK_FONT_LABEL"
+					description="WIDGET_FACEBOOK_FONT_DESC">
+					<option value="">JDEFAULT</option>
+					<option value="arial">Arial</option>
+					<option value="lucida grande">Lucida Grande</option>
+					<option value="segoe ui">Segoe UI</option>
+					<option value="tahoma">Tahoma</option>
+					<option value="trebuchet ms">Trebuchet MS</option>
+					<option value="verdana">Verdana</option>
+				</field>
+				
+				<field name="show_faces" class="btn-group type_likebox" type="radio" default="true" label="WIDGET_FACEBOOK_PAGE_SHOW_FACES_LABEL" description="WIDGET_FACEBOOK_PAGE_SHOW_FACES_DESC">
+                    <option value="false">JNO</option>
+                    <option value="true">JYES</option>
+                </field>
+				<field name="connections" class="type_likebox" type="text" default="10" label="WIDGET_FACEBOOK_PAGE_FACES_NUM_LABEL" description="WIDGET_FACEBOOK_PAGE_FACES_NUM_DESC">
+                </field>
+				<field name="show_stream" class="btn-group type_likebox" type="radio" default="true" label="WIDGET_FACEBOOK_PAGE_SHOW_STREAM_LABEL" description="WIDGET_FACEBOOK_PAGE_SHOW_STREAM_DESC">
+                    <option value="false">JNO</option>
+                    <option value="true">JYES</option>
+                </field>
+				<field name="show_header" class="btn-group type_likebox" type="radio" default="true" label="WIDGET_FACEBOOK_PAGE_SHOW_HEADER_LABEL" description="WIDGET_FACEBOOK_PAGE_SHOW_HEADER_DESC">
+                    <option value="false">JNO</option>
+                    <option value="true">JYES</option>
+                </field>
+				<field name="force_wall" class="btn-group type_likebox" type="radio" default="false" label="WIDGET_FACEBOOK_PAGE_FORCE_WALL_LABEL" description="WIDGET_FACEBOOK_PAGE_FORCE_WALL_DESC">
+                    <option value="false">JNO</option>
+                    <option value="true">JYES</option>
+                </field>
+				<field name="colorscheme" type="list" default="light" label="WIDGET_FACEBOOK_PAGE_COLOR_SCHEME_LABEL" description="WIDGET_FACEBOOK_PAGE_COLOR_SCHEME_DESC">
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                </field>
+				<field name="border_color" class="bt_color type_likebox"  type="text" default="" label="WIDGET_FACEBOOK_PAGE_BORDER_COLOR_LABEL" description="WIDGET_FACEBOOK_PAGE_BORDER_COLOR_DESC">
+                </field>
+			</fieldset>
+			
+			<fieldset
+				name="advanced">
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					label="WIDGET_FIELD_MODULECLASS_SFX_LABEL"
+					description="WIDGET_FIELD_MODULECLASS_SFX_DESC" />
+
+				<field
+					name="cache"
+					type="list"
+					default="1"
+					label="WIDGET_FIELD_CACHING_LABEL"
+					description="WIDGET_FIELD_CACHING_DESC">
+					<option
+						value="1">JGLOBAL_USE_GLOBAL</option>
+					<option
+						value="0">WIDGET_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field
+					name="cache_time"
+					type="text"
+					default="900"
+					label="WIDGET_FIELD_CACHE_TIME_LABEL"
+					description="WIDGET_FIELD_CACHE_TIME_DESC" />
+				<field
+					name="cachemode"
+					type="hidden"
+					default="static">
+					<option
+						value="static"></option>
+				</field>
+				
+			</fieldset>
+		</fields>
+</config>
+</extension>

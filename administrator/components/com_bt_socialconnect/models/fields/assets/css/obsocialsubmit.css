@@ -1,0 +1,32 @@
+
+.icon-32-install {
+  background-image: url('../images/install.png');
+}
+
+.icon-32-uninstall {
+  background-image: url('../images/uninstall.png');
+}
+.isJ25 .icon-wait {
+  background-image: url('../images/wait.png');
+  display: inline-block;
+}
+.isJ30 .icon-wait:before {  
+  display: inline-block;
+  color: #ff7f50;
+  content: "n";
+}
+.viewwidget img{
+vertical-align: middle;
+}
+.viewwidget span{
+display: inline;
+
+ text-decoration:none;
+}
+.widgetdemo {
+ vertical-align: middle;
+}
+.white-text, .white-text:hover, .light-text, .light-text:hover {
+    color: #FFFFFF;
+    text-decoration: none !important;
+}

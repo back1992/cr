@@ -1,0 +1,1 @@
+ALTER TABLE `#__bt_messages`  ADD COLUMN `params` text AFTER `created_time`;

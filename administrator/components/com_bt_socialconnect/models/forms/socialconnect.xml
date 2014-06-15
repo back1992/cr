@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fieldset name="detail">
+		<field	name="id"	type="hidden"	default=""	/>	
+		<field	name="user_id"	type="hidden"	default=""	/>	
+		<field type="text" name="name" size="40" required="true" class="inputbox" label="COM_BT_SOCIALCONNECT_NAME_LABEL" description="COM_BT_SOCIALCONNECT_NAME_DESC"/>
+		<field type="text" name="username" size="40" required="true" class="inputbox" label="COM_BT_SOCIALCONNECT_USERNAME_LABEL" description="COM_BT_SOCIALCONNECT_USERNAME_DESC"/>
+		<field name="password" type="password"	autocomplete="off"	class="inputbox validate-password"	description="COM_BT_SOCIALCONNECT_PASSWORD_DESC" filter="raw" label="JGLOBAL_PASSWORD" size="40"/>
+		<field name="password2" type="password"	autocomplete="off" class="inputbox validate-password"	description="COM_BT_SOCIALCONNECT_PASSWORD2_DESC"	filter="raw" label="COM_BT_SOCIALCONNECT_PASSWORD2_LABEL"			size="40"
+			validate="equals"
+			field="password2"
+		/>
+		<field type="text" name="email" required="true" size="40" class="inputbox" label="COM_BT_SOCIALCONNECT_EMAIL_LABEL" description="COM_BT_SOCIALCONNECT_EMAIL_DESC"/>
+		<field	name="lastvisitDate"	type="calendar"	class="readonly" label="COM_BT_SOCIALCONNECT_LASTVISIT_LABEL" description="COM_BT_SOCIALCONNECT_LASTVISIT_DESC"
+			readonly="true"
+			format="%Y-%m-%d %H:%M:%S"
+			size="40"
+			filter="user_utc"
+		/>
+
+		<field
+			name="lastResetTime"	type="calendar"	class="readonly" label="COM_BT_SOCIALCONNECT_LASTRESET_LABEL" description="COM_BT_SOCIALCONNECT_LASTRESET_DESC"
+			readonly="true"
+			format="%Y-%m-%d %H:%M:%S"
+			size="40"
+			filter="user_utc"
+		/>
+
+		<field	name="resetCount"	type="text"	class="readonly" label="COM_BT_SOCIALCONNECT_RESETCOUNT_LABEL"	description ="COM_BT_SOCIALCONNECT_RESETCOUNT_DESC"	default="0"	readonly="true"	/>
+		<field	name="sendEmail" type="radio" class="btn-group"	default="0"	label="COM_BT_SOCIALCONNECT_SENDEMAIL_LABEL"	description="COM_BT_SOCIALCONNECT_SENDEMAIL_DESC">
+				<option	value="0">JNO</option>
+				<option	value="1">JYES</option>
+		</field>
+		<field	name="block" type="radio" default="0" class="btn-group"	label="COM_BT_SOCIALCONNECT_BLOCK_LABEL" description="COM_BT_SOCIALCONNECT_BLOCK_DESC">
+				<option	value="0">JNO</option>
+				<option	value="1">JYES</option>
+		</field>	
+		<field name="groups" type="hidden" />
+		<field name="user_fields" type="hidden" />			
+		<field type="asset" name="asset" path="administrator/components/com_bt_socialconnect/models/fields/assets/" />				
+	</fieldset>	
+	
+	
+</form>

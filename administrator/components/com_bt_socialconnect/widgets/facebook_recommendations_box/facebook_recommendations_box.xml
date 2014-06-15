@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="widget" version="2.5" method="upgrade">
+<name>Facebook Recommendations box</name>
+<type>Social Widget</type>
+<version>1.0</version>
+<author>BowThemes</author>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<creationDate>October 2013</creationDate>
+<description><![CDATA[
+<p>The recommendations box shows personalized recommendations to people using your app or website. Since the content is hosted by Facebook, the plugin can display personalized recommendations whether or not people viewing them have logged into your site. To generate the recommendations, the plugin considers all the social interactions with URLs from your site. The plugin gives preference to and highlights objects for friends of people logged in to Facebook.</p>]]></description>
+<config>
+        <fields name="params">
+            <fieldset name="basic">
+			<field name="fbrendering" type="list" default="0" label="WIDGET_FBRECOMMENDATIONSBOX_RENDERING" description="WIDGET_FBRECOMMENDATIONSBOX_RENDERING_DESC" >
+                  <option value="html5">HTML5</option>
+                  <option value="xfbml">XFBML</option>
+               </field>
+			    <field name="fbdomain" type="text" default="" size="40" label="WIDGET_FBRECOMMENDATIONSBOX_DOMAIN" description="WIDGET_FBRECOMMENDATIONSBOX_DOMAIN_DESC" />
+	           <field name="fbapp_id" type="text" default="" label="WIDGET_FBRECOMMENDATIONSBOX_APP_ID" description="WIDGET_FBRECOMMENDATIONSBOX_APP_ID_DESC" />
+               <field name="fbaction" type="text" size="40" default="" label="WIDGET_FBRECOMMENDATIONSBOX_ACTION" description="WIDGET_FBRECOMMENDATIONSBOX_ACTION_DESC" />
+               <field name="fbwidth" type="text" default="300" label="WIDGET_FBRECOMMENDATIONSBOX_WIDTH" description="WIDGET_FBRECOMMENDATIONSBOX_WIDTH_DESC" />
+               <field name="fbheight" type="text" default="300" label="WIDGET_FBRECOMMENDATIONSBOX_HEIGHT" description="WIDGET_FBRECOMMENDATIONSBOX_HEIGHT_DESC" />
+	          <field name="fbshowheader" type="radio" class="btn-group" default="true" label="WIDGET_FBRECOMMENDATIONSBOX_SHOW_HEADER" description="WIDGET_FBRECOMMENDATIONSBOX_SHOW_HEADER_DESC" >
+					<option value="true">Yes</option>
+					<option value="false">No</option>
+				</field>	
+				<field name="fbcolorscheme" type="list" default="light" label="WIDGET_FBRECOMMENDATIONSBOX_COLOR_SCHEME" description="WIDGET_FBRECOMMENDATIONSBOX_COLOR_SCHEME_DESC" >
+					<option value="light">Light</option>
+					<option value="dark">Dark</option>
+				</field>
+				<field name="fblinktarget" type="list" default="_blank" label="WIDGET_FBRECOMMENDATIONSBOX_LINK_TARGET" description="WIDGET_FBRECOMMENDATIONSBOX_LINK_TARGET_DESC">
+					<option value="_blank">Blank</option>
+					<option value="_top">Top</option>
+					<option value="_parent">Parent</option>
+				</field>
+				<field name="fbfont" type="list" default="" label="WIDGET_FBRECOMMENDATIONSBOX_FONT" description="WIDGET_FBRECOMMENDATIONSBOX_FONT_DESC">
+					<option value=""></option>
+					<option value="arial">arial</option>
+					<option value="lucida grande">lucida grande</option>
+					<option value="segoe ui">segoe ui</option>
+					<option value="tahoma">tahoma</option>
+					<option value="trebuchet ms">trebuchet ms</option>
+					<option value="verdana">verdana</option>
+				</field>
+				 <field name="fbmax_age" type="text" default="0" label="WIDGET_FBRECOMMENDATIONSBOX_MAX_AGE" description="WIDGET_FBRECOMMENDATIONSBOX_MAX_AGE_DESC" />
+		   </fieldset>  
+			 
+            
+        </fields>
+        
+    </config>
+</extension>

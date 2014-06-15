@@ -1,0 +1,72 @@
+.icon-delete_all:before {
+   content: "J";
+}
+.icon-48-socialconnect{
+	background: url(socialconnect.png) top left no-repeat;
+}
+.icon-48-userconnection{
+	background: url(connection.png) top left no-repeat;
+}
+.icon-48-usermanager{
+	background: url(user.png) top left no-repeat;
+}
+.icon-48-userfield{
+	background: url(user-fields.png) top left no-repeat;
+}
+.icon-32-options {
+	background: url(config.png) top left no-repeat !important;
+}
+.icon-32-delete_all {
+	background: url(delete-all.png) top left no-repeat !important;
+}
+.icon-48-message{
+	background: url(message.png) top left no-repeat;
+}
+.icon-48-widgeteven{
+	background: url(widget.png) top left no-repeat;
+}
+.icon-48-systemconnect{
+	background: url(socialpost.png) top left no-repeat;
+}
+.icon-48-statistic{
+	background: url(Statistics.png) top left no-repeat;
+}
+.bt-description .adminform{
+	background:#fff;
+	padding:20px 30px;
+}
+.bt-description h3{
+	text-transform: uppercase;
+	margin: 10px 0px 10px 0px;
+	color:#ce8213;
+}
+.bt-description a{
+	color: #ce8213!important;
+}
+.bt-description img{
+	float:left;
+	margin:5px 10px 5px 0px;
+}
+.bt_description li{
+	padding: 5px 5px 5px 30px;
+	list-style: none outside none;
+}
+
+.bt-description ul.list-style li{
+	background:url(tick.png) 0px 6px no-repeat;
+	padding-left:30px;
+	line-height:15px;
+}
+.adminformlist #groups{
+margin-left:25px;
+}
+.buttonhover{
+box-shadow: 5px 5px 5px #c4c3d0 ;
+
+}
+.link_article{
+ background: #A52A2A;
+ padding:4px;
+ color:#FFFFFF !important;
+ border-radius:4px;
+}

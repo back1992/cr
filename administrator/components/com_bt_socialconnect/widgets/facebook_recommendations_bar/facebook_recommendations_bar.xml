@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="widget" version="2.5" method="upgrade">
+<name>Facebook Recommendations bar</name>
+<type>Social Widget</type>
+<version>1.0</version>
+<author>BowThemes</author>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<creationDate>October 2013</creationDate>
+<description><![CDATA[
+<p>The recommendations bar lets people like content, get recommendations and share what they’re reading with their friends.
+The recommendations bar is always docked to the lower right or left of the screen. When the page loads the recommendations bar is collapsed and people viewing it are shown the option to like your page</p>]]></description>
+<config>
+        <fields name="params">
+            <fieldset name="basic">
+			<field name="rendering" type="list" default="0" label="WIDGET_FBRECOMMENDATIONSBAR_RENDERING" description="WIDGET_FBRECOMMENDATIONSBAR_RENDERING_DESC" >
+                  <option value="html5">HTML5</option>
+                  <option value="xfbml">XFBML</option>
+               </field>			 
+			   <field name="fb_url" type="text" default="" size="40" label="WIDGET_FBRECOMMENDATIONSBAR_PAGE_LINK" description="WIDGET_FBRECOMMENDATIONSBAR_PAGE_LINK_DESC" />	           
+	           <field name="fbtrigger" type="list" default="X%" label="WIDGET_FBRECOMMENDATIONSBAR_TRIGGER" description="WIDGET_FBRECOMMENDATIONSBAR_TRIGGER_DESC" >
+                  <option value="onvisible">WIDGET_FBRECOMMENDATIONSBAR_ONVISIBLE</option>
+                  <option value="X%">WIDGET_FBRECOMMENDATIONSBAR_X</option>
+                  <option value="manual">WIDGET_FBRECOMMENDATIONSBAR_MANUAL</option>
+               </field>
+               <field name="fbread_time" type="text" default="30" label="WIDGET_FBRECOMMENDATIONSBAR_READ_TIME" description="WIDGET_FBRECOMMENDATIONSBAR_READ_TIME_DESC" />
+	           <field name="fbflike_action" type="list" default="like" label="WIDGET_FBRECOMMENDATIONSBAR_TEXT" description="WIDGET_FBRECOMMENDATIONSBAR_TEXT_DESC" >
+	              <option value="like">WIDGET_FBRECOMMENDATIONSBAR_LIKE</option>
+	              <option value="recommend">WIDGET_FBRECOMMENDATIONSBAR_RECOMMEND</option>
+	           </field>  
+	           <field name="fbside" type="list" default="right" label="WIDGET_FBRECOMMENDATIONSBAR_SIDE" description="WIDGET_FBRECOMMENDATIONSBAR_SIDE_DESC" >
+                  <option value="left">WIDGET_FBRECOMMENDATIONSBAR_LEFT</option>
+                  <option value="right">WIDGET_FBRECOMMENDATIONSBAR_RIGHT</option>
+               </field>
+               
+               <field name="fbdomain" type="text" default="" size="40" label="WIDGET_FBRECOMMENDATIONSBAR_DOMAIN" description="WIDGET_FBRECOMMENDATIONSBAR_DOMAIN_DESC" />
+				 <field name="fbnum_recommendations" type="list" default="2" label="WIDGET_FBRECOMMENDATIONSBAR_NUMBER" description="WIDGET_FBRECOMMENDATIONSBAR_NUMBER_DESC" >
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+               </field>
+		   </fieldset>  
+			  <field name="fbmax_age" type="text" default="0" label="WIDGET_FBRECOMMENDATIONSBAR_MAX_AGE" description="WIDGET_FBRECOMMENDATIONSBAR_MAX_AGE_DESC" />
+            
+        </fields>
+        
+    </config>
+</extension>

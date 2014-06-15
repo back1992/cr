@@ -1,0 +1,254 @@
+
+
+.t3-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.logo {
+  float: left;
+}
+.logo a {
+  display: inline-block;
+  line-height: 1;
+  margin: 0;
+}
+.logo-image {
+  overflow: hidden;
+}
+.logo-image a {
+  background-repeat: no-repeat;
+  width: 204px;
+  height: 65px;
+}
+.logo-image span,
+.logo-image small {
+  display: none;
+}
+.logo-text a {
+  color: #444;
+  text-decoration: none;
+  font-size: 15px;
+}
+.logo-text:hover a,
+.logo-text a:hover,
+.logo-text a:active,
+.logo-text a:focus {
+  text-decoration: none;
+}
+.logo-text .site-slogan {
+  display: block;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.head-search {
+  float: right;
+  margin-top: 24px;
+}
+.head-search form {
+  margin: 0;
+  float: right;
+}
+.head-search label {
+  display: none;
+}
+.head-search .input {
+  background: url("../../../templates/bt_education/images/themes/green/ico/search-invert.png") no-repeat 8px center;
+  width: 120px;
+  padding-left: 26px;
+}
+.head-search .input:focus {
+  color: #444;
+  width: 180px;
+}
+.t3-sl {
+  padding-bottom: 72px;
+  padding-top: 72px;
+}
+.t3-mainbody {
+  padding-bottom: 24px;
+  
+  
+  padding-top: 48px;
+}
+.t3-footer {
+  background: #222;
+  color: #666;
+  *zoom: 1;
+}
+.t3-footer:before,
+.t3-footer:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.t3-footer:after {
+  clear: both;
+}
+.t3-footer small {
+  display: block;
+  font-size: 100%;
+}
+.t3-footer a {
+  color: #999;
+}
+.t3-footer a:hover,
+.t3-footer a:active,
+.t3-footer a:focus {
+  color: #e6e6e6;
+}
+.t3-footnav {
+  padding: 72px 0 48px;
+  *zoom: 1;
+}
+.t3-footnav:before,
+.t3-footnav:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.t3-footnav:after {
+  clear: both;
+}
+.t3-footnav ul {
+  list-style: none;
+  margin-left: 0;
+}
+.t3-footnav li {
+  line-height: 24px;
+}
+.t3-footnav .module-title {
+  font-size: 16px;
+  color: #999;
+}
+.t3-copyright {
+  border-top: 1px solid #2f2f2f;
+  font-size: 10px;
+  padding: 48px 0 96px;
+  *zoom: 1;
+}
+.t3-copyright:before,
+.t3-copyright:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.t3-copyright:after {
+  clear: both;
+}
+.copyright {
+  float: left;
+}
+.poweredby {
+  float: right;
+  text-align: right;
+}
+.poweredby .t3-logo,
+.poweredby .t3-logo-small {
+  float: right;
+  opacity: .5;
+}
+.contact h3 {
+  font-size: 18px;
+  color: #747474;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.contact h3 span {
+  color: #75b510;
+}
+.contact .contact-form .text_intro_contact_form {
+  border: 1px solid #e5e5e5;
+  padding: 16px 20px;
+  margin-bottom: 25px;
+}
+.contact .contact-form fieldset dt {
+  float: left;
+  margin-right: 30px;
+}
+.contact .contact-form fieldset dt input {
+  border: 1px solid #e5e5e5;
+  height: 36px;
+  width: 446px;
+  border-radius: 0;
+  box-shadow: none;
+}
+.contact .contact-form fieldset label {
+  padding-top: 10px;
+  font-size: 13px;
+  color: #4e4e4e;
+}
+.contact .contact-form fieldset label .star {
+  color: #4e4e4e;
+}
+.contact .contact-form fieldset label#jform_contact_email_copy-lbl.hasTip {
+  padding-top: 0;
+}
+.contact .contact-form fieldset textarea {
+  border: 1px solid #e5e5e5;
+  width: 99.8%;
+  border-radius: 0;
+  box-shadow: none;
+}
+.contact .contact-form fieldset .button {
+  display: block;
+  margin: 16px 0 0 0;
+  padding: 7px 13px 6px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+  box-shadow: none;
+  border-radius: 0;
+  border: 0;
+  text-shadow: none;
+  background: #75b510;
+}
+.contact .contact-form fieldset .button:hover {
+  background: #486f0a;
+}
+div.itemCommentsForm h3 span,
+div.itemAuthorLatest h3 span,
+div.itemRelated h3 span,
+.itemCommentsCounter,
+div.itemListCategory h2,
+div.userBlock h2,
+div.tagItemHeader h3.tagItemTitle a:hover,
+div.userItemHeader h3.userItemTitle a:hover {
+  color: #75b510;
+}
+div.k2TagCloudBlock a,
+div.itemTagsBlock ul.itemTags li a,
+div.latestItemTagsBlock ul.latestItemTags li a,
+div.userItemTagsBlock ul.userItemTags li a,
+div.catItemTagsBlock ul.catItemTags li a {
+  color: #fff;
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-size: 14px;
+  background: #acacac;
+  line-height: 30px;
+  height: 30px;
+  margin: 0 3px 3px 0;
+  padding: 0 10px;
+  display: inline-block;
+}
+div.k2TagCloudBlock a:hover,
+div.itemCommentsForm form input#submitCommentButton,
+.itemDateCreated,
+div.itemTagsBlock ul.itemTags li a:hover,
+div.latestItemTagsBlock ul.latestItemTags li a:hover,
+div.userItemTagsBlock ul.userItemTags li a:hover,
+div.catItemTagsBlock ul.catItemTags li a:hover {
+  background: #75b510;
+}
+div.itemCommentsForm form input#submitCommentButton:hover {
+  background: #486f0a;
+}
+.k2ReadMore {
+  background: url("../../../templates/bt_education/images/themes/green/showcase2_readmore-ltr.png") no-repeat left center;
+  padding-left: 20px;
+}
+div.itemAuthorLatest ul li a:hover,
+a.itemRelTitle:hover {
+  color: #75b510;
+}
+

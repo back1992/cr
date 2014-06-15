@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fieldset name="detail">	
+		<field type="text" name="user_id" size="35" required="true" class="inputbox" label="COM_BT_SOCIALCONNECT_USERID_LABEL" description="COM_BT_SOCIALCONNECT_USERID_DESC"/>
+		<field type="text" name="social_id" size="35"  class="inputbox" label="COM_BT_SOCIALCONNECT_SOCIAL_ID_LABEL" description="COM_BT_SOCIALCONNECT_SOCIAL_ID_DESC"/>
+		<field type="text" name="social_type" autocomplete="off" class="inputbox "	description="COM_BT_SOCIALCONNECT_SOCIAL_TYPE_DESC" filter="raw" label="COM_BT_SOCIALCONNECT_SOCIAL_TYPE_LABEL" size="35"/>
+		<field type="radio" name="enabled_publishing" autocomplete="off" class="btn-group bt_control"	description="COM_BT_SOCIALCONNECT_ENABLED_PUBLISHING_DESC" filter="raw" label="COM_BT_SOCIALCONNECT_ENABLED_PUBLISHING_LABEL" size="35">
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+		<field type="calendar" name="created_time" size="35" label="COM_BT_SOCIALCONNECT_CREATE_BY_LABEL" description="COM_BT_SOCIALCONNECT_CREATE_BY_DESC"/>
+		<field type="calendar" name="updated_time" size="35" label="COM_BT_SOCIALCONNECT_UPDATE_TIME_LABEL" description="COM_BT_SOCIALCONNECT_UPDATE_TIME_DESC"/>
+		<field	name="id" type="hidden"	/>
+		<field type="asset" name="asset" path="administrator/components/com_bt_socialconnect/models/fields/assets/" />	
+	</fieldset>		
+</form>

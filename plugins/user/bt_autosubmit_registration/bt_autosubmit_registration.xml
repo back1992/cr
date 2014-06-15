@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="user" method="upgrade">
+	<name>BT AutoSubmit - Registration</name>
+	<author>Bowthemes</author>
+	<creationDate>January 2014</creationDate>
+	<copyright>(C) 2013 Open Source Matters. All rights reserved.	</copyright>
+	<license>GNU General Public License version 2 or later; see	LICENSE.txt</license>
+	<authorEmail>support@bowthemes.com</authorEmail>
+	<authorUrl>http://www.bowthemes.com</authorUrl>
+	<version>1.0.0</version>
+	<description>Send a message to user social profile when registration success</description>
+	<files>
+		<filename plugin="bt_autosubmit_registration">bt_autosubmit_registration.php</filename>
+		<folder>admin</folder>
+	</files>	
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field type="textarea" cols="36" rows="3" name="wellcome"  default="{name} has registered at {site_url}" size="40"  label="BT_SOCIAL_REGISTED_TEMPLATE_MESSAGE_LABEL" description="BT_SOCIAL_REGISTED_TEMPLATE_MESSAGE_DESC"/>				
+				<field name="logourl" type="text" default="" size="40" label="BT_SOCIAL_REGISTED_LOGO_FOLLOWING_REGISTRATION_LABEL" description="BT_SOCIAL_REGISTED_LOGO_FOLLOWING_REGISTRATION_DESC"/>
+				<field addfieldpath="plugins/user/bt_autosubmit_registration/admin/formfield" type="asset" name="asset" path="plugins/user/bt_autosubmit_registration/admin/" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

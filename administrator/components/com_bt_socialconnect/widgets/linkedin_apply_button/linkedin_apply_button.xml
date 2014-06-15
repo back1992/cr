@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="widget" version="2.5" method="upgrade">
+<name>Linkedin Apply button</name>
+<type>Social Widgets</type>
+<version>1.0</version>
+<author>BowThemes</author>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<creationDate>October 2013</creationDate>
+<description><![CDATA[
+<p>The Linkedin show apply button.</p>]]></description>
+<languages>
+		<language tag="en-GB">language/en-GB.linkedin_apply_button.ini</language>		
+</languages>
+<config>
+<fields name="params">
+			<fieldset name="basic">				
+				<field
+					name="company_id"  type="text" size="33"
+					default=""
+					label="WIDGET_LINKEDIN_COMPANY_ID_LABEL"
+					description="WIDGET_LINKEDIN_COMPANY_ID_DESC">
+				</field>
+				<field
+					name="rcemail"  type="text" size="33"
+					default=""
+					label="WIDGET_LINKEDIN_RECIPIENT_EMAIL_LABEL"
+					description="WIDGET_LINKEDIN_RECIPIENT_EMAIL_DESC">
+				</field>
+				<field
+					name="jobtitle"  type="text" size="33"
+					default=""
+					label="WIDGET_LINKEDIN_JOBTITLE_LABEL"
+					description="WIDGET_LINKEDIN_JOBTITLE_DESC">
+				</field>
+				<field
+					name="joblocation"  type="text" size="33"
+					default=""
+					label="WIDGET_LINKEDIN_JOBLOCATION_LABEL"
+					description="WIDGET_LINKEDIN_JOBLOCATION_DESC">
+				</field>
+				<field
+					name="companylogo"  type="text" size="33"
+					default=""
+					label="WIDGET_LINKEDIN_COMPANYLOGO_LABEL"
+					description="WIDGET_LINKEDIN_COMPANYLOGO_DESC">
+				</field>				
+				<field name="themecolor" type="text" class="bt_color" label="WIDGET_LINKEDIN_THEMES_LABEL" description="WIDGET_LINKEDIN_THEMES_DESC"/>			
+				<field name="phone" type="radio" class="btn-group bt_control"  label="WIDGET_LINKEDIN_PHONENUMBER_LABEL" description="WIDGET_LINKEDIN_PHONENUMBER_DESC" >	
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+			</fieldset>			
+			
+</fields>
+</config>
+</extension>

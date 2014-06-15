@@ -1,0 +1,259 @@
+// RTL STYLES
+// ------------------------------------------------------
+
+// Article Images
+// --------------
+article img[align=left],
+.img_caption.left,
+.pull-left.item-image {
+  margin: 0 @gridGutterWidth @T3globalMargin 0;
+}
+
+article img[align=right],
+.img_caption.right,
+.pull-right.item-image {
+  margin: 0 0 @T3globalMargin @gridGutterWidth;
+}
+
+.languageswitcherload {
+  ul {
+    float: left;
+  }
+}
+
+
+
+
+body #community-wrap .cSidebar{
+	float:right;
+	width:100%;
+}
+body #community-wrap .joms-stream-status-action a {
+    display: inline-block;
+}
+
+
+#community-wrap .row-fluid [class*="span"]:last-child {
+    margin-left: auto;
+    margin-right: 0;
+}
+#community-wrap .row-fluid [class*="span"]:first-child {
+    margin-left: auto;
+    margin-right: 2.12766%;
+}
+body .cMods-HelloMe .hellome-icon.edit-stt, body .cMods-HelloMe .hellome-icon.save-stt{
+	background-position:left center;
+}
+body .cMods-HelloMe .hellome-icon{
+	background-position:96% center;
+}
+body #community-wrap .joms-stream-avatar {
+    float: right;
+}
+body #community-wrap .joms-stream-content {
+    padding-right: 80px;
+}
+body #community-wrap .cMods-HelloMe .cMod-Notify {
+    text-align: left;
+}
+body .head_login{
+	margin-left:10px;
+}
+body .content_why_box + .content_why_box .content_why_box_inner{
+	border-left:1px solid lighten(@main_color, 10%);
+	border-right:none;
+}
+body .cMods-HelloMe .cHello-Menu .hellome-icon a{
+	background:url("../../images/jomsocial/rtl-bg-a-hellome.png") no-repeat scroll 10px center transparent;
+}
+body .cMods-HelloMe .cHello-Menu .hellome-icon a:hover{
+	background:url("../../images/jomsocial/rtl-bg-a-hellome-hover.png") no-repeat scroll 10px center transparent;
+}
+body #community-wrap .cPageTabs li + li{
+	margin:0 5px 0 0;
+}
+body #community-wrap #community-event-rsvp .selector {
+    background: url("../../images/jomsocial/rtl-bg-respon-select.png") no-repeat scroll left top transparent;
+}
+body #community-wrap .cEvent-Rsvp .selector .attend {
+    background-position: 95% 0;
+}
+body #community-wrap .cEvent-Rsvp .selector .notAttend {
+    background-position: 95% -29px;
+}
+.bt-icon-drop {
+	transform:rotate(180deg);
+}
+
+
+
+// BT RTL Easyblog
+html[dir="rtl"] {
+	#ezblog-head .component-links a span {padding-left: 0;}
+	#ezblog-head {
+		.component-links a span {
+			padding-right: 22px;
+		}
+		.blog-navi #ezblog-search {
+			float: right;
+		}		
+	}
+	#eblog-wrapper .blog-taglist span.tag-head {
+		float: right;
+		margin: 0;
+	}	
+	#ezblog-body .featured-tag {
+		right: auto;
+		left: 0;
+		background: url("../../images/easyblog/featured-tag-rtl.png")no-repeat center center;
+	}
+	#ezblog-body .featured-more {
+		background: url("../../images/easyblog/featured-more-rtl.png") center no-repeat;
+		right: auto;
+		left: 7px;
+	}
+	#ezblog-body .profile-sidebar {
+		float: right;
+	}
+	// Mod easyblog
+	.mod_easyblogarchive .mod-months .mod-month {
+		padding: 3px 24px 3px 0;
+	}	
+	
+	// Kunea
+	#Kunena {
+		#ktab ul.menu li {float: right;}
+		#ktab {
+			margin: 0 0 0 20px;
+		}	
+		div.kblock span.ktoggler, #ktop span.ktoggler {
+			background-position: right top;
+		}	
+		td.kprofileboxcnt {
+			text-align: right;
+		}	
+		.kforum-pathway {
+			overflow: hidden;
+			div {
+				float: right;
+			}
+		}
+		.path-element-first {
+			padding: 1px 22px 1px 3px;
+		}		
+		
+		.kforum-pathway .path-element, .kforum-pathway-bottom .path-element {
+			padding-right: 17px;
+			padding-left: 3px;
+		}	
+		.kright {
+			text-align: left;
+		}	
+		.fltlft {
+			float: right;
+		}	
+		.fltrt {
+			float: left;
+		}		
+	}
+	
+	// K2 component
+	.bt-ItemImageBlock,
+	.bt-user-avatar {
+		float: right;
+		margin: -21px -21px -1px 0;
+		margin-right: 0;
+		margin-left: 7px;
+		border-left: 1px solid #e9e9e9;
+		border-right: 0;
+		right: -21px;
+	}	
+	.bt-icon-drop {
+		left: -1px;
+		right: auto;
+		background: url('../../images/easyblog/icon-pabs-rtl.png') no-repeat scroll center center transparent;
+	}	
+	div.tagItemHeader {
+		display: inline-block;
+	}
+	div.tagItemHeader span.tagItemDateCreated,
+	div.userItemHeader span.userItemDateCreated,span.tagItemCategory, span.userItemCategory, span.latestItemCategory,
+	div.catItemHeader span.catItemDateCreated,div.catItemHeader span.catItemAuthor,span.catItemCategory,
+	span.latestItemDateCreated {
+		float: right;
+		/*background-position: right center;
+		padding-right: 20px;
+		padding-left: 0;*/
+	}	
+	span.userItemCommentsLink,
+	span.catItemCommentsLink {
+		margin-right: 20px; margin-left: 5px;
+	}
+	div.itemTagsBlock,
+	div.userItemTagsBlock,
+	div.catItemTagsBlock,
+	div.latestItemTagsBlock {
+		background-position: right center;
+		padding: 10px 40px 10px 0;
+	}
+	
+	.itemDateCreated {
+		float: right;
+		margin-right: 19px;
+		margin-left: 13px;
+	}	
+	div.bt-inforbasic-item span.itemAuthor {
+		margin-left: 6px;
+		margin-right: 100px;
+		float: right;
+	}
+	div.itemToolbar ul {
+		text-align: right;
+		li {float: right;}
+	}
+	div.itemToolbar ul li a.itemCommentsLink,
+	div.itemToolbar ul li a.itemEmailLink,
+	div.itemToolbar ul li a.itemPrintLink {
+		background-position: right center;
+		padding-right: 20px;
+		padding-left: 0;
+	}	
+	.itemRatingForm,.itemRatingList,
+	div.itemTagsBlock,
+	span.itemHits {
+		float: right;
+	}
+	.itemRatingForm {
+		padding-top: 8px;
+		padding-right: 20px;
+	}
+	div.itemAuthorLatest ul li,
+	div.itemRelated ul li {
+		padding: 10px 16px 10px 0;
+		background-position: right 17px;
+	}
+	div.itemCommentsForm form input.inputbox {
+		float: right;
+		margin: 0 0 10px 10px;
+	}	
+	div.itemCommentsForm form .form-row {
+		margin-right: 0;
+		margin-left: 10px;
+	}
+	
+	ul.pagination-list {
+		float: right;
+		li {
+			float: right;
+			border-left: 1px solid #e5e5e5;
+			border-right: 0;
+		}
+	}
+	.counter,
+	.pagecounter {
+		float: left;
+		margin-left: 16px;
+		margin-right: 0;
+	}	
+
+}

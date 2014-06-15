@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+	<name>BT_SocialConnect</name>
+	<author>Bowthemes</author>
+	<creationDate>January 2014</creationDate>
+	<copyright>Copyright (C) 2014 BowThemes.com. All rights reserved.</copyright>
+	<authorEmail>support@BowThemes.com</authorEmail>
+	<authorUrl>http://www.BowThemes.com/</authorUrl>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>1.1.0-beta</version>
+	<description>Thank you for installing BT Social Connect v1.1.0 by Bowthemes, the powerful content extension for Joomla!</description>	
+	<scriptfile>script.php</scriptfile>
+	<install> 
+		<sql> 
+			<file driver="mysql" charset="utf8">sql/install.sql</file>
+		</sql> 
+	</install> 
+	<uninstall> 
+		<sql> 
+			<file driver="mysql" charset="utf8">sql/uninstall.sql</file>
+		</sql> 
+	</uninstall>
+	<update> <!-- Runs on update; New in 2.5 -->
+              <schemas>
+                        <schemapath type="mysql">sql/updates/mysql</schemapath>
+               </schemas>
+    </update>
+	<files folder="components">
+		<filename>bt_socialconnect.php</filename>
+		<filename>controller.php</filename>
+		<filename>router.php</filename>
+		<filename>index.html</filename>			
+		<folder>controllers</folder>
+		<folder>assets</folder>
+		<folder>helpers</folder>
+		<folder>images</folder>		
+		<folder>models</folder>
+		<folder>views</folder>	
+	</files>
+	<languages folder="language/en-GB">
+			<language tag="en-GB">en-GB.com_bt_socialconnect.ini</language>	
+			<language tag="en-GB">en-GB.mod_btsocialconnect_login.ini</language>	
+			<language tag="en-GB">en-GB.mod_btsocialconnect_widget.ini</language>	
+	</languages>
+	<administration>
+		<menu img="../components/com_bt_socialconnect/assets/icon/social_connect.gif">COM_BT_SOCIAL_MENU</menu>
+		<submenu>
+			<menu view="cpanel" link="option=com_bt_socialconnect&amp;view=cpanel" img="components/com_bt_socialconnect/assets/icon/cpanel_16.png" alt="BtSocialconnect/cpanel">COM_BT_SOCIAL_MENU_CPANEL</menu>
+			<menu view="socialconnects" link="option=com_bt_socialconnect&amp;view=socialconnects" img="components/com_bt_socialconnect/assets/icon/user_16.png" alt="BtSocialconnect/users">COM_BT_SOCIAL_MENU_SOCIALCONNECTS</menu>
+			<menu view="userfields" link="option=com_bt_socialconnect&amp;view=userfields" img="components/com_bt_socialconnect/assets/icon/userfield_16.png" alt="BtSocialconnect/userfields">COM_BT_SOCIAL_MENU_USERFIELDS</menu>						
+			<menu view="channels" link="option=com_bt_socialconnect&amp;view=channels" img="components/com_bt_socialconnect/assets/icon/systemconnect_16.png" alt="BtSocialconnect/channels">COM_BT_SOCIAL_MENU_SOCIALPUBLISHES</menu>
+			<menu view="widgets" link="option=com_bt_socialconnect&amp;view=widgets" img="components/com_bt_socialconnect/assets/icon/widget_16.png" alt="BtSocialconnect/widgets">COM_BT_SOCIAL_MENU_WIDGETS</menu>
+			<menu view="messages" link="option=com_bt_socialconnect&amp;view=messages" img="components/com_bt_socialconnect/assets/icon/messagelog_16.png" alt="BtSocialconnect/messages">COM_BT_SOCIAL_MENU_MESSAGES</menu>
+			<menu view="statistics" link="option=com_bt_socialconnect&amp;view=statistics" img="components/com_bt_socialconnect/assets/icon/statistics_16.png" alt="BtSocialconnect/statistics">COM_BT_SOCIAL_MENU_STATISTICS</menu>		
+		</submenu>
+	
+		<files folder="administrator/components">
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>bt_socialconnect.php</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+			<folder>assets</folder>
+			<folder>sql</folder>
+			<folder>controllers</folder>
+			<folder>models</folder>
+			<folder>tables</folder>			
+			<folder>views</folder>
+			<folder>widgets</folder>
+			<folder>publishes</folder>
+			<folder>helpers</folder>
+		</files>
+		<languages folder="administrator/language/en-GB">
+			<language tag="en-GB">en-GB.com_bt_socialconnect.ini</language>	
+			<language tag="en-GB">en-GB.com_bt_socialconnect.sys.ini</language>
+			<language tag="en-GB">en-GB.com_bt_socialconnect.menu.ini</language>			
+			<language tag="en-GB">en-GB.plg_content_bt_autosubmit_content.ini</language>			
+			<language tag="en-GB">en-GB.plg_user_bt_autosubmit_registration.ini</language>			
+			<language tag="en-GB">en-GB.plg_editors-xtd_bt_widget_button.ini</language>			
+		</languages>
+	</administration>
+	<modules>
+		<module module="mod_btsocialconnect_login" client="site" />
+		<module module="mod_btsocialconnect_widget" client="site" />		
+	</modules>
+	<plugins>
+		<plugin plugin="bt_autosubmit_content" group="content" />
+		<plugin plugin="bt_autosubmit_registration" group="user" />
+		<plugin plugin="bt_socialconnect_system" group="system" />
+		<plugin plugin="bt_socialconnect_user" group="user" />
+		<plugin plugin="bt_widget_button" group="editors-xtd" />		
+	</plugins>
+</extension>
+
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="widget" version="2.5" method="upgrade">
+<name>Google Badge</name>
+<type>Social Widgets</type>
+<version>1.0</version>
+<author>BowThemes</author>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<creationDate>October 2013</creationDate>
+<description><![CDATA[
+<p>The Google+ community badge allows visitors to your site to find your community and preview the community before choosing to join</p>]]></description>
+<languages>
+		<language tag="en-GB">language/en-GB.google_badge.ini</language>		
+</languages>
+<config>
+		<fields name="params">
+          <fieldset name="basic">			
+			<field name="page_id" type="text" label="WIDGET_ID" description="WIDGET_ID_DESC" default="110185082550651520481"/>
+			<field name="badge_size" type="list" label="WIDGET_BADGE_SIZE" description="WIDGET_BADGE_SIZE_DESC" default="badge">
+				<option value="badge">WIDGET_STANDARD_BADGE</option>
+				<option value="smallbadge">WIDGET_SMALL_BADGE</option>
+				<option value="smallicon">WIDGET_SMALL_ICON</option>
+				<option value="mediumicon">WIDGET_MEDIUM_ICON</option>
+				<option value="largeicon">WIDGET_LARGE_ICON</option>
+				<option value="nobadge">WIDGET_NO_BADGE</option>
+			</field>
+			<field name="customize_name" type="text" label="WIDGET_CUSTOMIZE_NAME" description="WIDGET_CUSTOMIZE_NAME_DESC" default="Bowthemes"/>
+			<field name="alt_icon" type="text" label="WIDGET_ALT" description="WIDGET_ALT_DESC" default="BowThemes Google plus Page"/>
+			<field name="theme" type="list" label="WIDGET_BADGE_THEME" description ="WIDGET_BADGE_THEME_DESC" default="light">
+			
+				<option value="light">WIDGET_LIGHT</option>
+				<option value="dark">WIDGET_DARK</option>
+			</field>
+			<field name="height" label="WIDGET_BADGE_HEIGHT" default="69" type="text" description="WIDGET_BADGE_HEIGHT_DESC"/>
+			<field name="width" label="WIDGET_BADGE_WIDTH" type="text" default="300" description="WIDGET_BADGE_WIDTH_DESC"/>
+			<field name="badge_tag" 
+					type="list" 
+					label="WIDGET_TAG_TYPE" 
+					description="WIDGET_TAG_TYPE_DESC" 
+					default="htmlvalid">
+					<option value="default">WIDGET_DEFAULT</option>
+					<option value="htmlvalid">WIDGET_HTML5</option>
+			</field>			
+			
+			<field name="async" type="radio" default="1" class="btn-group" label="WIDGET_ASYNC" description="WIDGET_ASYNC_DESC">
+				<option value="0">WIDGET_NO_EDIT</option>
+				<option value="1">WIDGET_YES_EDIT</option>
+			</field>
+			<field name="parse_tags" type="list" label="WIDGET_PARSE_TAGS" description="WIDGET_PARSE_TAGS_DESC" default="onload">
+				<option value="onload">WIDGET_ONLOAD</option>
+				<option value="explicit">WIDGET_EXPLICIT</option>
+			</field>
+		</fieldset>		
+     </fields>
+	 </config>
+</extension>

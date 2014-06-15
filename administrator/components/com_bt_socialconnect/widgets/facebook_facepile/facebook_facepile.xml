@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="widget" version="2.5" method="upgrade">
+<name>Facebook Facepile</name>
+<type>Social Widgets</type>
+<version>1.0</version>
+<author>BowThemes</author>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<creationDate>October 2013</creationDate>
+<description><![CDATA[
+<p>The Facepile plugin displays the Facebook profile pictures of people who have connected with your Facebook page via a global or custom action. It can also be configured to display pictures of people who have connected with your app.</p>]]></description>
+<languages>
+		<language tag="en-GB">language/en-GB.facebook_likebox.ini</language>		
+</languages>
+<config>
+<fields name="params">
+			<fieldset name="basic">
+				<field name="fbrendering" type="list" default="0" label="WIDGET_FBPILE_RENDERING" description="WIDGET_FBPILE_RENDERING_DESC" >
+                  <option value="html5">HTML5</option>
+                  <option value="xfbml">XFBML</option>
+               </field>
+				<field name="fburl" type="text" size="40" default ="" label="WIDGET_FBPILE_URL" description ="WIDGET_FBPILE_URL_DESC"/>				
+				<field name="fbaction" type="text" default="30" label="WIDGET_FBPILE_ACTION" description="WIDGET_FBPILE_ACTION_DESC" />
+				<field name="fbnum_row" type="text" default="30" label="WIDGET_FBPILE_NUMBER_ROWS" description="WIDGET_FBPILE_NUMBER_ROWS_DESC" />
+				<field name="fbsize" type="list" default="medium" label="WIDGET_FBPILE_SIZE" description="WIDGET_FBPILE_SIZE_DESC" >
+					<option value="small">small</option>
+					<option value="medium">medium</option>
+					<option value="large">large</option>
+				</field>
+				<field name="fbshowcount" type="radio" class="btn-group" default="true" label="WIDGET_FBPILE_SHOW_COUNT" description="WIDGET_FBPILE_SHOW_COUNT_DESC" >
+					<option value="true">Yes</option>
+					<option value="false">No</option>
+				</field>
+				<field name="fbwidth" type="text" default="300" label="WIDGET_FBPILE_WIDTH" description ="WIDGET_FBPILE_WIDTH_DESC"/>
+				<field name="fbcolorscheme" type="list" default="light" label="WIDGET_FBPILE_COLOR_SCHEME" description="WIDGET_FBPILE_COLOR_SCHEME_DESC" >
+					<option value="light">Light</option>
+					<option value="dark">Dark</option>
+				</field>
+			</fieldset>
+		</fields>
+</config>
+</extension>

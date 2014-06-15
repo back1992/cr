@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension 
+	version="2.5.0" 
+	type="plugin" 
+	group="content" 
+	method="upgrade">
+	<name>BT AutoSubmit - Content</name>
+	<author>BowThemes</author>
+	<creationDate>January 2014</creationDate>
+	<copyright>Copyright (C) 2014 BowThemes.com. All rights reserved.</copyright>
+	<authorEmail>support@BowThemes.com</authorEmail>
+	<authorUrl>http://www.BowThemes.com/</authorUrl>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>1.0.0</version>
+	<description>BT Social Connect Plugin for Com Content</description>
+	<files>
+		<filename plugin="bt_autosubmit_content">bt_autosubmit_content.php</filename>
+		<filename>index.html</filename>		
+		<folder>admin</folder>
+	</files>	
+	<config>
+		<fields name="params">			
+			<fieldset name="basic">
+				<field type="spacer" label="COM_SOCIAL_CONFIG_LABEL"/>
+				<field type="textarea" cols="55" rows="3" name="template" default="{authorname} has created article {shorturl}" label="COM_SOCIAL_MESSAGE_TEMPLATE_LABEL" description="COM_SOCIAL_MESSAGE_TEMPLATE_DESC" />
+				<field type="textarea" cols="55" rows="3" name="des_template" default="{introtext:500}" label="COM_SOCIAL_DESCRIPTION_TEMPLATE_LABEL" description="COM_SOCIAL_DESCRIPTION_TEMPLATE_DESC" />
+				<field type="spacer"/>
+				<field	name="conten_categories"
+					type="category"
+					extension="com_content"
+					multiple="true"
+					default="0"
+					label="COM_SOCIAL_CATEGORY_LABEL" 
+					description="COM_SOCIAL_CATEGORY_DESC" >	
+					<option value="0">JALL</option>	
+				</field>
+				<field name="channel"
+					type="channel"
+					multiple="true"
+					default="0"
+					label="COM_SOCIAL_SOCIALPUBLISH_LABEL" 
+					description="COM_SOCIAL_SOCIALPUBLISH_DESC" >	
+				<option value="0">JALL</option>					
+				</field>
+				<field type="media" name="default_img" label="COM_SOCIAL_DEFAULT_IMAGE_LABEL" description="COM_SOCIAL_DEFAULT_IMAGE_DESC"/>
+				<field addfieldpath="plugins/content/bt_autosubmit_content/admin/formfield" type="asset" name="asset" path="plugins/content/bt_autosubmit_content/admin/" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
